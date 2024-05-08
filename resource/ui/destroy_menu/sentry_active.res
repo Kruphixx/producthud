@@ -1,0 +1,101 @@
+"Resource/UI/destroy_menu/sentry_active.res"
+{
+	"ItemNameLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemNameLabel"
+		"font"			"product12"
+		"xpos"			"4"
+		"ypos"			"35"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Object_Sentry"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	"ItemBackground"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"DestroyIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"DestroyIcon"
+		"xpos"			"25"
+		"ypos"			"60"
+		"zpos"			"3"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_demolish"
+		"iconColor"		"255 255 255 255"
+	}
+		
+	"BuildingIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildingIcon"
+		"xpos"			"19"
+		"ypos"			"55"
+		"zpos"			"2"
+		"wide"			"35"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_sentrygun_1"
+		"iconColor"		"255 255 255 128"
+	}
+		
+	"NumberBg"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg"
+		"xpos"			"41"
+		"ypos"			"99"
+		"zpos"			"0"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_key_blank"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"NumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"product12"
+		"fgcolor"		"White"
+		"xpos"			"33"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"west"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/background_menu"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

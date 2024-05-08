@@ -1,0 +1,5 @@
+#base "../customizations/colors.res"
+#base "scheme/fonts.res"
+#base "scheme/borders.res"
+#base "scheme/symbols.res"
+#base "scheme/crosshairs.res"

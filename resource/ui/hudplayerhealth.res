@@ -1,0 +1,1 @@
+#base "../../customizations/team_indicator.res"
