@@ -213,6 +213,8 @@
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"TransparentBlack"
 	}
 	"RandomShortKey"
 	{
@@ -241,6 +243,11 @@
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"TransparentBlack"
+
+		"defaultFgColor_override"					"Gray"
+		"depressedFgColor_override"					"Gray"
 	}
 	"SpectateShortKey"
 	{
