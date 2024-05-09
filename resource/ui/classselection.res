@@ -27,6 +27,28 @@
 		"bgcolor_override"							"TransparentBlack"
 	}
 
+	"ClassSelectBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ClassSelectBG"
+		"xpos"										"cs-0.5-96"
+		"ypos"										"cs-0.5+21"
+		"wide"										"320"
+		"tall"										"155"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay\thumbnails\backgrounds\panel_blue"
+		"scaleImage"								"1"	
+		"teambg_2"									"replay\thumbnails\backgrounds\panel_red"
+		"teambg_3"									"replay\thumbnails\backgrounds\panel_blue"
+			
+		"src_corner_height"							"40"
+		"src_corner_width"							"40"
+				
+		"draw_corner_width"							"5"
+		"draw_corner_height" 						"5"	
+	}
+
 	"TFPlayerModel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -131,6 +153,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass scout"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -149,7 +172,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/scout_off"
+		"image"										"replay/thumbnails/scout"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Scout"
 	}
@@ -197,6 +220,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass soldier"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -215,7 +239,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/soldier_off"
+		"image"										"replay/thumbnails/soldier"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Soldier"
 	}
@@ -262,6 +286,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass pyro"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -280,7 +305,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/pyro_off"
+		"image"										"replay/thumbnails/pyro"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Pyro"
 	}
@@ -328,6 +353,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass demoman"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -346,7 +372,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/demoman_off"
+		"image"										"replay/thumbnails/demoman"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Demoman"
 	}
@@ -393,6 +419,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass heavyweapons"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -411,7 +438,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/heavy_off"
+		"image"										"replay/thumbnails/heavy"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"HeavyWeapons"
 	}
@@ -457,6 +484,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass engineer"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -475,7 +503,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/engineer_off"
+		"image"										"replay/thumbnails/engineer"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Engineer"
 	}
@@ -523,6 +551,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass medic"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -541,7 +570,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/Medic_off"
+		"image"										"replay/thumbnails/medic"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Medic"
 	}
@@ -587,6 +616,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass sniper"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -605,7 +635,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/sniper_off"
+		"image"										"replay/thumbnails/sniper"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Sniper"
 	}
@@ -653,6 +683,7 @@
 		"textinsety"								"-10"
 		"Command"									"joinclass spy"
 		"font"										"product14"
+		"defaultbgcolor_Override"					"TransparentBlack"
 
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -671,7 +702,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/spy_off"
+		"image"										"replay/thumbnails/spy"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"Spy"
 	}
@@ -711,6 +742,8 @@
 		"labelText"									"#PH_EditLoadout"
 		"font"										"product12"
 		"Command"									"openloadout"
+		"defaultbgcolor_Override"					"TransparentBlack"
+
 	}
 
 	"Random"
@@ -726,6 +759,7 @@
 		"labelText"									"#PH_Random_Class"
 		"font"										"product12"
 		"Command"									"joinclass random"
+		"defaultbgcolor_Override"					"TransparentBlack"
 	}
 
 	"CancelButton"
@@ -741,6 +775,7 @@
 		"labelText"									"#PH_Cancel"
 		"font"										"product12"
 		"Command"									"vguicancel"
+		"defaultbgcolor_Override"					"TransparentBlack"
 	}
 
 	//==================================================================================================================================================

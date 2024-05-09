@@ -98,8 +98,10 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"RedTF"
-		"depressedFgColor_override"					"RedTF"
+		"defaultBgColor_override"					"RedTF"
+
+		"defaultFgColor_override"					"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"SpectateButton"
@@ -121,6 +123,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"TransparentBlack"
 
 		"defaultFgColor_override"					"Gray"
 		"depressedFgColor_override"					"Gray"
