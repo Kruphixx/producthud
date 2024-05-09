@@ -4,6 +4,12 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c103"
+		"ypos"			"c90"
+		"tall"			"150"
 	}
+	"ItemEffectMeterLabel"
+	{
+		"ypos"			"0"
+	}
+
 }

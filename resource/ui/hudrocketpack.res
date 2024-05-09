@@ -5,13 +5,14 @@
 	"HudItemEffectMeter"
 	{
 		"ypos"										"c103"
+		"tall"										"50"
 	}
 
 	"ItemEffectMeter"
 	{
 		"xpos"										"0"	
 		"wide"										"40"
-		"tall"										"f0"
+		"tall"										"2"
 		"bgcolor_override"							"0 0 0 220"
 	}
 	"ItemEffectMeter2"
@@ -22,7 +23,7 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"39"
-		"tall"										"f0"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
