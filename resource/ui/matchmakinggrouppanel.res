@@ -19,7 +19,7 @@
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"BgColor_override"							"69 90 100 255"
+		"bgColor_override"							"PrimaryBG"
 	}
 	"Checkbutton"
 	{

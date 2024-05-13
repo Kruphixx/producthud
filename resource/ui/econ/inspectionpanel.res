@@ -1,10 +1,10 @@
 "Resource/UI/econ/QuestEditorPanel.res"
 {
 
-	"BackgroundMenu"
+	"MenuBackground"
 	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"BackgroundMenu"
+		"ControlName"						"EditablePanel"
+		"fieldName"							"MenuBackground"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"0"
@@ -12,8 +12,8 @@
 		"tall"								"480"
 		"visible"							"1"
 		"enabled"							"1"
-		"image"								"replay/thumbnails/background_menu"
-		"scaleimage"						"1"
+		"paintBackground"					"1"
+		"bgcolor_override"					"SecondaryBG"
 	}
 
 	"WeaponBG"

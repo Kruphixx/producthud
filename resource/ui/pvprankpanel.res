@@ -288,7 +288,7 @@
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
+				"1"		"AccentBG"
 				"2"		"White"
 			}
 		}
@@ -386,8 +386,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 100"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"Blank"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"
@@ -401,7 +401,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"AccentBG"
 					}
 
 					"Frame"

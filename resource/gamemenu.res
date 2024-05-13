@@ -76,6 +76,14 @@
 		"tooltip"			"#MMenu_RequestCoach"
 	}
 
+	// Menu Background
+
+	"MenuBackground"
+	{
+		"command"			"engine"
+		"OnlyAtMenu"		"1"
+	}
+
 	// HUD options
 
 	"ToolsButton"
