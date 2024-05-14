@@ -2,17 +2,30 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
-		"ypos"			"9"
-		"zpos"			"2"
-		"wide"			"78"
-		"tall"			"33"
-		"visible"		"0"
+		"xpos"			"30"
+		"ypos"			"10"
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"	
-		"scaleImage"		"1"	
+		"paintBackground"	"1"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentLightBlack"
+
+		if_match
+		{
+			"xpos"				"9999"
+		}
+
+		if_mvm
+		{
+			"xpos"				"9999"
+		}
 	}
 	"TimePanelProgressBar"
 	{

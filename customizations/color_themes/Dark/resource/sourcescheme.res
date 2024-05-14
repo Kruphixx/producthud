@@ -38,7 +38,7 @@ Scheme
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
 
-	    "TFOrangeBright"            "69 90 100 255"
+	    "TFOrangeBright"            "50 50 50 255"
 
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
@@ -49,8 +49,8 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 90 100 255"
-	    "QuickListBGSelected"       "96 125 139 255"
+	    "QuickListBGDeselected"		"50 50 50 255"
+	    "QuickListBGSelected"       "71 71 71 255"
 
 	    "Blank"				"0 0 0 0"
 
@@ -61,9 +61,9 @@ Scheme
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 		
-		"AchievementsDarkGrey"	"69 90 100 255"  // omni you're a genius for finding this buried within the game.
-		"AchievementsLightGrey"	"69 90 100 150" // Thanks dude I know. I guess I'm just too good for this world.
-		"AchievementsInactiveFG"	"69 90 100 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
+		"AchievementsDarkGrey"	"50 50 50 255"  // omni you're a genius for finding this buried within the game.
+		"AchievementsLightGrey"	"50 50 50 150" // Thanks dude I know. I guess I'm just too good for this world.
+		"AchievementsInactiveFG"	"50 50 50 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
 	}
 	BaseSettings
 	{

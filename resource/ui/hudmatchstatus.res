@@ -262,43 +262,6 @@
 		"fgcolor"		"Black"
 	}
 
-	"TimerBG"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"-30"
-		"ypos"			"-10"
-		"zpos"			"-1"
-		"wide"			"50"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\backgrounds\panel_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"replay\thumbnails\backgrounds\panel_red"
-		"teambg_3"		"replay\thumbnails\backgrounds\panel_blue"
-		"alpha"			"200"
-			
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"
-		
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-		"pin_to_sibling"		"ObjectiveStatusTimePanel"
-
-		if_match
-		{
-			"visible"	"0"
-		}
-
-		if_mvm
-		{
-			"visible"	"0"
-		}
-	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
