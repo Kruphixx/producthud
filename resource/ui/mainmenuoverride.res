@@ -496,38 +496,6 @@
 		"show_model"	"0"
 		"show_type"		"1"
 	}
-	
-	"Background"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-200"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-		
-		"fillcolor"		"SecondaryBG"
-	}
-	
-	"Background2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-199"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"SecondaryBG"
-	}
 					
 	"TFLogoImage"
 	{
