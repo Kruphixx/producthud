@@ -1027,7 +1027,7 @@
 			"textinsetx"	"0"
 			"font"			"BlankFont"
 			"fgcolor"		"255 255 255 0"
-			"bgcolor_override"	"24 24 24 210"
+			"bgcolor_override"	"TransparentLightBlack"
 			"paintbackgroundtype"	"2"
 		}
 		
