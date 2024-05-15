@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"20"
+		"spacer"			"5"
 		"avatar_width"		"57"
 		"name_width"		"110"
 		"name_width_short"	"85"	
@@ -63,12 +64,10 @@
 		
 		if_mvm
  		{
-			"xpos"			"c-260"
-			"ypos"			"c-102"
  			"visible"		"0"
  		}
 	}
-	
+
 	"BlueColor2"
 	{
 		"ControlName"	"CExLabel"
@@ -102,24 +101,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"product21"
-		"labelText"		"%blueteamname%"
-		"textAlignment"		"west"
-		"xpos"			"c-300"
-		"ypos"			"c-165"
-		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"25"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textinsetx"	"16"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 						
 	"BlueTeamScore"
@@ -285,24 +269,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"product21"
-		"labelText"		"%redteamname%"
-		"textAlignment"		"east"
-		"xpos"			"c0"
-		"ypos"			"c-165"
-		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textinsetx"	"16"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 					
 	"RedTeamScore"
@@ -524,11 +493,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"0"
-		"ypos"			"-3"
+		"xpos"			"126"
+		"ypos"			"c-95"
 		"zpos"			"20"
 		"wide"			"300"
-		"tall"			"224"
+		"tall"			"225"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -543,21 +512,17 @@
 		{
 			"visible"		"0"
 		}
-		
-		"pin_to_sibling" "BlueColor2"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
 	"RedPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"0"
-		"ypos"			"-3"
+		"xpos"			"c1"
+		"ypos"			"c-95"
 		"zpos"			"20"
 		"wide"			"300"
-		"tall"			"224"
+		"tall"			"225"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -572,10 +537,6 @@
  		{
  			"visible"		"0"
  		}
-		
-		"pin_to_sibling" "RedColor2"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 	"Spectators"
 	{
