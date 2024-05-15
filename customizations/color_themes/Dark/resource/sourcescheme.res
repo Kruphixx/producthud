@@ -121,7 +121,7 @@ Scheme
 
 		ListPanel.TextColor					"NotoWhite"
 		ListPanel.BgColor					"SecondaryBG"
-		ListPanel.SelectedBgColor			"NotoGreen"
+		ListPanel.SelectedBgColor			"PrimaryBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
@@ -132,7 +132,7 @@ Scheme
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
 		Menu.ArmedFgColor		"NotoGreen"
-		Menu.ArmedBgColor				"NotoGreen"
+		Menu.ArmedBgColor				"PrimaryBG"
 		Menu.DividerColor		"BorderDark"
 
 		ScrollBarButton.FgColor				"SecondaryText"

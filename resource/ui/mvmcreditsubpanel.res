@@ -18,13 +18,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TableBackground"
-		"xpos"			"0"
-		"ypos"			"14"
-		"zpos"			"-1"
-		"wide"			"190"
-		"tall"			"42"
-		"visible"		"1"
-		"bgcolor_override"		"20 20 20 50"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"CreditCollectedTextLabel"
@@ -34,11 +30,11 @@
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"4"
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -62,11 +58,11 @@
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"4"
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"CreditMissedCountLabel"
@@ -80,7 +76,7 @@
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"RedSolid"
+		"fgcolor"		"RedTF"
 	}
 	
 	"CreditBonusTextLabel"
@@ -90,11 +86,11 @@
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"4"
 		"ypos"			"39"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"CreditBonusCountLabel"
@@ -136,6 +132,6 @@
 		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 }

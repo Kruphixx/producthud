@@ -2,7 +2,7 @@ Scheme
 {
     Colors
     {
-		"Crosshair"			"255 255 255 255"
+		"Crosshair"			"0 255 00 255"
 		"Hitmarker"			"255 0 0 255"
 
 		"Damage"			"255 255 0 255"

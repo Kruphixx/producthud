@@ -5,30 +5,31 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
-		"ypos"			"2"
+		"ypos"			"1"
 		"zpos"			"-1"
 		"wide"			"200"
-		"tall"			"35"
+		"tall"			"40"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"         "replay/thumbnails/backgrounds/panel_neutral"
-		"scaleimage"	"1"
-		"src_corner_height"	"40"				// pixels inside the image
-		"src_corner_width"	"40"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"image"					"replay/thumbnails/backgrounds/panel_neutral"
+
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product10"
 		"fgcolor"		"White"
-		"xpos"			"200"
-		"ypos"			"6"
+		"xpos"			"12"
+		"xpos_minmode"	"12"
+		"ypos"			"-7"
+		"ypos_minmode"	"-7"
 		"zpos"			"4"
 		"wide"			"200"
 		"tall"			"15"
@@ -36,6 +37,9 @@
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
+
+		"pin_to_sibling"		"ProgressBar"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	
 	"SeparatorBar"
@@ -63,7 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product12"
 		"fgcolor"		"White"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -86,10 +90,14 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"211"
-		"ypos"			"20"
+		"xpos_minmode"	"211"
+		"ypos"			"10"
+		"ypos_minmode"	"10"
 		"zpos"			"3"
 		"wide"			"178"
+		"wide_minmode"	"178"
 		"tall"			"10"
+		"tall_minmode"	"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/background_blue"
