@@ -8,19 +8,19 @@ Scheme
 		// MAIN COLORS
 		///////////////////////////////////////////////////
 
-		"PrimaryBG"											"69 90 100 255"		// Window frame
-		"PrimaryBGOffFocus"									"69 90 100 200"		// Keep this the same color as PrimaryBG
-		"SecondaryBG"										"96 125 139 255"		// Default VGUI buttons, Console/server browser etc. backgrounds
-		"AccentBG"											"255 160 0 255"		// Selection color
+		"PrimaryBG"											"102 15 17 255"		// Window frame
+		"PrimaryBGOffFocus"									"102 15 17 200"		// Keep this the same color as PrimaryBG
+		"SecondaryBG"										"181 34 37 255"		// Default VGUI buttons, Console/server browser etc. backgrounds
+		"AccentBG"											"255 72 0 255"			// Selection color
 
-	    "QuickListBGDeselected"								"69 90 100 255"		// Keep this the same color as PrimaryBG
-	    "QuickListBGSelected"								"96 125 139 255"		// Keep this the same color as SecondaryBG
+	    "QuickListBGDeselected"								"102 15 17 255"		// Keep this the same color as PrimaryBG
+	    "QuickListBGSelected"								"181 34 37 255"		// Keep this the same color as SecondaryBG
 
-		"AchievementsDarkGrey"								"69 90 100 255"		// Keep this the same color as PrimaryBG
-		"AchievementsLightGrey"								"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
-		"AchievementsInactiveFG"							"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsDarkGrey"								"102 15 17 255"		// Keep this the same color as PrimaryBG
+		"AchievementsLightGrey"								"102 15 17 150"		// Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsInactiveFG"							"102 15 17 150"		// Keep this the same color as PrimaryBG but with the last value 150
 
-	    "TFOrangeBright"									"69 90 100 255" 		// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
+	    "TFOrangeBright"									"102 15 17 255" 		// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
 
 		///////////////////////////////////////////////////
 		//

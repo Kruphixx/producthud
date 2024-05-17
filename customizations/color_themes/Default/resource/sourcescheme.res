@@ -2,11 +2,30 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
+		///////////////////////////////////////////////////
+		// MAIN COLORS
+		///////////////////////////////////////////////////
+
+		"PrimaryBG"											"69 90 100 255"		// Window frame
+		"PrimaryBGOffFocus"									"69 90 100 200"		// Keep this the same color as PrimaryBG
+		"SecondaryBG"										"96 125 139 255"		// Default VGUI buttons, Console/server browser etc. backgrounds
+		"AccentBG"											"255 160 0 255"		// Selection color
+
+	    "QuickListBGDeselected"								"69 90 100 255"		// Keep this the same color as PrimaryBG
+	    "QuickListBGSelected"								"96 125 139 255"		// Keep this the same color as SecondaryBG
+
+		"AchievementsDarkGrey"								"69 90 100 255"		// Keep this the same color as PrimaryBG
+		"AchievementsLightGrey"								"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsInactiveFG"							"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
+
+	    "TFOrangeBright"									"69 90 100 255" 		// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
+
+		///////////////////////////////////////////////////
+		//
+		///////////////////////////////////////////////////
+
 		// rayshud	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
@@ -14,23 +33,12 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimaryLight"		"0 255 255 255"
-		"RaysPrimaryDark"		"65 255 255 255"
-		"RaysBlack"				"32 32 32 255"
-		"RaysBlackTrans"		"32 32 32 200"
-		"RaysButtonHover"		"70 130 180 255"
 		
 		"PrimaryText"		"240 240 240 255"
 		"SecondaryText"		"240 240 240 255"
 		"AccentText"		"24 24 24 255"
-		
-		"PrimaryBG"				"69 90 100 255"
-		"PrimaryBGOffFocus"		"69 90 100 200"
-		"SecondaryBG"			"96 125 139 255"
-		"AccentBG"				"255 160 0 255"
-		
+
 		"NotoWhite"				"240 240 240 255"
-		"NotoGreen"				"69 90 100 255"
 		"NotoDark"				"24 24 24 255"
 
 		// TF2
@@ -43,8 +51,6 @@ Scheme
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
 
-	    "TFOrangeBright"            "69 90 100 255"
-
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
@@ -54,9 +60,6 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 90 100 255"
-	    "QuickListBGSelected"       "96 125 139 255"
-
 	    "Blank"				"0 0 0 0"
 
 		"ControlBG"			"76 88 68 255"		// background color of controls
@@ -65,10 +68,6 @@ Scheme
 		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
-		
-		"AchievementsDarkGrey"	"69 90 100 255"  // omni you're a genius for finding this buried within the game.
-		"AchievementsLightGrey"	"69 90 100 150" // Thanks dude I know. I guess I'm just too good for this world.
-		"AchievementsInactiveFG"	"69 90 100 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
 	}
 	BaseSettings
 	{
@@ -99,7 +98,7 @@ Scheme
 		ToggleButton.SelectedTextColor	"TFTextBright"
 
 		ComboBoxButton.ArrowColor		"NotoWhite"
-		ComboBoxButton.ArmedArrowColor	"NotoGreen"
+		ComboBoxButton.ArmedArrowColor	"AccentBG"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -126,18 +125,18 @@ Scheme
 
 		ListPanel.TextColor					"NotoWhite"
 		ListPanel.BgColor					"SecondaryBG"
-		ListPanel.SelectedBgColor			"NotoGreen"
+		ListPanel.SelectedBgColor			"AccentBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"NotoGreen"
+		MainMenu.ArmedTextColor		"AccentBG"
 		MainMenu.Inset				"32"
 
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
-		Menu.ArmedFgColor		"NotoGreen"
-		Menu.ArmedBgColor				"NotoGreen"
+		Menu.ArmedFgColor		"AccentBG"
+		Menu.ArmedBgColor				"AccentBG"
 		Menu.DividerColor		"BorderDark"
 
 		ScrollBarButton.FgColor				"SecondaryText"
@@ -223,7 +222,7 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"NotoGreen"
+		NewGame.SelectionColor		"AccentBG"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	

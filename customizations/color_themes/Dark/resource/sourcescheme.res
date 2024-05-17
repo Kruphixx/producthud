@@ -2,11 +2,30 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
+		///////////////////////////////////////////////////
+		// MAIN COLORS
+		///////////////////////////////////////////////////
+
+        "PrimaryBG"											"50 50 50 255"			// Window frame
+		"PrimaryBGOffFocus"									"50 50 50 200"			// Keep this the same color as PrimaryBG
+		"SecondaryBG"										"71 71 71 255"			// Default VGUI buttons, Console/server browser etc. backgrounds
+		"AccentBG"											"255 160 0 255"		// Selection color
+
+	    "QuickListBGDeselected"								"50 50 50 255"			// Keep this the same color as PrimaryBG.
+	    "QuickListBGSelected"								"71 71 71 255"			// Keep this the same color as SecondaryBG.
+
+		"AchievementsDarkGrey"								"50 50 50 255"			// Keep this the same color as PrimaryBG
+		"AchievementsLightGrey"								"50 50 50 150"			// Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsInactiveFG"							"50 50 50 150"			// Keep this the same color as PrimaryBG but with the last value 150
+
+	    "TFOrangeBright"									"50 50 50 255"			// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
+
+		///////////////////////////////////////////////////
+		//
+		///////////////////////////////////////////////////
+
 		// rayshud	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
@@ -19,13 +38,7 @@ Scheme
 		"SecondaryText"		"240 240 240 255"
 		"AccentText"		"24 24 24 255"
 		
-        "PrimaryBG"			"50 50 50 255"
-		"PrimaryBGOffFocus"		"50 50 50 200"
-		"SecondaryBG"			"71 71 71 255"
-		"AccentBG"				"255 160 0 255"
-		
 		"NotoWhite"				"240 240 240 255"
-		"NotoGreen"				"69 90 100 255"
 		"NotoDark"				"24 24 24 255"
 
 		// TF2
@@ -38,8 +51,6 @@ Scheme
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
 
-	    "TFOrangeBright"            "50 50 50 255"
-
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
@@ -49,9 +60,6 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"50 50 50 255"
-	    "QuickListBGSelected"       "71 71 71 255"
-
 	    "Blank"				"0 0 0 0"
 
 		"ControlBG"			"76 88 68 255"		// background color of controls
@@ -60,10 +68,6 @@ Scheme
 		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
-		
-		"AchievementsDarkGrey"	"50 50 50 255"  // omni you're a genius for finding this buried within the game.
-		"AchievementsLightGrey"	"50 50 50 150" // Thanks dude I know. I guess I'm just too good for this world.
-		"AchievementsInactiveFG"	"50 50 50 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
 	}
 	BaseSettings
 	{
@@ -94,7 +98,7 @@ Scheme
 		ToggleButton.SelectedTextColor	"TFTextBright"
 
 		ComboBoxButton.ArrowColor		"NotoWhite"
-		ComboBoxButton.ArmedArrowColor	"NotoGreen"
+		ComboBoxButton.ArmedArrowColor	"AccentBG"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -125,13 +129,13 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"NotoGreen"
+		MainMenu.ArmedTextColor		"AccentBG"
 		MainMenu.Inset				"32"
 
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
-		Menu.ArmedFgColor		"NotoGreen"
+		Menu.ArmedFgColor		"AccentBG"
 		Menu.ArmedBgColor				"PrimaryBG"
 		Menu.DividerColor		"BorderDark"
 
@@ -218,7 +222,7 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"NotoGreen"
+		NewGame.SelectionColor		"AccentBG"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	

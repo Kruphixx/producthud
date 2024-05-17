@@ -1,21 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"AmmoBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"AmmoBackground"
-		"xpos"			"-36"
-		"ypos"			"-2"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"37"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 50"
-		"PaintBackgroundType"	"2"
-		"pin_to_sibling"		"AmmoInClip"
-	}
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"

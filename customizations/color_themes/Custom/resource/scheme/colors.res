@@ -6,11 +6,11 @@ Scheme
 		// MAIN COLORS
 		///////////////////////////////////////////////////
 
-		"PrimaryBG"											"69 90 100 255"		// Buttons, MM Dashboard
-		"SecondaryBG"										"96 125 139 255"		// Menu background and some other backgrounds
-		"DarkPrimaryBG"										"38 50 56 255"			// Advanced options, Various dialogs
-		"AccentBG"											"255 160 0 255"		// Selection color
-		"TFOrange"											"255 160 0 255"		// This should be the same as AccentBG
+		"PrimaryBG"											"102 15 17 255"		// Buttons, MM Dashboard
+		"SecondaryBG"										"181 34 37 255"		// Menu background and some other backgrounds
+		"DarkPrimaryBG"										"59 15 16 255"			// Advanced options, Various dialogs
+		"AccentBG"											"255 72 0 255"		// Selection color
+		"TFOrange"											"255 72 0 255"			// This should be the same as AccentBG
 
 		///////////////////////////////////////////////////
 		//

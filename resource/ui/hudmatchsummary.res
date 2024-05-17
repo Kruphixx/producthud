@@ -483,7 +483,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
+					"border"		"TFFatLineBorder"
 
 					if_large
 					{
@@ -741,7 +741,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
+					"border"		"TFFatLineBorder"
 
 					if_large
 					{
