@@ -44,7 +44,7 @@
 		//=========================================================================
 		// CROSSHAIR COLOR
 		//-------------------------------------------------------------------------
-		// The color of the crosshair can be changed in resource/schemes/colors.res
+		// The color of the crosshair can be changed in resource/schemes/colors_base.res
 		//=========================================================================
 		
 		"fgcolor"	"Crosshair"

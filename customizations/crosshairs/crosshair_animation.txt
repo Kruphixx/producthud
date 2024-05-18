@@ -3,7 +3,7 @@
 //------------------------------------------------------------------------------------------------------------------------------------
 // Uncomment both lines by removing the // to activate the crosshair flashing on damage
 // The first line's fgcolor is the damage flash color (red by default) 
-// The second line's fgcolor is the normal crosshair color, make sure to set the color to match the one in "customizations/colors.res"
+// The second line's fgcolor is the normal crosshair color, make sure to set the color to match the one in "resource/scheme/colors_base.res"
 //====================================================================================================================================
 
 event DamagedPlayer
