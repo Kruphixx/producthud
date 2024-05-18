@@ -1,12 +1,15 @@
-![ghub-banner](https://github.com/Kruphixx/producthud/assets/50501742/a7d9cc47-d1e1-4847-b9e5-2c66788c669b)
+![producthud-git-banner](https://github.com/Kruphixx/producthud/assets/50501742/c5aca6bd-86ff-4728-9be2-d4c2bfc97475)
 
 # ProductHUD
 
-A Team Fortress 2 custom HUD originally created by omnibombulator. The HUD hasn't been updated since 2015 and only had menu panels and basic in-game stuff done, so I went ahead and fully finished it.
+A flat, minimalistic Team Fortress 2 custom HUD originally created by omnibombulator. The HUD hasn't been updated since 2015 and only had menu panels and basic in-game stuff done, so I went ahead and fully finished it.
 
 # Links
 
-[Full screenshot album](https://imgur.com/a/mZHn0Kw)
+* [Full screenshot album](https://imgur.com/a/mZHn0Kw)
+* [Comfig Huds](https://comfig.app/huds/page/producthud/)
+* [TF2Huds](https://tf2huds.dev/hud/ProductHUD)
+* [GameBanana](https://gamebanana.com/mods/512356)
 
 # Installation
 
@@ -19,6 +22,7 @@ A Team Fortress 2 custom HUD originally created by omnibombulator. The HUD hasn'
 # Customizations
 
 Current customizations are listed below. The number of customizations will most likely expand as time goes by.
+* Color Themes (Dark, Custom)
 * Custom Crosshairs
 * Transparent Viewmodels
 * Speedometer
@@ -27,7 +31,6 @@ Current customizations are listed below. The number of customizations will most 
 # Known issues
 
 * In MVM some elements are almost untouched because it's difficult to test them. All the main elements are however fully functional, so do not worry about that.
-* In MVM, the wave status panel has some overlapping issues in minmode. Unfortunately there's no solution for that except turning minmode off.
 * In Arena mode, the win panel is still the default one. I haven't really bothered touching it for now.
 
 # Credits
@@ -37,4 +40,4 @@ Current customizations are listed below. The number of customizations will most 
 
 # Inspiration
 
-Hypnotize HUD, Sunset HUD
+HypnotizeHUD, SunsetHUD, FlarepunchHUD
