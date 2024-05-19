@@ -1418,10 +1418,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-149"
-		"ypos"				"c60"
-		"wide"				"100"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}

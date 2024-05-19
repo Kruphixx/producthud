@@ -1,4 +1,5 @@
 #base "scheme/colors.res"
+#base "scheme/colors_base.res"
 #base "scheme/fonts.res"
 #base "scheme/borders.res"
 #base "scheme/symbols.res"

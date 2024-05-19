@@ -49,21 +49,22 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
+			"font"			"product35blur"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
-			"xpos"			"2"
-			"ypos"			"2"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"600"
 			"tall"			"35"
-			"fgcolor"		"0 0 0 255"
+			"fgcolor"		"Black"
+			"pin_to_sibling"	"BannerText"
 		}
 		
 		"BannerText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
+			"font"			"product35"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"

@@ -41,8 +41,8 @@
 		"item_backdrop_paintbackgroundtype"	"2"
 		
 		"item_panel_bgcolor"			"SecondaryBG"
-		"item_panel_bgcolor_mouseover"	"84 110 122 255"
-		"item_panel_bgcolor_selected"	"84 110 122 255"
+		"item_panel_bgcolor_mouseover"	"DarkPrimaryBG"
+		"item_panel_bgcolor_selected"	"DarkPrimaryBG"
 		
 		"classicon_xdelta"		"5"
 

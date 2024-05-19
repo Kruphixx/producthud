@@ -45,8 +45,8 @@
 		"item_backdrop_zpos"				"1"
 		
 		"item_panel_bgcolor"			"SecondaryBG"
-		"item_panel_bgcolor_mouseover"	"84 110 122 255"
-		"item_panel_bgcolor_selected"	"84 110 122 255"
+		"item_panel_bgcolor_mouseover"	"DarkPrimaryBG"
+		"item_panel_bgcolor_selected"	"DarkPrimaryBG"
 		
 		"classicon_xdelta"		"5"
 
@@ -212,8 +212,6 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"PrimaryBG"
-		"paintborder"	"0"
-		"border"		"MainMenuHighlightBorder"
 	}
 	
 	"BackgroundCus2"
@@ -231,8 +229,6 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"PrimaryBG"
-		"paintborder"	"0"
-		"border"		"MainMenuHighlightBorder"
 	}
 
 	"SaxtonBackgroundPanel"
@@ -293,7 +289,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ItemCategoryTabs"
 		"xpos"				"c-289"
-		"ypos"				"102"
+		"ypos"				"80"
 		"zpos"				"0"
 		"wide"				"170"
 		"tall"				"100"
@@ -306,7 +302,7 @@
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"0"
-		"auto_layout_vertical_buffer"	"15"
+		"auto_layout_vertical_buffer"	"20"
 		"display_vertically"	"1"
 		
 		"ButtonSettings"
@@ -475,38 +471,13 @@
 		"image"			"store_cart"
 		"scaleImage"	"1"
 	}
-
-	"BrowseTheStoreButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BrowseTheStoreButton"
-		"xpos"			"c-289"
-		"ypos"			"15"
-		"zpos"			"2"
-		"wide"			"170"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Browse the Store"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"startshopping"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 	
 	"MarketPlaceButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
 		"xpos"			"c-289"
-		"ypos"			"44"
+		"ypos"			"15"
 		"zpos"			"2"
 		"wide"			"170"
 		"tall"			"25"

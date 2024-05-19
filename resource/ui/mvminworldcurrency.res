@@ -31,8 +31,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"product16"
-		"fgcolor"		"CreditsGreen"
+		"font"			"product18"
+		"fgcolor"		"White"
 		"xpos"			"15"
 		"ypos"			"1"
 		"zpos"			"5"
@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGoodShadow"
-		"font"			"product16"
+		"font"			"product18blur"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"product16"
+		"font"			"product18"
 		"fgcolor"		"RedTF"
 		"xpos"			"15"
 		"ypos"			"1"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBadShadow"
-		"font"			"product16blur"
+		"font"			"product18blur"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"

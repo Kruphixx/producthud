@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"product16"
+		"font"			"product18"
 		"fgcolor"		"CreditsGreen"
-		"xpos"			"0"
-		"ypos"			"57"
+		"xpos"			"r55"
+		"ypos"			"r55"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%currency%"
 	}	
 	
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"product16blur"
+		"font"			"product18blur"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"

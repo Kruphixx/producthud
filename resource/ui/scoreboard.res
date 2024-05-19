@@ -64,6 +64,8 @@
 		
 		if_mvm
  		{
+			"xpos"			"c-260"
+			"ypos"			"c-102"
  			"visible"		"0"
  		}
 	}
