@@ -1,31 +1,10 @@
 #base "SourceSchemeBase.res"
+#base "scheme/colors_sourcescheme.res"
 
 Scheme
 {
 	Colors
 	{
-		///////////////////////////////////////////////////
-		// MAIN COLORS
-		///////////////////////////////////////////////////
-
-		"PrimaryBG"											"69 90 100 255"		// Window frame
-		"PrimaryBGOffFocus"									"69 90 100 200"		// Keep this the same color as PrimaryBG
-		"SecondaryBG"										"96 125 139 255"		// Default VGUI buttons, Console/server browser etc. backgrounds
-		"AccentBG"											"255 160 0 255"		// Selection color
-
-	    "QuickListBGDeselected"								"69 90 100 255"		// Keep this the same color as PrimaryBG
-	    "QuickListBGSelected"								"96 125 139 255"		// Keep this the same color as SecondaryBG
-
-		"AchievementsDarkGrey"								"69 90 100 255"		// Keep this the same color as PrimaryBG
-		"AchievementsLightGrey"								"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
-		"AchievementsInactiveFG"							"69 90 100 150"		// Keep this the same color as PrimaryBG but with the last value 150
-
-	    "TFOrangeBright"									"69 90 100 255" 		// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
-
-		///////////////////////////////////////////////////
-		//
-		///////////////////////////////////////////////////
-
 		// rayshud	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
@@ -37,7 +16,7 @@ Scheme
 		"PrimaryText"		"240 240 240 255"
 		"SecondaryText"		"240 240 240 255"
 		"AccentText"		"24 24 24 255"
-
+		
 		"NotoWhite"				"240 240 240 255"
 		"NotoDark"				"24 24 24 255"
 
@@ -125,7 +104,7 @@ Scheme
 
 		ListPanel.TextColor					"NotoWhite"
 		ListPanel.BgColor					"SecondaryBG"
-		ListPanel.SelectedBgColor			"AccentBG"
+		ListPanel.SelectedBgColor			"PrimaryBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
@@ -136,7 +115,7 @@ Scheme
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
 		Menu.ArmedFgColor		"AccentBG"
-		Menu.ArmedBgColor				"AccentBG"
+		Menu.ArmedBgColor				"PrimaryBG"
 		Menu.DividerColor		"BorderDark"
 
 		ScrollBarButton.FgColor				"SecondaryText"

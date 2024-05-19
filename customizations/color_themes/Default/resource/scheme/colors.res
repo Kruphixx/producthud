@@ -12,6 +12,11 @@ Scheme
 		"AccentBG"											"255 160 0 255"		// Selection color
 		"TFOrange"											"255 160 0 255"		// This should be the same as AccentBG
 
+		"PrimaryText"										"240 240 240 255"
+		"SecondaryText"										"240 240 240 255"
+		"AccentText"										"24 24 24 255"			// Color of text on hovered over buttons
+		"DarkPrimaryText"									"240 240 240 255"
+
 		///////////////////////////////////////////////////
 		//
 		///////////////////////////////////////////////////
