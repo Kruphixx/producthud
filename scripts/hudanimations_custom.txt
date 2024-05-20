@@ -139,14 +139,10 @@ event HudMedicChargedStop
 
 //==================================================================================
 
-event TeamStatus_PlayerDead
+event PvPRankLevelUpXPBar
 {
-	SetVisible	respawntime	1	0
-}
-
-event TeamStatus_PlayerAlive
-{
-	SetVisible	respawntime	0	0.2
+	Animate ContinuousProgressBar 	BgColor 		White 					Linear 	0.0 0.1
+	Animate ContinuousProgressBar 	BgColor 		ProgressBackground 		Linear 	0.1 0.3
 }
 
 //==================================================================================
@@ -161,3 +157,5 @@ event RDNegativeScorePulse { }
 event CompetitiveGame_LowerChatWindow { }
 event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}

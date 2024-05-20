@@ -8,11 +8,6 @@ Scheme
 		"Damage"			"255 255 0 255"
 		"Healing"			"0 255 00 255"
 
-		"PrimaryText"		"240 240 240 255"
-		"SecondaryText"		"240 240 240 255"
-		"AccentText"		"24 24 24 255"
-		"DarkPrimaryText"	"240 240 240 255"
-
 		// Team Color
 		"BlueTF"			"91 171 248 255"	//Blue Team Color
 		"RedTF"				"243 60 59 255"		// Red Team Color
@@ -37,7 +32,7 @@ Scheme
 		"AmmoLowTF"			"243 60 59 255"
 		"AmmoBlurTF"		"24 24 24 255"
 		
-		"AmmoResTF"			"96 125 139 255" //Same as default SecondaryBG
+		"AmmoResTF"			"154 183 197 255"
 		"AmmoResLowTF"		"243 60 59 255"
 		"AmmoResBlurTF"		"24 24 24 255"
 		
