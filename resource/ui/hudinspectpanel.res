@@ -11,7 +11,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"paintBackground"	"0"
-		"border"			"PH_Box_Black"
+		"border"			"TFFatLineBorder"
 		
 		"model_ypos"		"20"
 		"model_center_x"	"1"

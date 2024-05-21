@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"SecondaryBG"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
@@ -25,12 +25,12 @@
 		{
 			"wide"			"220"
 			"tall"			"40"
-			"bgcolor_override"		"59 54 48 255"
+			"bgcolor_override"		"PrimaryBG"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			
-			"model_xpos"	"25"
+			"model_xpos"	"35"
 			"model_ypos"	"3"
 			"model_wide"	"58"		
 			"model_tall"	"34"
@@ -43,42 +43,6 @@
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
-	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-	}
-	"ClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"20"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 
 	"ItemSlotLabel"
 	{
@@ -87,7 +51,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"80"
+		"xpos"			"10"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"140"
@@ -96,24 +60,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-	
-	"TopLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
-		"xpos"			"5"
-		"ypos"			"20"
-		"zpos"			"2"
-		"wide"			"265"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
 	}				
-		
+	
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -123,22 +71,22 @@
 		"wide"			"265"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"30"
+		"xpos"			"35"
 		"ypos"			"0"
 		"wide"			"240"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -146,7 +94,7 @@
 			"font"			"ItemFontNameSmallest"
 			"labelText"		"#QuickSwitchEquipped"
 			"textAlignment"	"north-west"
-			"xpos"			"3"
+			"xpos"			"10"
 			"ypos"			"2"
 			"zpos"			"100"
 			"wide"			"200"
@@ -157,7 +105,7 @@
 			"bgcolor_override"	"0 0 0 0"
 		}
 	}
-	
+
 	"NoItemsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -176,7 +124,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
@@ -192,5 +140,38 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
+	}
+
+	"TopLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopLine"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"CaratLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CaratLabel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"ClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }
