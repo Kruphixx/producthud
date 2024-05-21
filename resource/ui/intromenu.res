@@ -74,10 +74,10 @@
 		"font"			"HudFontSmallBold"
 	}
 
-	"Skip" [$WIN32] 
+	"PH_Skip" 
 	{
 		"ControlName"		"CExButton"
-		"fieldName"		"Skip"
+		"fieldName"		"PH_Skip"
 		"xpos"			"cs-0.5"
 		"ypos"			"r99"
 		"zpos"			"1"
@@ -96,7 +96,7 @@
 		"font"			"HudFontSmallBold"
 	}
 
-	"ReplayVideo" [$WIN32] 
+	"ReplayVideo" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
@@ -205,4 +205,6 @@
 	}
 
 	"ShadedBar"{"ControlName" "ImagePanel" "fieldName" "ShadedBar" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Back"{"ControlName" "CExButton" "fieldName" "Back" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Skip"{"ControlName" "CExButton" "fieldName" "Skip" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

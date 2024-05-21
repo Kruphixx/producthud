@@ -169,6 +169,8 @@
 		"command"	"purchase"
 		"actionsignallevel" "2"
 
+		"defaultBgColor_override"	"StoreGreen"
+
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

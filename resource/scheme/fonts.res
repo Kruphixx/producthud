@@ -28,81 +28,70 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"
-				"antialias" "1"
-				"additive"	"0"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"ScoreboardTeamNameNew"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"
-				"antialias" "1"
-				"additive"	"0"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Product Sans"
 				"tall"		"36"
-				"tall_hidef"	"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Product Sans"
 				"tall"		"36"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"
-				"antialias" "1"
-				"additive"	"0"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"MatchSummaryWinner"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"20"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"ImportToolSmallestBold"
@@ -142,11 +131,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Product Sans"
 				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		ItemFontAttribSmallv2
@@ -163,45 +151,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Product Sans"
 				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Product Sans"
 				"tall"		"9"
-				"weight"	"500"
+				"additive"  "0"
+				"antialias"	"1"
 				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
 			}
 		}
 		"AchievementTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Product Sans"
 				"tall"		"7"
-				"weight"	"0"
-				"additive"	"1"
-				"antialias" 	"1"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"

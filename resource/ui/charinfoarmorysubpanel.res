@@ -55,6 +55,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -191,7 +192,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DataPanel"
 		"xpos"			"c13"
-		"ypos"			"23"
+		"ypos"			"30"
 		"zpos"			"0"
 		"wide"			"268"
 		"tall"			"253"
@@ -206,7 +207,7 @@
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"ScoreboardSmall"
+			"font"			"product10"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"5"
@@ -215,7 +216,7 @@
 			"tall"			"125"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"White"
 			"wrap"			"1"
@@ -236,7 +237,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemModelPanel"
 		"xpos"			"c15"
-		"ypos"			"40"
+		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"135"
@@ -248,9 +249,8 @@
 		"model_hide"	"1"
 		"text_center"	"1"
 		"resize_to_text" "1"
-		"name_only"		"1"
 		
-		"text_forcesize"	"4"
+		"text_forcesize"	"1"
 		
 		"itemmodelpanel"
 		{
@@ -263,18 +263,18 @@
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
-		"xpos"			"c-280"		// Slightly right of center, because the photo background is
-		"ypos"			"160"
+		"xpos"			"c87"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"290"
-		"tall"			"140"
-		"visible"		"0"
+		"wide"			"110"
+		"tall"			"70"
+		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
-		"model_ypos"	"10"
-		"model_tall"	"120"
+		"model_ypos"	"0"
+		"model_tall"	"100"
 		"name_only"		"0"
 		"attrib_only"	"0"
 		"model_only"	"1"
@@ -475,10 +475,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"WikiButton"
-		"xpos"			"c119"
-		"ypos"			"290"
+		"xpos"			"c114"
+		"ypos"			"291"
 		"zpos"			"20"
-		"wide"			"170"
+		"wide"			"175"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -528,7 +528,7 @@
 		"xpos"			"c-289"
 		"ypos"			"291"
 		"zpos"			"20"
-		"wide"			"170"
+		"wide"			"175"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
