@@ -6,32 +6,11 @@ A flat, minimalistic Team Fortress 2 custom HUD originally created by omnibombul
 
 # Links
 
+* [HUD Wiki (Installation, Customizations)](https://github.com/Kruphixx/producthud/wiki)
 * [Full screenshot album](https://imgur.com/a/mZHn0Kw)
 * [Comfig Huds](https://comfig.app/huds/page/producthud/)
 * [TF2Huds](https://tf2huds.dev/hud/ProductHUD)
 * [GameBanana](https://gamebanana.com/mods/512356)
-
-# Installation
-
-1. Download the HUD (press the big green "Code" button)
-2. Locate your TF2 repository. The best way to do that is navigate to your Steam Library, search for Team Fortress 2, right-click it, then Manage > Browse local files.
-3. Open the "tf" folder.
-4. Open the "custom" folder. If you don't have one, create one.
-5. Inside the zip file you downloaded, there will be a folder called "product-master". Drag and drop that into the "custom" folder.
-
-# Customizations
-
-Current customizations are listed below. The number of customizations will most likely expand as time goes by.
-* Color Themes (Dark, Custom)
-* Custom Crosshairs
-* Transparent Viewmodels
-* Speedometer
-* Team Indicator toggle
-
-# Known issues
-
-* In MVM some elements are almost untouched because it's difficult to test them. All the main elements are however fully functional, so do not worry about that.
-* In Arena mode, the win panel is still the default one. I haven't really bothered touching it for now.
 
 # Credits
 
