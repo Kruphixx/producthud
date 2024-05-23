@@ -426,6 +426,39 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		"PH_Border_RedTF"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/background_red"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		"PH_Border_BlueTF"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/background_blue"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		"PH_Border_TransparentBlack"
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/backgrounds/panel_neutral_more_opaque"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
 		"PH_Material_Red"
 		{
 			"bordertype"			"scalable_image"

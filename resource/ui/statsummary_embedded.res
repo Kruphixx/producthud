@@ -46,26 +46,20 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"%maplabel%"
-		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
-		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
+		"textAlignment"		"center"
+		"xpos"			"5"
 		"ypos"			"92"
-		"ypos_hidef"		"425"
-		"ypos_lodef"		"425"
 		"zpos"			"50"
-		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
+		"wide"			"350"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	"MapType" [$WIN32]
+	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
@@ -111,18 +105,12 @@
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
 				"font"			"ScoreboardSmall"
-				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
-				"xpos_hidef"			"c-210"
-				"xpos_lodef"			"c-210"
 				"ypos"			"212"
-				"ypos_hidef"			"49"
-				"ypos_lodef"			"49"
 				"zpos"			"5"
-				"wide"			"150" [!$X360]
-				"wide"			"170" [$X360]
+				"wide"			"150"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -134,15 +122,10 @@
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
 				"font"			"ScoreboardSmall"
-				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
-				"xpos_hidef"			"c-35"
-				"xpos_lodef"			"c-35"
 				"ypos"			"212"
-				"ypos_hidef"			"49"
-				"ypos_lodef"			"49"
 				"zpos"			"5"
 				"wide"			"150"
 				"tall"			"20"
@@ -159,20 +142,14 @@
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
-				"xpos_hidef"			"c+110"
 				"ypos"			"200"
-				"ypos_hidef"			"150"
 				"zpos"			"5"
 				"wide"			"200"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
-				"visible_hidef"		"0"
-				"visible_lodef"		"0"
 				"enabled"		"1"
-				"enabled_hidef"		"0"
-				"enabled_lodef"		"0"
 			}				
 		}
 		"InteractiveHeaders"	
@@ -2067,62 +2044,7 @@
 			"enabled"		"1"
 		}
 	}
-	"TipImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TipImage"
-		"xpos"			"9999"
-		"ypos"			"270"
-		"zpos"			"12"
-		"wide"			"35"
-		"tall"			"35"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-	}
-	"TipText"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"TipText"
-		"font"			"ScoreboardSmall"
-		"font_hidef"	"Default"
-		"labelText"		"%tiptext%"
-		"textAlignment"			"west"
-		"xpos"			"9999"
-		"ypos"			"263"
-		"zpos"			"12"
-		"wide"			"350"
-		"tall"			"48"
-		"tall_hidef"	"60"
-		"tall_lodef"	"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-	}
-	"NextTipButton" [$WIN32]
-	{
-		"ControlName"		"Button"
-		"fieldName"		"NextTipButton"
-		"xpos"			"9999"
-		"ypos"			"310"
-		"zpos"			"6"
-		"wide"			"90"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_NextTip"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"nexttip"
-	}
-	"ResetStatsButton" [$WIN32]
+	"ResetStatsButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2144,7 +2066,7 @@
 		"textinsetx"	"184"
 		"font"			"HudFontSmallBold"
 	}
-	"CloseButton" [$WIN32]
+	"CloseButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"CloseButton"
@@ -2172,5 +2094,35 @@
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
+	"NextTipButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"NextTipButton"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"TipText"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TipText"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"TipImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TipImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
 }

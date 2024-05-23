@@ -1,5 +1,5 @@
 #base "SourceSchemeBase.res"
-#base "scheme/colors_sourcescheme.res"
+#base "../customizations/color_theme.res"
 
 Scheme
 {
@@ -104,7 +104,7 @@ Scheme
 
 		ListPanel.TextColor					"NotoWhite"
 		ListPanel.BgColor					"SecondaryBG"
-		ListPanel.SelectedBgColor			"PrimaryBG"
+		ListPanel.SelectedBgColor			"AccentBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
@@ -115,9 +115,8 @@ Scheme
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
 		Menu.ArmedFgColor		"AccentBG"
-		Menu.ArmedBgColor				"PrimaryBG"
+		Menu.ArmedBgColor				"AccentBG"
 		Menu.DividerColor		"BorderDark"
-
 		ScrollBarButton.FgColor				"SecondaryText"
 		ScrollBarButton.BgColor				"Blank"
 		ScrollBarButton.ArmedFgColor		"SecondaryText"
@@ -136,7 +135,7 @@ Scheme
 
 		TextEntry.TextColor			"SecondaryText"
 		TextEntry.DisabledTextColor	"AccentText"
-		TextEntry.SelectedTextColor	"SecondaryBG"
+		TextEntry.SelectedTextColor	"AccentText"
 		TextEntry.SelectedBgColor	"SecondaryText"
 
 		// Borrowed from CS:S SourceScheme
@@ -158,7 +157,7 @@ Scheme
 		GraphPanel.FgColor				"NotoWhite"
 		GraphPanel.BgColor				"SecondaryBG"
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedTextColor			"AccentText"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 		Menu.TextColor					"NotoWhite"
 		Menu.ArmedTextColor				"Black"
@@ -180,14 +179,14 @@ Scheme
 		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BrightTextColor	"NotoWhite"
 		SectionedListPanel.BgColor			"SecondaryBG"
-		SectionedListPanel.SelectedTextColor			"PrimaryText"
-		SectionedListPanel.SelectedBgColor				"PrimaryBG"
+		SectionedListPanel.SelectedTextColor			"AccentText"
+		SectionedListPanel.SelectedBgColor				"AccentBG"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"240 240 240 200"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"PrimaryBGOffFocus"
 		TextEntry.BgColor			"SecondaryBG"
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.OutOfFocusSelectedBgColor	"100 100 100 128"
+		TextEntry.OutOfFocusSelectedBgColor	"AccentBG"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 		ToggleButton.SelectedTextColor	"White"
 		Tooltip.TextColor			"SecondaryText"

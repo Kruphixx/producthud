@@ -500,12 +500,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"
-				"antialias" "1"
-				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -513,10 +511,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Product Sans"
 				"tall"		"9"
-				"weight"	"400"
-				"additive"	"0"
+				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -549,12 +546,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
+				"antialias" 	"1"
 			}
 		}
 		

@@ -130,29 +130,30 @@
 		"depressedFgColor_override"					"Gray"
 	}
 	
-	"CancelButton" [$WIN32] 
+	"CancelButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"r190"
-		"xpos_hidef"			"r200"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
+		"ControlName"								"CExButton"
+		"fieldName"									"CancelButton"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5+15"
+		"zpos"										"6"
+		"wide"										"90"
+		"tall"										"25"
+		"visible"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"#PH_Cancel"
+		"textAlignment"								"center"
+		"command"									"cancelmenu"
+		"font"										"product14"
+		"sound_depressed"							"UI/buttonclick.wav"
+
+		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"TransparentBlack"
+
+		"defaultFgColor_override"					"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"teambutton2"

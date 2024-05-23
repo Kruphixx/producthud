@@ -783,26 +783,21 @@
 
 	WinPanel
 	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
+		"xpos"					"cs-0.5"
+		"ypos"					"r82"
 		"zpos"					"20"
-		"proportionaltoparent"	"1"
+		"wide"					"175"
+		"tall"					"82"
 	}
 
 	ArenaWinPanel
 	{
 		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"cs-0.5"
+		"ypos"					"r68"
+		"zpos"					"20"
+		"wide"					"400"
+		"tall"					"70"
 	}
 	
 	PVEWinPanel
@@ -1008,7 +1003,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-15"
-		"ypos"					"442"
+		"ypos"					"r34"
 		"wide"					"30"
 		"tall"					"30"
 		"zpos"					"99"

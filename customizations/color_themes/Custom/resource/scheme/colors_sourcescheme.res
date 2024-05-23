@@ -18,7 +18,7 @@ Scheme
 		"AchievementsLightGrey"								"100 69 92 150"		// Keep this the same color as PrimaryBG but with the last value 150
 		"AchievementsInactiveFG"							"100 69 92 150"		// Keep this the same color as PrimaryBG but with the last value 150
 
-	    "TFOrangeBright"									"100 69 92 255" 		// No idea what this is for. Keep it the same color as PrimaryBG, just in case.
+	    "TFOrangeBright"									"100 69 92 255" 		// No idea what this is for, keep it the same color as PrimaryBG, just in case
 
 		///////////////////////////////////////////////////
 		//

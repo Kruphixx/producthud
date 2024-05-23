@@ -1310,10 +1310,10 @@
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"0"
+			"xpos"			"8"
 			"ypos"			"38"
 			"wide"			"250"
-			"tall"			"105"
+			"tall"			"135"
 			"PaintBackgroundType"	"2"
 			"fgcolor"		"PrimaryText"
 			"bgcolor_override"	"0 0 0 0"
@@ -1361,8 +1361,8 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"300"
-				"tall"			"125"
+				"wide"			"195"
+				"tall"			"145"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 			
@@ -1375,15 +1375,14 @@
 					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"200"
-					"tall"			"125"
+					"wide"			"195"
+					"tall"			"145"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"fgcolor"		"PrimaryText"
 					"wrap"			"1"
-					"textinsetx"	"16"
 				}
 			}
 		}
@@ -1412,17 +1411,8 @@
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"		"2"
-			
-			"defaultFgColor_override" "SecondaryText"
-			"armedFgColor_override" "AccentText"
-			"depressedFgColor_override" "SecondaryText"
-			
-			"defaultBgColor_override" "SecondaryBG"
-			"armedBgColor_override" "AccentBG"
-			"depressedBgColor_override" "SecondaryBG"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"	"SecondaryBG"
 		}	
 		
 		"MOTD_PrevButton"

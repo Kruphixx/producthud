@@ -15,7 +15,6 @@ Scheme
 		"PrimaryText"										"240 240 240 255"
 		"SecondaryText"										"240 240 240 255"
 		"AccentText"										"24 24 24 255"			// Color of text on hovered over buttons
-		"DarkPrimaryText"									"240 240 240 255"
 
 		///////////////////////////////////////////////////
 		//

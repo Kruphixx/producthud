@@ -216,14 +216,30 @@
 
 		"defaultBgColor_override"					"TransparentBlack"
 	}
-	"RandomShortKey"
+	"CancelButton"
 	{
 		"ControlName"								"CExButton"
-		"fieldName"									"RandomShortKey"
-		"xpos"										"9999"
-		"labelText"									"&1"
-		"Command"									"jointeam auto"
-		"visible"									"1"
+		"fieldName"									"CancelButton"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5+44"
+		"zpos"										"6"
+		"wide"										"90"
+		"tall"										"25"
+		"visible"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"#PH_Cancel"
+		"textAlignment"								"center"
+		"command"									"cancelmenu"
+		"font"										"product14"
+		"sound_depressed"							"UI/buttonclick.wav"
+
+		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"TransparentBlack"
+
+		"defaultFgColor_override"					"White"
+		"depressedFgColor_override"					"White"
 	}
 	"SpectateButton"
 	{
@@ -268,5 +284,4 @@
 	"teambutton2"{"ControlName"	"CTFTeamButton" "fieldname"	"teambutton2" "xpos" "9999" "visible 0"	"enabled 0"}
 	"teambutton3"{"ControlName"	"CTFTeamButton" "fieldname"	"teambutton3" "xpos" "9999" "visible 0"	"enabled 0"}
 	"TeamMenuSpectate"{"ControlName" "CExLabel" "fieldname" "TeamMenuSpectate" "xpos" "9999" "visible 0" "enabled 0"}
-	"CancelButton"{"ControlName" "CExButton" "fieldname" "CancelButton" "xpos" "9999" "visible 0" "enabled 0"}
 }

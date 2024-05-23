@@ -613,7 +613,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"PH_Border_BlueTF"
 		}
 		"BlueTeamImage"
 		{
@@ -751,7 +751,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"PH_Border_RedTF"
 		}
 		"RedTeamImage"
 		{
