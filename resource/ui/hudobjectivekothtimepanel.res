@@ -12,7 +12,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"-2"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -45,10 +45,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"product15"
 			"fgcolor"		"White"
-			"xpos"			"23"
-			"ypos"			"11"
+			"xpos"			"33"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
@@ -62,7 +62,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"15"
-				"ypos"			"12"
+				"ypos"			"9"
 				"tall"			"10"
 				"wide"			"35"
 				"font"			"HudFontSmall"
@@ -71,11 +71,33 @@
 		}	
 	}
 
+	"BlueTeamBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BlueTeamBG"
+		"xpos"			"-16"
+		"ypos"			"-19"
+		"zpos"			"10"
+		"wide"			"42"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintBackground"	"1"
+		"bgcolor_override"	"BlueTF"
+		"pin_to_sibling"	"BlueTimer"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+
+		if_match
+		{
+			"visible"		"0"
+		}
+	}
+
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"92"
+		"xpos"				"96"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -108,10 +130,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"product15"
 			"fgcolor"		"White"
-			"xpos"			"23"
-			"ypos"			"11"
+			"xpos"			"33"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
@@ -125,7 +147,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"rs1-15"
-				"ypos"			"12"
+				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"10"
 				"font"			"HudFontSmall"
@@ -134,78 +156,41 @@
 		}	
 	}
 
-	"BlueTimerBG"
+	"RedTeamBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"BlueTimerBG"
-		"xpos"			"-20"
-		"ypos"			"-11"
-		"zpos"			"-1"
-		"wide"			"50"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RedTeamBG"
+		"xpos"			"-16"
+		"ypos"			"-19"
+		"zpos"			"10"
+		"wide"			"42"
+		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\backgrounds\panel_blue"
-		"scaleImage"	"1"	
-		"alpha"			"200"
-			
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"
-		
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-		"pin_to_sibling"		"BlueTimer"
+		"paintBackground"	"1"
+		"bgcolor_override"	"RedTF"
+		"pin_to_sibling"	"RedTimer"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 
 		if_match
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
-	"RedTimerBG"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"RedTimerBG"
-		"xpos"			"-20"
-		"ypos"			"-11"
-		"zpos"			"-1"
-		"wide"			"50"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\backgrounds\panel_red"
-		"scaleImage"	"1"	
-		"alpha"			"200"
-			
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"
-		
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-		"pin_to_sibling"		"RedTimer"
-
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"9"
+		"ypos"				"-6"
 		"zpos"				"1"
-		"wide"				"54"
-		"tall"				"33"
+		"wide"				"42"
+		"tall"				"25"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"paintBackground"	"1"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
 	}
 }

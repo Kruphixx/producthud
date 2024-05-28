@@ -142,10 +142,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"235 226 202 2"
+		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"	"94 150 49 20"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"QuickplayBorder"
 	}
 

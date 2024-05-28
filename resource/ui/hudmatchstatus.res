@@ -284,6 +284,7 @@
 		if_match
 		{
 			"xpos"					"cs-0.5"
+			"ypos"					"3"
 			"wide"					"130"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
@@ -303,10 +304,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"product15"
 			"fgcolor"		"White"
 			"xpos"			"cs-0.5"
-			"ypos"			"10"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
@@ -318,7 +319,7 @@
 
 			if_match
 			{
-				"ypos"			"12"
+				"ypos"			"6"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 			}

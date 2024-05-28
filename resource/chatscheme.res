@@ -294,26 +294,26 @@ Scheme
 				"name"			"Product Sans"
 				"tall"			"18"
 				"yres"			"768 1023"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"17"
-				"weight"		"700"
+				"name"			"Product Sans"
+				"tall"			"22"
 				"yres"			"1024 1199"
 				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"22"
-				"weight"		"700"
+				"name"			"Product Sans"
+				"tall"			"26"
 				"yres"			"1200 10000"
 				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 		}
 
