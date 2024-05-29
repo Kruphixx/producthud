@@ -2707,7 +2707,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"use_proportional_insets" "1"
-			"font"			"Symbols_18"
+			"font"			"Symbols_18"	[$WINDOWS]
+			"font"			"Symbols_14"    [$LINUX]
 			"textAlignment"	"center"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2755,7 +2756,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"use_proportional_insets" "1"
-			"font"			"Symbols_18"
+			"font"			"Symbols_18"	[$WINDOWS]
+			"font"			"Symbols_14"    [$LINUX]
 			"textAlignment"	"center"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"

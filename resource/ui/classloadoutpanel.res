@@ -726,7 +726,8 @@
 		"enabled"									"1"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols_20"
+		"font"										"Symbols_20"	[$WINDOWS]
+		"font"										"Symbols_16"	[$LINUX]
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1; r_skin 1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -752,7 +753,8 @@
 		"enabled"									"1"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols_20"
+		"font"										"Symbols_20"	[$WINDOWS]
+		"font"										"Symbols_16"	[$LINUX]
 		"scaleImage"								"1"
 		"command"									"sv_cheats 1; r_skin 0"
 		"sound_depressed"							"UI/buttonclick.wav"

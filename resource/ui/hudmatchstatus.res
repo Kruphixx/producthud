@@ -319,7 +319,7 @@
 
 			if_match
 			{
-				"ypos"			"6"
+				"ypos"			"7"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 			}

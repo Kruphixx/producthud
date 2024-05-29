@@ -301,7 +301,8 @@ Scheme
 			"4"
 			{
 				"name"			"Product Sans"
-				"tall"			"22"
+				"tall"			"21"	[$WINDOWS]
+				"tall"			"23"	[$LINUX]
 				"yres"			"1024 1199"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -310,7 +311,8 @@ Scheme
 			"5"
 			{
 				"name"			"Product Sans"
-				"tall"			"26"
+				"tall"			"23"	[$WINDOWS]
+				"tall"			"24"	[$LINUX]
 				"yres"			"1200 10000"
 				"dropshadow"	"1"
 				"antialias"		"1"

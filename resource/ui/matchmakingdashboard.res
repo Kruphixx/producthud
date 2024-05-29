@@ -79,7 +79,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Symbols_22"
+			"font"			"Symbols_22"	[$WINDOWS]
+			"font"			"Symbols_20"	[$LINUX]
 			"textAlignment"	"center"
 			"textinsety"	"4"
 			"dulltext"		"0"
@@ -553,9 +554,11 @@
 			"tall"			"f6"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"Symbols_22"
+			"font"			"Symbols_22"	[$WINDOWS]
+			"font"			"Symbols_20"	[$LINUX]
 			"textAlignment"	"west"
-			"textinsetx"	"15"
+			"textinsetx"	"15"	[$WINDOWS]
+			"textinsetx"	"13"	[$LINUX]
 			"textinsety"	"5"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -597,9 +600,11 @@
 			"tall"			"f6"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"Symbols_22"
+			"font"			"Symbols_22"	[$WINDOWS]
+			"font"			"Symbols_20"	[$LINUX]
 			"textAlignment"	"west"
-			"textinsetx"	"8"
+			"textinsetx"	"8"	[$WINDOWS]
+			"textinsetx"	"6"	[$LINUX]
 			"textinsety"	"5"
 			"textAlignment"	"west"
 			"dulltext"		"0"
