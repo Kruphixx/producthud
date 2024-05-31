@@ -28,8 +28,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"product40"
-		"font_minmode"	"product32"
+		"font"			"Size_40"
+		"font_minmode"	"Size_32"
 		"fgcolor"		"HealthTF"
 		"bgcolor_override"	"0 0 0 0"
 	}		
@@ -46,12 +46,13 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"product40blur"
-		"font_minmode"	"product32blur"
+		"font"			"Size_40_Blur"
+		"font_minmode"	"Size_32_Blur"
 		"fgcolor"		"HealthBlurTF"
 		"bgcolor_override"	"0 0 0 0"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
-	}	
+
+	}
 	"PlayerStatusAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -700,5 +701,6 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
+		"enabled"		"0"
 	}
 }

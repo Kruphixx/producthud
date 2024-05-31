@@ -2,6 +2,162 @@ Scheme
 {
 	Fonts
 	{
+		///   ALTERNATIVE FONTS   ///
+
+		"Size_12"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_12_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
+		"Size_14"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_14_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
+		"Size_16"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"16"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+
+		"Size_18"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_18_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
+		"Size_20"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_20_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
+		"Size_24"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"24"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+
+		"Size_32"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"30"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_32_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"30"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
+		"Size_40"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"40"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"Size_40_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"40"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
 		"MarlettSmall"
 		{
 			"1"
@@ -4277,1309 +4433,6 @@ Scheme
 		}
 		
 		//
-		//////////////////// PRODUCT SANS UBER //////////////////////////////
-		//
-		
-		"productuber1"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber1blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber2"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber2blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber3"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber3blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber4"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber4blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber5"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber5blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber6"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber6blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber7"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber7blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber8"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber8blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber9"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber9blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber10"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber10blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber11"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"11"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber11blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"11"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber12"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber12blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber13"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"13"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber13blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"13"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber14"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber14blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber15"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"15"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber15blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"15"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber16"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber16blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber17"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber17blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber18"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber18blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber19"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"19"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber19blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"19"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber20"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber20blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber21"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"21"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber21blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"21"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber22"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber22blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber23"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"23"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber23blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"23"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber24"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber24blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber25"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"25"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber25blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"25"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber26"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber26blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber27"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"27"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber27blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"27"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber28"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber28blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber29"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"29"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber29blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"29"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber30"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber30blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber31"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"31"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber31blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"31"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber32"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber32blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber33"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"33"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber33blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"33"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber34"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber34blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber35"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"35"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber35blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"35"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber36"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber36blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber37"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"37"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber37blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"37"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber38"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber38blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber39"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"39"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber39blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"39"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber40"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber40blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber41"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"41"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber41blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"41"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber42"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber42blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber43"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"43"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber43blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"43"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber44"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber44blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber45"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"45"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber45blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"45"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber46"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber46blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber47"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"47"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber47blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"47"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber48"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber48blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber49"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"49"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber49blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"49"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber50"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber50blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber51"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"51"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber51blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"51"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber52"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"52"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber52blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"52"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber53"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"53"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber53blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"53"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber54"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"54"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber54blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"54"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber55"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber55blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber56"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"productuber56blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"productuber57"
-		{
-			"1"
-			{
-				"name"		"Product Sans Uber"
-				"tall"		"57"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		//
 		//////////////////// Product Sans Upper //////////////////////////////
 		//
 		
@@ -7262,498 +6115,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-		"mod8"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod9"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod10"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod12"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod14"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod16"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod17"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod18"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod20"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod22"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod24"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod26"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod28"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod30"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod32"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod34"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod36"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod38"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod40"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod42"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod44"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod46"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod48"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod50"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"mod52"
-		{
-			"1"
-			{
-				"name"		"ModernPictograms"
-				"tall"		"52"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Entypo8"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo9"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo10"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo12"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo14"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo16"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo17"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo18"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo20"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo22"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo24"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo26"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo28"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo30"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo32"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo34"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo36"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo38"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo40"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo42"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo44"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo46"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo48"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"Entypo50"
-		{
-			"1"
-			{
-				"name"		"Entypo"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
 	}
 
 	BitmapFontFiles
@@ -7832,39 +6193,25 @@ Scheme
 		"7" "resource/ocra.ttf"
 		"8"
 		{
-			"font" "resource/fonts/ProductSans-Regular.ttf"
+			"font" "resource/fonts/productsans.ttf"	[$WINDOWS]
+			"font" "resource/fonts/productsans_linux.ttf"	[$LINUX]
 			"name" "Product Sans"
+		}
+		"9"
+		{
+			"font" "resource/fonts/productsans_upper.ttf"	[$WINDOWS]
+			"font" "resource/fonts/productsans_upper_linux.ttf"	[$LINUX]
+			"name" "Product Sans Upper"
 		}
 		"10"
 		{
-			"font" "resource/fonts/ProductSans-Uber.ttf"
-			"name" "Product Sans Uber"
-		}
-		"11"
-		{
-			"font" "resource/fonts/Entypo.otf"
-			"name" "Entypo"
-		}
-		"12"
-		{
-			"font" "resource/fonts/modernpics.otf"
-			"name" "ModernPictograms"
-		}
-		"13" 
-		{
-			"font" "resource/fonts/AdobeBlank.ttf"
-			"name" "Adobe Blank"
-		}
-		"14"
-		{
-		
 			"font" "resource/fonts/Sosa-Regular.ttf"
 			"name" "Sosa Regular"
 		}
-		"17"
+		"11"
 		{
-			"font" "resource/fonts/ProductSans-Upper.ttf"
-			"name" "Product Sans Upper"
+			"font" "resource/fonts/AdobeBlank.ttf"
+			"name" "Adobe Blank"
 		}
 	}
 }

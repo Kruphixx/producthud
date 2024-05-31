@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"product18"
-		"fgcolor"		"CreditsGreen"
+		"fgcolor"		"PlayerCurrency"
 		"xpos"			"r55"
 		"ypos"			"r55"
 		"zpos"			"3"

@@ -67,7 +67,7 @@
 		if_match
 		{
 			"xpos"		"16"
-			"ypos"		"24"
+			"ypos"		"22"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -101,7 +101,7 @@
 		if_match
 		{
 			"xpos"		"16"
-			"ypos"		"24"
+			"ypos"		"22"
 		}
 	}			
 	"OvertimeBG"
@@ -135,7 +135,7 @@
 		if_match
 		{
 			"xpos"		"16"
-			"ypos"		"24"
+			"ypos"		"22"
 		}
 	}			
 	"SuddenDeathBG"
@@ -169,7 +169,7 @@
 		if_match
 		{
 			"xpos"		"16"
-			"ypos"		"24"
+			"ypos"		"22"
 		}
 	}	
 	"SetupBG"

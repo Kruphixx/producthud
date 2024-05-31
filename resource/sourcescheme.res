@@ -2219,7 +2219,8 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/ProductSans-Regular.ttf"
+			"font" "resource/fonts/productsans.ttf"	[$WINDOWS]
+			"font" "resource/fonts/productsans_linux.ttf"	[$LINUX]
 			"name" "Product Sans"
 		}	
 	}

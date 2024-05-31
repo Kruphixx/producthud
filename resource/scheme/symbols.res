@@ -223,7 +223,8 @@
 	{
 		"30"
 		{
-			"font"	"resource/fonts/hypnotize_icons.ttf"
+			"font"	"resource/fonts/hypnotize_icons.ttf"	[$WINDOWS]
+			"font"	"resource/fonts/hypnotize_icons_linux.ttf"	[$LINUX]
 			"name"	"Hypnotize Icons V8"
 		}
 		"31"

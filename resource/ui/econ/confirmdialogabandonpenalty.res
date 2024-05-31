@@ -32,36 +32,22 @@
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
-	"AbandonIcon"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AbandonIcon"
-		"xpos"		"10"
-		"ypos"		"52"
-		"wide"		"40"
-		"tall"		"40"
-		"image"			"pve/mvm_timeout_active_large"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"EconFontSmall"
 		"labelText"		"%text%"
-		"textAlignment"	"north-west"
-		"xpos"			"60"
+		"textAlignment"	"center"
+		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"220"
@@ -97,12 +83,8 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"border_default"			"ButtonBorder"
+		"border_armed"				"ButtonBorder"
 	}		
 
 	"ConfirmButton"
@@ -129,11 +111,18 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}			
+		"border_default"			"ButtonBorder"
+		"border_armed"				"ButtonBorder"
+	}
+
+	"AbandonIcon"
+	{
+		"ControlName"   "ImagePanel"
+		"fieldName"     "AbandonIcon"
+		"xpos"          "9999"
+		"wide"          "0"
+		"tall"          "0"
+		"visible"       "0"
+		"enabled"       "0"
+	}		
 }

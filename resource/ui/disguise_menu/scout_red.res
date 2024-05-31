@@ -48,8 +48,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 	}
 
 	"ClassIcon"	
@@ -73,9 +71,17 @@
 	"NewNumberLabel"
 	{	
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"xpos"										"9999"
+		"fieldName"									"NewNumberLabel"
+		"font"										"product14"
+		"fgcolor"									"White"
+		"xpos"										"11"
+		"ypos"										"45"
+		"zpos"										"0"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
-		"enabled"									"0"
+		"enabled"									"1"
+		"labelText"									"1"
+		"textAlignment"								"Center"
 	}
 }

@@ -141,8 +141,8 @@ event HudMedicChargedStop
 
 event PvPRankLevelUpXPBar
 {
-	Animate ContinuousProgressBar 	BgColor 		White 					Linear 	0.0 0.1
-	Animate ContinuousProgressBar 	BgColor 		ProgressBackground 		Linear 	0.1 0.3
+	Animate ContinuousProgressBar 	FgColor 		"White" 		Linear 	0.0 0.1
+	Animate ContinuousProgressBar 	FgColor 		"AccentBG" 		Linear 	0.1 0.3
 }
 
 //==================================================================================

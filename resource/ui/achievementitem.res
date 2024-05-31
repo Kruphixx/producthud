@@ -1,6 +1,3 @@
-//------------------------------------
-// Achievement Item
-//------------------------------------
 "AchievementItem.res"
 {	
 	"AchievementDialogItemPanel"

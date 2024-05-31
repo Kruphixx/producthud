@@ -67,7 +67,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"product18"
-		"fgcolor"		"RedTF"
+		"fgcolor"		"WorldCurrency"
 		"xpos"			"15"
 		"ypos"			"1"
 		"zpos"			"5"

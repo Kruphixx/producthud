@@ -786,7 +786,7 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"r80"
 		"zpos"					"20"
-		"wide"					"175"
+		"wide"					"176"
 		"tall"					"82"
 	}
 

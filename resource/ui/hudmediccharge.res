@@ -35,7 +35,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"product14"
+		"font"			"Size_14"
 		"fgcolor_override"	"White"
 	}
 
@@ -57,7 +57,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"product14"
+		"font"			"Size_14"
 		"fgcolor_override"	"White"
 	}
 	

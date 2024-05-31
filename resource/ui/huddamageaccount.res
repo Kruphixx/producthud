@@ -9,8 +9,8 @@
 		"PositiveColor"				"Healing"
 		"NegativeColor"				""
 		"delta_lifetime"			"1.5"
-		"delta_item_font"			"product20"
-		"delta_item_font_big"		"product24"
+		"delta_item_font"			"Size_20"
+		"delta_item_font_big"		"Size_24"
 	}
 	"DamageAccountValue"
 	{
@@ -26,7 +26,7 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"fgcolor"			"Damage"
-		"font"				"product20"
+		"font"				"Size_20"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -42,7 +42,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"Black"
-		"font"					"product20blur"
+		"font"					"Size_20_Blur"
 		"pin_to_sibling"		"DamageAccountValue"
 	}
 }

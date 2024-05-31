@@ -292,7 +292,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel1"
-		"font"				"product16"
+		"font"				"product14"
 		"fgcolor"			"White"
 		"xpos"				"80"
 		"ypos"				"110"
@@ -320,7 +320,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel2"
-		"font"				"product16"
+		"font"				"product14"
 		"fgcolor"			"White"
 		"xpos"				"227"
 		"ypos"				"110"
@@ -348,7 +348,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel3"
-		"font"				"product16"
+		"font"				"product14"
 		"fgcolor"			"White"
 		"xpos"				"376"
 		"ypos"				"110"

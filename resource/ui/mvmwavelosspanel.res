@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 200"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	"PanelBackground"
@@ -24,36 +24,37 @@
 		"visible"		"1"
 		
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-	}
-	
-	"WaveFailHeaderShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WaveFailHeaderShadow"
-		"font"			"HudFontMediumBold"
-		"labelText"		"%waveheader%"
-		"textAlignment" "center"
-		"xpos"			"c-274"
-		"ypos"			"106"
-		"wide"			"550"
-		"tall"			"30"
-		"fgcolor"		"Black"
+		"paintbackground"	"1"
+		"bgcolor_override"	"TransparentBlack"
 	}
 	
 	"WaveFailHeader"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HeaderLabel"
-		"font"			"HudFontMediumBold"
+		"fieldName"		"WaveFailHeader"
+		"font"			"product24"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"
 		"ypos"			"105"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Orange"
+		"fgcolor"		"White"
+	}
+
+	"WaveFailHeaderShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveFailHeaderShadow"
+		"font"			"product24blur"
+		"labelText"		"%waveheader%"
+		"textAlignment" "center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"550"
+		"tall"			"30"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"WaveFailHeader"
 	}
 	
 	"HeaderDivider"
@@ -65,7 +66,7 @@
 		"wide"			"500"
 		"tall"			"2"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 100"
+		"bgcolor_override"		"TransparentBlack"
 	}
 	
 	"SummaryHeader"
@@ -128,7 +129,7 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"30"
-			"fgcolor"		"CreditsGreen"
+			"fgcolor"		"PlayerCurrency"
 		}
 		
 		"MissedLabel"
@@ -154,7 +155,7 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"30"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"WorldCurrency"
 		}
 		
 		"BonusLabel"
@@ -180,7 +181,7 @@
 			"xpos"			"120"
 			"ypos"			"55"
 			"wide"			"30"
-			"fgcolor"		"CreditsGreen"
+			"fgcolor"		"PlayerCurrency"
 		}
 	}
 	
@@ -334,7 +335,7 @@
 			"xpos"			"120"
 			"ypos"			"55"
 			"wide"			"35"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"WorldCurrency"
 		}
 		
 		"InactiveCountTeam"
@@ -347,7 +348,7 @@
 			"xpos"			"175"
 			"ypos"			"55"
 			"wide"			"35"
-			"fgcolor"		"RedSolid"
+			"fgcolor"		"WorldCurrency"
 		}
 	}
 	
@@ -363,7 +364,7 @@
 		
 		"Background"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -373,13 +374,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_black"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"2"
+			"bgcolor_override"	"TransparentBlack"
 		}
 		
 		"Header"

@@ -2,19 +2,16 @@
 {
 	"WinPanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"0"
 		"ypos"			"50"
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"90"
-		"scaleimage"	"1"
-		"image"					"replay/thumbnails/boxtest2"
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
+		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"WaveCompleteContainer"
@@ -32,10 +29,10 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
-			"fgcolor"		"black"
-			"xpos"			"3"
-			"ypos"			"3"
+			"font"			"product18blur"
+			"fgcolor"		"Black"
+			"xpos"			"2"
+			"ypos"			"2"
 			"wide"			"295"
 			"tall"			"26"
 			"autoResize"		"0"
@@ -49,7 +46,7 @@
 			
 			// blue Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"Black"		
 			"bgcolor_override"	"BlueTF"
 		}
 		
@@ -57,7 +54,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"product18"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
@@ -156,7 +153,7 @@
 			"ypos"			"3"
 			"wide"			"160"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 		
 		"RespecCountLabel"
@@ -170,7 +167,7 @@
 			"ypos"			"3"
 			"wide"			"30"
 			"tall"			"20"
-			"fgcolor"		"CreditsGreen"
+			"fgcolor"		"PlayerCurrency"
 		}
 	}
 }

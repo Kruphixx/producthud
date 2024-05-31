@@ -1,6 +1,3 @@
-//------------------------------------
-// Achievements Dialog
-//------------------------------------
 "AchievementsDialog.res"
 {	
 	"AchievementsDialog"
@@ -122,7 +119,7 @@
 		"wrap"		"0"
 		"fillcolor"	"PrimaryText"
 		"fgcolor_override"	"PrimaryText"
-		"font"		"product22"	//"defaultlarg"
+		"font"		"product22"
 	}
 	
 	"achievement_pack_combo"
@@ -174,7 +171,7 @@
 		"wrap"		"0"
 		"fillcolor"	"255 255 255 255"
 		"fgcolor_override"	"PrimaryText"
-		"font"		"product22"	//"defaultlarg"
+		"font"		"product22"
 	}
 	
 	"HideAchieved"

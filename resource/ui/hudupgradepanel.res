@@ -559,7 +559,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"121 195 58 255"
+			"fgcolor"		"PlayerCurrency"
 		}
 		
 		"CreditsTextLabel"
@@ -634,7 +634,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"RespecButton"
-			"xpos"			"50"
+			"xpos"			"10"
 			"ypos"			"285"
 			"zpos"			"1"
 			"wide"			"120"

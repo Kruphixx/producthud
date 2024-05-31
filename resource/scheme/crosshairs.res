@@ -408,7 +408,8 @@
 	{
 		"100"
 		{
-			"font"	"resource/fonts/TF2Crosshairs.ttf"
+			"font"	"resource/fonts/tf2crosshairs.ttf"	[$WINDOWS]
+			"font"	"resource/fonts/tf2crosshairs_linux.ttf"	[$LINUX]
 			"name"	"TF2Crosshairs"
 		}
 	}

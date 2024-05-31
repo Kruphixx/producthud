@@ -11,4 +11,9 @@
 	{
 		"labelText"		"8"
 	}
+
+	"NewNumberLabel"
+	{
+		"labelText"		"2"
+	}
 }

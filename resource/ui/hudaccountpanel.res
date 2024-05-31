@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"product16"
+		"delta_item_font"		"Size_16"
 	}
 	
 	"MetalIcon"	
@@ -38,8 +38,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"product18"
-		"font_minmode"	"product14"
+		"font"			"Size_18"
+		"font_minmode"	"Size_14"
 		"fgcolor"		"White"
 		"fgcolor_override"	"White"
 	}
@@ -62,8 +62,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"product18blur"
-		"font_minmode"	"product14blur"
+		"font"			"Size_18_Blur"
+		"font_minmode"	"Size_14_Blur"
 		"fgcolor"		"Black"
 		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"AccountValue"

@@ -785,7 +785,8 @@ Scheme
 		"2"	"resource/HL2EP2.ttf"	
 		"3"
 		{
-			"font" "resource/fonts/ProductSans-Regular.ttf"
+			"font" "resource/fonts/productsans.ttf"	[$WINDOWS]
+			"font" "resource/fonts/productsans_linux.ttf"	[$LINUX]
 			"name" "Product Sans"
 		}		
 	}

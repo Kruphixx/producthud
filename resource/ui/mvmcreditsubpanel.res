@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 		
 	"TableBackground"
@@ -48,7 +48,7 @@
 		"ypos"			"15"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"CreditsGreen"
+		"fgcolor"		"PlayerCurrency"
 	}
 	
 	"CreditMissedTextLabel"
@@ -76,7 +76,7 @@
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"RedTF"
+		"fgcolor"		"WorldCurrency"
 	}
 	
 	"CreditBonusTextLabel"
@@ -104,7 +104,7 @@
 		"ypos"			"39"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"CreditsGreen"
+		"fgcolor"		"PlayerCurrency"
 	}
 		
 	"CreditRatingLabelShadow"
