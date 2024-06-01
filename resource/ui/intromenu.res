@@ -30,28 +30,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 	}
-
-	"PH_Continue"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PH_Continue"
-		"xpos"			"c3"
-		"ypos"			"c111"
-		"zpos"			"1"
-		"wide"			"185"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#PH_Continue"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-	}
 	
 	"PH_Back"
 	{
@@ -78,10 +56,10 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"PH_Skip"
-		"xpos"			"cs-0.5"
-		"ypos"			"r99"
+		"xpos"			"c3"
+		"ypos"			"c111"
 		"zpos"			"1"
-		"wide"			"170"
+		"wide"			"185"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -91,7 +69,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"intro"
+		"command"		"skip"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 	}
