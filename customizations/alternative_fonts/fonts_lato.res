@@ -2,6 +2,14 @@ Scheme
 {
 	Fonts
 	{
+		"Size_8"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+			}
+		}
+
 		"Size_12"
 		{
 			"1"

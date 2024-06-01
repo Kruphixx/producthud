@@ -62,7 +62,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"product18"
+		"font"					"Size_18"
 	}
 
 	"ItemEffectMeterBG"

@@ -67,7 +67,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"product18"
+		"font"					"Size_18"
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"255 0 0 0"
 	}
@@ -89,7 +89,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"product18blur"
+		"font"					"Size_18_Blur"
 		"fgcolor_override"		"Black"
 		"bgcolor_override"		"255 0 0 0"
 		"pin_to_sibling"		"ItemEffectMeterCount"

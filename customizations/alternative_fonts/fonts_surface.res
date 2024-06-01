@@ -2,6 +2,14 @@ Scheme
 {
 	Fonts
 	{
+		"Size_8"
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+			}
+		}
+
 		"Size_12"
 		{
 			"1"

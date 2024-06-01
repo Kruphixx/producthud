@@ -17,6 +17,6 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"product12"
+		"font"										"Size_12"
 	}
 }

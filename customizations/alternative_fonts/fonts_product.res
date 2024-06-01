@@ -2,6 +2,14 @@ Scheme
 {
 	Fonts
 	{
+		"Size_8"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+			}
+		}
+
 		"Size_12"
 		{
 			"1"

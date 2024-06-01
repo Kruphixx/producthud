@@ -60,6 +60,6 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"fgcolor"				"White"
-		"font"					"product8"
+		"font"					"Size_8"
 	}	
 }

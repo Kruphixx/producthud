@@ -4,6 +4,17 @@ Scheme
 	{
 		///   ALTERNATIVE FONTS   ///
 
+		"Size_8"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"8"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+
 		"Size_12"
 		{
 			"1"

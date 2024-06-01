@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"product18"
+		"font"			"Size_18"
 		"fgcolor"		"PlayerCurrency"
 		"xpos"			"r55"
 		"ypos"			"r55"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"product18blur"
+		"font"			"Size_18_Blur"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"0"

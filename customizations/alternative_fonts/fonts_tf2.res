@@ -2,6 +2,14 @@ Scheme
 {
 	Fonts
 	{
+		"Size_8"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+			}
+		}
+
 		"Size_12"
 		{
 			"1"

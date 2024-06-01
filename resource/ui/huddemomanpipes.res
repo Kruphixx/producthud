@@ -90,7 +90,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"product18"
+			"font"			"Size_18"
 			"fgcolor"		"White"
 		}
 		"NumPipesLabel2"
@@ -111,7 +111,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"product18blur"
+			"font"			"Size_18_Blur"
 			"fgcolor"		"Black"
 		}
 		"Piperino"
