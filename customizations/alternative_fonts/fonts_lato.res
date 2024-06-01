@@ -6,14 +6,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_12_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -21,14 +21,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_14_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -36,7 +36,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -44,14 +44,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_18_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -59,14 +59,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_20_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -74,7 +74,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -82,14 +82,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_32_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 
@@ -97,14 +97,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 		"Size_40_Blur"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
+				"name"		"Lato Semibold"
 			}
 		}
 	}
@@ -113,8 +113,8 @@ Scheme
 	{
 		"8"
 		{
-			"font" "resource/fonts/alternative_fonts/lato.ttf"
-			"name" "Lato Regular"
+			"font" "resource/fonts/alternative_fonts/lato_semibold.ttf"
+			"name" "Lato Semibold"
 		}
 	}
 }
