@@ -1507,14 +1507,23 @@
 				"scaleImage"	"1"
 			}
 		}
-	}	
-	
-	
-	//Training Button
+	}
+
 	"TrainingButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"TrainingButton"
+		"fieldName"		"TrainingButton"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"ComfigQuickplayButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ComfigQuickplayButton"
 		"xpos"			"50"
 		"ypos"			"175"
 		"zpos"			"11"
@@ -1522,6 +1531,23 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
+
+		"ComfigQuickplayLink"
+    	{
+        	"controlName"		"URLLabel"
+        	"fieldname"			"ComfigQuickplayLink"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"12"
+			"wide"				"175"
+			"tall"				"25"
+        	"visible"			"1"
+        	"enabled"			"1"
+        	"font"				"HudFontSmallBold"
+        	"textAlignment"		"center"
+        	"urltext"			"https://comfig.app/quickplay/"
+        	"labeltext"			"Quickplay"
+    	}
 
 		"SubButton"
 		{
@@ -1537,6 +1563,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"25"
+			"labeltext"		""
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
@@ -1565,6 +1592,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
+				"image"			"replay/thumbnails/comfig_logo"
 				"scaleImage"	"1"
 			}		
 		}

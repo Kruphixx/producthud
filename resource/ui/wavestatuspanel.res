@@ -12,8 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"					"replay/thumbnails/backgrounds/panel_neutral"
-
+		"image"					"replay/thumbnails/panels/panel_neutral"
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -100,7 +99,7 @@
 		"tall_minmode"	"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/background_blue"
+		"image"			"replay/thumbnails/panels/panel_blue2"
 		
 		"src_corner_height"	"60"				// pixels inside the image
 		"src_corner_width"	"60"

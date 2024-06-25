@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\backgrounds\panel_blue"
+		"image"			"replay\thumbnails\panels\panel_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay\thumbnails\backgrounds\panel_red"
-		"teambg_3"		"replay\thumbnails\backgrounds\panel_blue"
+		"teambg_2"		"replay\thumbnails\panels\panel_red"
+		"teambg_3"		"replay\thumbnails\panels\panel_blue"
 		"alpha"			"200"
 			
 		"src_corner_height"		"40"			// pixels inside the image

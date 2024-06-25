@@ -219,7 +219,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/backgrounds/panel_red"
+			"image"			"replay/thumbnails/panels/panel_red"
 
 			"src_corner_height"	"40"				// pixels inside the image
 			"src_corner_width"	"40"

@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
         "$translucent" "1"
-        "$baseTexture" "vgui\replay\thumbnails\background_red"
+        "$baseTexture" "vgui\replay\thumbnails\panels\boxtest3"
         "$alpha" "1"
         "$vertexalpha" "1"     
         "$vertexcolor" "1"
@@ -9,3 +9,6 @@
         "$ignorez" "1"
         "%keywords" "tf"
 }
+
+
+

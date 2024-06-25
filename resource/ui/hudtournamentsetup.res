@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/boxtest2"
+		"image"			"replay/thumbnails/panels/box_border_dark"
 		"alpha"			"200"
 
 		"src_corner_height"	"40"				// pixels inside the image

@@ -309,7 +309,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_neutral"
+			"image"					"replay/thumbnails/panels/panel_neutral"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -320,7 +320,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_neutral_more_opaque"
+			"image"					"replay/thumbnails/panels/panel_neutral_more_opaque"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -331,7 +331,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_red"
+			"image"					"replay/thumbnails/panels/panel_red"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -342,7 +342,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_red"
+			"image"					"replay/thumbnails/panels/panel_red"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -353,7 +353,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_red"
+			"image"					"replay/thumbnails/panels/panel_red"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -364,7 +364,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_neutral_more_opaque"
+			"image"					"replay/thumbnails/panels/panel_neutral_more_opaque"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -375,7 +375,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_red"
+			"image"					"replay/thumbnails/panels/panel_red"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -386,7 +386,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_blue"
+			"image"					"replay/thumbnails/panels/panel_blue"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -398,7 +398,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_blue"
+			"image"					"replay/thumbnails/panels/panel_blue"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -409,7 +409,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_blue"
+			"image"					"replay/thumbnails/panels/panel_blue"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -431,7 +431,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/background_red"
+			"image"					"replay/thumbnails/panels/panel_red2"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -442,7 +442,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/background_blue"
+			"image"					"replay/thumbnails/panels/panel_blue2"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -453,7 +453,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_neutral_more_opaque"
+			"image"					"replay/thumbnails/panels/panel_neutral_more_opaque"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -497,7 +497,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/box9"
+			"image"					"replay/thumbnails/panels/box_primarybg_default"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -508,7 +508,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1012,7 +1012,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SecondaryBG"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1025,7 +1025,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SecondaryBG"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1039,7 +1039,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorUnique"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1051,7 +1051,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorUnique"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1063,7 +1063,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorUnique_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1075,7 +1075,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorUnique_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1089,7 +1089,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1101,7 +1101,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1113,7 +1113,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity1_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1125,7 +1125,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity1_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1139,7 +1139,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1151,7 +1151,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1163,7 +1163,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity2_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1175,7 +1175,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity2_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1189,7 +1189,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1201,7 +1201,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1213,7 +1213,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity3_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1225,7 +1225,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity3_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1239,7 +1239,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity4"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1251,7 +1251,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity4"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1263,7 +1263,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity4_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1275,7 +1275,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorrarity4_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1289,7 +1289,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1301,7 +1301,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1313,7 +1313,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorHaunted_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1325,7 +1325,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorHaunted_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1339,7 +1339,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1351,7 +1351,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1363,7 +1363,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1375,7 +1375,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeaponGreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1389,7 +1389,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1401,7 +1401,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1413,7 +1413,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCollectors_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1425,7 +1425,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCollectors_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1439,7 +1439,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorVintage"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1451,7 +1451,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorVintage"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1463,7 +1463,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorVintage_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1475,7 +1475,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorVintage_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1489,7 +1489,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCommunity"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1501,7 +1501,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCommunity"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1513,7 +1513,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCommunity_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1525,7 +1525,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCommunity_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1539,7 +1539,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1551,7 +1551,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1563,7 +1563,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorDeveloper_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1575,7 +1575,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorDeveloper_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1589,7 +1589,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1601,7 +1601,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1613,7 +1613,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorSelfMade_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1625,7 +1625,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorSelfMade_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1639,7 +1639,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1651,7 +1651,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1663,7 +1663,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCustomized_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1675,7 +1675,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCustomized_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1689,7 +1689,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorStrange"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1701,7 +1701,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorStrange"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1713,7 +1713,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorStrange_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1725,7 +1725,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorStrange_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1739,7 +1739,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1751,7 +1751,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1763,7 +1763,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCompleted_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1775,7 +1775,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"QualityColorCompleted_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1791,7 +1791,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1803,7 +1803,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1815,7 +1815,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1827,7 +1827,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1840,7 +1840,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1852,7 +1852,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1864,7 +1864,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1876,7 +1876,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1889,7 +1889,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1901,7 +1901,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1913,7 +1913,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1925,7 +1925,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1938,7 +1938,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1950,7 +1950,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1962,7 +1962,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1974,7 +1974,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1987,7 +1987,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1999,7 +1999,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2011,7 +2011,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2023,7 +2023,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2036,7 +2036,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2048,7 +2048,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2060,7 +2060,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2072,7 +2072,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2085,7 +2085,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2097,7 +2097,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2109,7 +2109,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest5"
+			"image"					"replay/thumbnails/panels/boxtest5"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2121,7 +2121,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient_GreyedOut"
 			
-			"image"					"replay/thumbnails/boxtest6"
+			"image"					"replay/thumbnails/panels/boxtest6"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -2637,7 +2637,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/backgrounds/panel_neutral_more_opaque"
+			"image"					"replay/thumbnails/panels/panel_neutral_more_opaque"
 			"src_corner_height"		"40"				// pixels inside the image
 			"src_corner_width"		"40"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

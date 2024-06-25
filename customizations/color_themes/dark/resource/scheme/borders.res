@@ -7,7 +7,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -18,7 +18,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -29,7 +29,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -40,7 +40,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -53,7 +53,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -64,7 +64,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -75,7 +75,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -87,7 +87,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"Black"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -99,7 +99,7 @@ Scheme
 			"backgroundtype"		"0"
 			"color"					"Black"
 			
-			"image"					"replay/thumbnails/boxtest2"
+			"image"					"replay/thumbnails/panels/box_border_dark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional

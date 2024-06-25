@@ -13,8 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"					"replay/thumbnails/backgrounds/panel_neutral"
-
+		"image"					"replay/thumbnails/panels/panel_neutral"
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

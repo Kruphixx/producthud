@@ -26,7 +26,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay\thumbnails\backgrounds\panel_blue"
+			"image"			"replay\thumbnails\panels\panel_blue"
 			"scaleImage"	"1"	
 			"alpha"			"230"
 			
@@ -116,7 +116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay\thumbnails\backgrounds\panel_red"
+			"image"			"replay\thumbnails\panels\panel_red"
 			"scaleImage"	"1"	
 			"alpha"			"230"
 			

@@ -276,7 +276,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/boxtest2"
+				"image"			"replay/thumbnails/panels/box_border_dark"
 				"alpha"			"150"
 
 				"src_corner_height"	"40"				// pixels inside the image
@@ -443,7 +443,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/boxtest2"
+		"image"			"replay/thumbnails/panels/box_border_dark"
 		"alpha"			"200"
 		"proportionaltoparent"	"1"
 
@@ -521,7 +521,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/background_blue"
+		"image"			"replay/thumbnails/panels/box_border_dark"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
@@ -633,7 +633,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/background_red"
+		"image"			"replay/thumbnails/panels/panel_red2"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -784,7 +784,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/boxtest2"
+		"image"			"replay/thumbnails/panels/box_border_dark"
 		"alpha"			"200"
 
 		"src_corner_height"	"60"				// pixels inside the image
@@ -958,7 +958,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/backgrounds/panel_red"
+		"image"			"replay/thumbnails/panels/panel_red"
 		"alpha"			"200"
 
 		"src_corner_height"	"40"				// pixels inside the image
