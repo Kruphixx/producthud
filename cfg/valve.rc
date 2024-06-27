@@ -1,0 +1,6 @@
+tf_hud_targetid_disable_floating_health 1
+tf_hud_targetid_offset 0
+tf_use_match_hud 1
+
+cl_use_tournament_specgui 1
+cl_mvm_wave_status_visible_during_wave 1
