@@ -109,7 +109,7 @@
 			"textinsetx"	"16"
 			"defaultFgColor_override" "PrimaryText"
 			"defaultBgColor_override" "PrimaryBG"
-			"armedFgColor_override" "AccentText"
+			"armedFgColor_override" "Black"
 			"armedBgColor_override" "AccentBG"
 			"depressedFgColor_override" "PrimaryText"
 			"depressedBgColor_override" "PrimaryBG"

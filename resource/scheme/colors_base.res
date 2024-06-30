@@ -11,8 +11,8 @@ Scheme
 		"WorldCurrency"		"216 55 55 255"
 
 		// Team Color
-		"BlueTF"			"91 171 248 255"	//Blue Team Color
-		"RedTF"				"243 60 59 255"		// Red Team Color
+		"BlueTF"			"91 171 248 255"
+		"RedTF"				"243 60 59 255"
 
 		// Health Color
 		"HealthTF"			"240 240 240 255"	//In Game Health Color
@@ -307,9 +307,9 @@ Scheme
 		Econ.Button.BgColor									"PrimaryBG"
 		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"AccentBG"
-		Econ.Button.ArmedFgColor							"White"
+		Econ.Button.ArmedFgColor							"Black"
 		Econ.Button.DepressedBgColor						"AccentBG"
-		Econ.Button.DepressedFgColor						"White"
+		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
 		Econ.Button.PresetArmedColorFg						"White"

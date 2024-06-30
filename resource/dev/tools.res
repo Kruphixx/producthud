@@ -5,35 +5,22 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"SafeMode"
 		"xpos"							"r308"
-		"ypos"							"r164"
+		"ypos"							"r139"
 		"zpos"							"20"
 		"wide"							"259"
-		"tall"							"140"
+		"tall"							"115"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundType"			"2"
-		"bgcolor_override"				"PrimaryBG"	
-
-		"TitleLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"TitleLabel"
-			"font"						"product14"
-			"labelText"					"#PH_Tools"
-			"textAlignment"				"west"
-			"xpos"						"20"
-			"ypos"						"0"
-			"wide"						"f0"
-			"tall"						"30"
-		}
+		"bgcolor_override"				"PrimaryBG"
 
 		"CancelButton"
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"CancelButton"
 			"xpos"						"240"
-			"ypos"						"8"
+			"ypos"						"4"
 			"zpos"						"1"
 			"wide"						"14"
 			"tall"						"14"
@@ -50,8 +37,11 @@
 			"actionsignallevel"			"2"
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"image_drawcolor"			"240 240 240 255"
-			"image_armedcolor"			"24 24 24 255"
+
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"240 240 240 255"
+			"image_armedcolor"	"24 24 24 255"
 
 			"SubImage"
 			{
@@ -74,7 +64,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"MinmodeButton"
 			"xpos"			"20"
-			"ypos"			"30"
+			"ypos"			"10"
 			"zpos"			"11"
 			"wide"			"180"
 			"tall"			"25"
@@ -114,13 +104,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"ReloadSchemeButton"
-			"xpos"			"20"
-			"ypos"			"50"
+			"xpos"			"0"
+			"ypos"			"-20"
 			"zpos"			"11"
 			"wide"			"180"
 			"tall"			"25"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
+			"pin_to_sibling"	"MinmodeButton"
 
 			"SubButton"
 			{
@@ -155,13 +146,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"NetGraphButton"
-			"xpos"			"20"
-			"ypos"			"70"
+			"xpos"			"0"
+			"ypos"			"-20"
 			"zpos"			"11"
 			"wide"			"180"
 			"tall"			"25"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
+			"pin_to_sibling"	"ReloadSchemeButton"
 
 			"SubButton"
 			{
@@ -196,13 +188,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"MatchHUDButton"
-			"xpos"			"20"
-			"ypos"			"90"
+			"xpos"			"0"
+			"ypos"			"-20"
 			"zpos"			"11"
 			"wide"			"180"
 			"tall"			"25"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
+			"pin_to_sibling"	"NetGraphButton"
 
 			"SubButton"
 			{
@@ -237,13 +230,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"ReloadSoundButton"
-			"xpos"			"20"
-			"ypos"			"110"
+			"xpos"			"0"
+			"ypos"			"-20"
 			"zpos"			"11"
 			"wide"			"180"
 			"tall"			"25"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
+			"pin_to_sibling"	"MatchHUDButton"
 
 			"SubButton"
 			{
@@ -279,9 +273,9 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"DamageColorBG"
 			"xpos"				"138"
-			"ypos"				"30"
+			"ypos"				"15"
 			"wide"				"100"
-			"tall"				"95"
+			"tall"				"85"
 			"visible"			"1"
 			"enabled"			"1"
 			"paintBackground"	"1"
@@ -329,7 +323,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageRedButton"
 			"xpos"				"160"
-			"ypos"				"53"
+			"ypos"				"35"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -354,7 +348,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageYellowButton"
 			"xpos"				"178"
-			"ypos"				"53"
+			"ypos"				"35"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -379,7 +373,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageGreenButton"
 			"xpos"				"195"
-			"ypos"				"53"
+			"ypos"				"35"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -403,8 +397,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageBlueButton"
-			"xpos"				"160"
-			"ypos"				"71"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -413,6 +407,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 100; hud_combattext_blue 255"
+			"pin_to_sibling"    "DamageRedButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
@@ -428,8 +423,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageWhiteButton"
-			"xpos"				"178"
-			"ypos"				"71"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -438,6 +433,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 255"
+			"pin_to_sibling"    "DamageYellowButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
@@ -453,8 +449,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageOrangeButton"
-			"xpos"				"195"
-			"ypos"				"71"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -463,6 +459,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 165; hud_combattext_blue 0"
+			"pin_to_sibling"    "DamageGreenButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
@@ -478,8 +475,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamagePinkButton"
-			"xpos"				"160"
-			"ypos"				"89"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -488,6 +485,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 105; hud_combattext_blue 180"
+			"pin_to_sibling"    "DamageBlueButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
@@ -503,8 +501,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamagePurpleButton"
-			"xpos"				"178"
-			"ypos"				"89"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -513,6 +511,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 138; hud_combattext_green 43; hud_combattext_blue 180"
+			"pin_to_sibling"    "DamageWhiteButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
@@ -528,8 +527,8 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DamageCyanButton"
-			"xpos"				"195"
-			"ypos"				"89"
+			"xpos"				"0"
+			"ypos"				"-20"
 			"zpos"				"15"
 			"wide"				"16"
 			"tall"				"16"
@@ -538,6 +537,7 @@
 			"actionsignallevel"			"2"
 			"labelText"				"v"
 			"command"			"engine hud_combattext 1; hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 255"
+			"pin_to_sibling"    "DamageOrangeButton"
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"

@@ -6,19 +6,19 @@ Scheme
 		// MAIN COLORS
 		///////////////////////////////////////////////////
 
-		"PrimaryBG"											"100 69 92 255"		// Window frame
-		"PrimaryBGOffFocus"									"100 69 92 200"		// Keep this the same color as PrimaryBG
-		"SecondaryBG"										"170 106 154 255"		// Default VGUI buttons, Console/server browser etc. backgrounds
-		"AccentBG"											"161 0 148 255"		// Selection color
+		"PrimaryBG"                                         "69 90 100 255"        // Window frame
+		"PrimaryBGOffFocus"                                 "69 90 100 200"        // Keep this the same color as PrimaryBG
+		"SecondaryBG"                                       "96 125 139 255"       // Default VGUI buttons, Console/server browser etc. backgrounds
+		"AccentBG"                                          "174 243 231 255"      // Selection color
 
-	    "QuickListBGDeselected"								"100 69 92 255"		// Keep this the same color as PrimaryBG
-	    "QuickListBGSelected"								"170 106 154 255"		// Keep this the same color as SecondaryBG
+	    "QuickListBGDeselected"                             "69 90 100 255"        // Keep this the same color as PrimaryBG
+	    "QuickListBGSelected"                               "96 125 139 255"       // Keep this the same color as SecondaryBG
 
-		"AchievementsDarkGrey"								"100 69 92 255"		// Keep this the same color as PrimaryBG
-		"AchievementsLightGrey"								"100 69 92 150"		// Keep this the same color as PrimaryBG but with the last value 150
-		"AchievementsInactiveFG"							"100 69 92 150"		// Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsDarkGrey"                              "69 90 100 255"        // Keep this the same color as PrimaryBG
+		"AchievementsLightGrey"                             "69 90 100 150"        // Keep this the same color as PrimaryBG but with the last value 150
+		"AchievementsInactiveFG"                            "69 90 100 150"        // Keep this the same color as PrimaryBG but with the last value 150
 
-	    "TFOrangeBright"									"100 69 92 255" 		// No idea what this is for, keep it the same color as PrimaryBG, just in case
+	    "TFOrangeBright"                                    "69 90 100 255"        // No idea what this is for, keep it the same color as PrimaryBG, just in case
 
 		///////////////////////////////////////////////////
 		//

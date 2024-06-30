@@ -557,11 +557,9 @@
 			"font"			"Symbols_22"	[$WINDOWS]
 			"font"			"Symbols_20"	[$LINUX]
 			"textAlignment"	"west"
-			"textinsetx"	"15"	[$WINDOWS]
-			"textinsetx"	"13"	[$LINUX]
+			"textinsetx"	"16"	[$WINDOWS]
+			"textinsetx"	"14"	[$LINUX]
 			"textinsety"	"5"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		"b"
@@ -606,9 +604,6 @@
 			"textinsetx"	"8"	[$WINDOWS]
 			"textinsetx"	"6"	[$LINUX]
 			"textinsety"	"5"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		"-"
@@ -616,8 +611,6 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
-			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -646,30 +639,30 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"70"
+			"wide"			"30"
 			"tall"			"f6"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"fgcolor_override"	"White"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"font"			"Symbols_22"	[$WINDOWS]
+			"font"			"Symbols_20"	[$LINUX]
+			"textAlignment"	"west"
+			"textinsetx"	"7"	[$WINDOWS]
+			"textinsetx"	"6"	[$LINUX]
+			"textinsety"	"5"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
+			"labeltext"		"/"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"			"White"
+			"armedFgColor_override"				"Black"
 
 			"armedBgColor_override"		"AccentBG"
 			"defaultBgColor_override"	"PrimaryBG"
@@ -691,33 +684,30 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"100"
+			"wide"			"30"
 			"tall"			"f6"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"fgcolor_override"	"White"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"font"			"Symbols_22"	[$WINDOWS]
+			"font"			"Symbols_20"	[$LINUX]
+			"textAlignment"	"west"
+			"textinsetx"	"7"	[$WINDOWS]
+			"textinsetx"	"6"	[$LINUX]
+			"textinsety"	"5"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		"!"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override" "Black"
+			"defaultFgColor_override"			"White"
+			"armedFgColor_override"				"Black"
 
 			"armedBgColor_override"		"AccentBG"
 			"defaultBgColor_override"	"PrimaryBG"

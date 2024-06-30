@@ -39,7 +39,7 @@
 		"actionsignallevel" "2"
 		
 		"defaultFgColor_override"	"SecondaryText"
-		"armedFgColor_override"		"AccentText"
+		"armedFgColor_override"		"Black"
 
 		"defaultBgColor_override"	"SecondaryBG"
 		"armedBgColor_override"		"AccentBG"
@@ -72,7 +72,7 @@
 		"actionsignallevel" "2"
 		
 		"defaultFgColor_override"	"SecondaryText"
-		"armedFgColor_override"		"AccentText"
+		"armedFgColor_override"		"Black"
 
 		"defaultBgColor_override"	"SecondaryBG"
 		"armedBgColor_override"		"AccentBG"

@@ -138,36 +138,21 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ClassLabel2"
@@ -575,6 +560,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"font"			"HudFontSmallBold"
 		"defaultBgColor_override"	"SecondaryBG"
+		"depressedFgColor_override"	"Black"
 	}
 
 	"TauntLoadoutButton"
@@ -601,6 +587,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"font"			"HudFontSmallBold"
 		"defaultBgColor_override"	"SecondaryBG"
+		"depressedFgColor_override"	"Black"
 	}
 
 	"TauntsExplanation"
