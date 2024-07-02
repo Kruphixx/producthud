@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"TransparentBlack"	
+		"bgcolor_override"	"TransparentLightBlack"	
 	}
 	
 	"SplashLabel"
