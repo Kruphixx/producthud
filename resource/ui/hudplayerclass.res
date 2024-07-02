@@ -87,7 +87,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"0"
-		"ypos"			"r140"
+		"ypos"			"r120"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"150"
@@ -105,7 +105,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "270"
+			"angles_y" "230"
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"
