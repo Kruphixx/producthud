@@ -2,49 +2,49 @@ Scheme
 {
     Colors
     {
-		"Crosshair"			"0 255 00 255"
-		"Hitmarker"			"255 0 0 255"
+		"Crosshair"                         "0 255 00 255"
+		"Hitmarker"                         "255 0 0 255"
 
-		"Damage"			"255 255 0 255"
-		"Healing"			"0 255 00 255"
-		"PlayerCurrency"	"101 195 58 255"
-		"WorldCurrency"		"216 55 55 255"
+		"Damage"                            "255 255 0 255"
+		"Healing"                           "0 255 00 255"
+		"PlayerCurrency"                    "101 195 58 255"
+		"WorldCurrency"                     "216 55 55 255"
 
 		// Team Color
-		"BlueTF"			"91 171 248 255"
-		"RedTF"				"243 60 59 255"
+		"BlueTF"                            "91 171 248 255"
+		"RedTF"                             "243 60 59 255"
 
 		// Health Color
-		"HealthTF"			"240 240 240 255"	//In Game Health Color
-		"HealthBuffTF"		"91 171 248 255"	//In Game Health Overhealed Color
-		"HealthLowTF"		"243 60 59 255"		//In Game Health Low Color
-		"HealthBlurTF"		"20 20 20 255"		//In Game Health Blurred Color
+		"HealthTF"                          "240 240 240 255"       // In Game Health Color
+		"HealthBuffTF"                      "91 171 248 255"        // In Game Health Overhealed Color
+		"HealthLowTF"                       "243 60 59 255"         // In Game Health Low Color
+		"HealthBlurTF"                      "20 20 20 255"          // In Game Health Blurred Color
 
-		"HealthSpecTF"			"240 240 240 255"	//Spectator Health Color
-		"HealthSpecBuffTF"		"91 171 248 255"	//Spectator Health Overhealed Color
-		"HealthSpecLowTF"		"243 60 59 255"		//Spectator Health Low Color
+		"HealthSpecTF"                      "240 240 240 255"       // Spectator Health Color
+		"HealthSpecBuffTF"                  "91 171 248 255"        // Spectator Health Overhealed Color
+		"HealthSpecLowTF"                   "243 60 59 255"         // Spectator Health Low Color
 
-		"HealthIDTF"			"240 240 240 255"	//Target ID Health Color
-		"HealthIDBuffTF"		"91 171 248 255"	//Target ID Health Overhealed Color
-		"HealthIDLowTF"		"243 60 59 255"		//Target ID Health Low Color
-		"HealthIDBlurTF"	"20 20 20 255"	
+		"HealthIDTF"                        "240 240 240 255"       // TargetID Health Color
+		"HealthIDBuffTF"                    "91 171 248 255"        // TargetID Health Overhealed Color
+		"HealthIDLowTF"                     "243 60 59 255"         // TargetID Health Low Color
+		"HealthIDBlurTF"                    "20 20 20 255"	
 
 		// Ammo Color
-		"AmmoTF"			"240 240 240 255"
-		"AmmoLowTF"			"243 60 59 255"
-		"AmmoBlurTF"		"20 20 20 255"	
+		"AmmoTF"                            "240 240 240 255"
+		"AmmoLowTF"                         "243 60 59 255"
+		"AmmoBlurTF"                        "20 20 20 255"	
 		
-		"AmmoResTF"			"154 183 197 255"
-		"AmmoResLowTF"		"243 60 59 255"
-		"AmmoResBlurTF"		"20 20 20 255"	
+		"AmmoResTF"                         "154 183 197 255"
+		"AmmoResLowTF"                      "243 60 59 255"
+		"AmmoResBlurTF"                     "20 20 20 255"	
 		
 		// Uber Color
-		"UberTF"			"240 240 240 255"
-		"UberAltTF"			"240 240 240 255"
+		"UberTF"                            "240 240 240 255"
+		"UberAltTF"                         "240 240 240 255"
 		
-		"UberBarTF"			"56 142 60 255"
-		"UberBarAltTF"		"76 175 80 255"
-		"UberBarBGTF"		"24 24 24 150"
+		"UberBarTF"                         "56 142 60 255"
+		"UberBarAltTF"                      "76 175 80 255"
+		"UberBarBGTF"                       "24 24 24 150"
 		
 		//
 		/////// TF2 COLORS ///////
