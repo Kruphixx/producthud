@@ -322,9 +322,9 @@
 			"defaultBgColor_override" "PrimaryBG"
 			"defaultFgColor_override" "PrimaryText"
 			"armedBgColor_override" "AccentBG"
-			"armedFgColor_override" "AccentText"
+			"armedFgColor_override" "Black"
 			"selectedBgColor_override" "AccentBG"
-			"selectedFgColor_override"	"AccentText"
+			"selectedFgColor_override"	"Black"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

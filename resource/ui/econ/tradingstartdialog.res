@@ -9,10 +9,9 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"DarkPrimaryBG"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"MainMenuBGBorder"
 		
 		"button_kv"
 		{
@@ -78,7 +77,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	
 	"PlayerListScroller"
