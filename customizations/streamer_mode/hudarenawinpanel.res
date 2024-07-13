@@ -1,50 +1,50 @@
 "Resource/UI/HudArenaWinPanel.res"
 {
-	"ArenaWinPanelWinnersPanel"
-	{
-		"Player1Name"
-		{
+    "ArenaWinPanelWinnersPanel"
+    {
+        "Player1Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
+        }
 
-		"Player2Name"
-		{
+        "Player2Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
+        }
 
-		"Player3Name"
-		{
+        "Player3Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
-	}
+        }
+    }
 
-	"ArenaWinPanelLosersPanel"
-	{
-		"Player1Name"
-		{
+    "ArenaWinPanelLosersPanel"
+    {
+        "Player1Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
+        }
 
-		"Player2Name"
-		{
+        "Player2Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
+        }
 
-		"Player3Name"
-		{
+       "Player3Name"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
-	}
+        }
+    }
 }
