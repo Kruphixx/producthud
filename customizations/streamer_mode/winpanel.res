@@ -1,30 +1,30 @@
 "Resource/UI/WinPanel.res"
 {
-	"Player1Name"
-	{
+    "Player1Name"
+    {
         "xpos"               "9999"
         "wide"               "0"
         "tall"               "0"
-	}
+    }
 
-	"Player2Name"
-	{
+    "Player2Name"
+    {
         "xpos"               "9999"
         "wide"               "0"
         "tall"               "0"
-	}
+    }
 
-	"Player3Name"
-	{
+    "Player3Name"
+    {
         "xpos"               "9999"
         "wide"               "0"
         "tall"               "0"
-	}
+    }
 
-	"KillStreakPlayer1Name"
-	{
+    "KillStreakPlayer1Name"
+    {
         "xpos"               "9999"
         "wide"               "0"
         "tall"               "0"
-	}
+    }
 }

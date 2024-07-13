@@ -1,14 +1,14 @@
 "Resource/UI/TargetID.res"
 {
-	"TargetNameLabel"
-	{
+    "TargetNameLabel"
+    {
         "labelText"          ""
-	}
+    }
 
-	"TargetNameLabelDropShadow"
-	{
+    "TargetNameLabelDropShadow"
+    {
         "xpos"               "9999"
         "wide"               "0"
         "tall"               "0"
-	}
+    }
 }

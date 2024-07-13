@@ -1,12 +1,12 @@
 "Resource/UI/VoteHud.res"
 {
-	"VoteActive"
-	{
-		"Header"
-		{
+    "VoteActive"
+    {
+        "Header"
+        {
             "xpos"               "9999"
             "wide"               "0"
             "tall"               "0"
-		}
-	}
+        }
+    }
 }
