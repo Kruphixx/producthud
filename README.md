@@ -1,4 +1,4 @@
-![producthud-git-banner](https://github.com/Kruphixx/producthud/assets/50501742/c5aca6bd-86ff-4728-9be2-d4c2bfc97475)
+![producthud-banner-small](https://github.com/user-attachments/assets/33edb1e8-9ae3-4d0d-bc95-a6d9330c2896)
 
 # ProductHUD
 
