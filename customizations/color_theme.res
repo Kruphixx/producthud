@@ -22,6 +22,20 @@
 // #base "color_themes/dark/borders.res"
 
 
+// GREEN
+
+// #base "color_themes/green/colors_sourcescheme.res"
+// #base "color_themes/green/colors.res"
+// #base "color_themes/green/borders.res"
+
+
+// PURPLE
+
+// #base "color_themes/purple/colors_sourcescheme.res"
+// #base "color_themes/purple/colors.res"
+// #base "color_themes/purple/borders.res"
+
+
 // CUSTOM
 
 //#base "color_themes/custom/colors_sourcescheme.res"

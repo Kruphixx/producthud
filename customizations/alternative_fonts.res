@@ -10,9 +10,10 @@
 ///////////////////////////////////////////////////
 
 
-#base "alternative_fonts/fonts_product.res"				    // PRODUCT (DEFAULT)
+#base "alternative_fonts/fonts_product.res"                 // PRODUCT (DEFAULT)
 
-//#base "alternative_fonts/fonts_lato.res"				    // LATO
-//#base "alternative_fonts/fonts_roboto.res"				// ROBOTO
-//#base "alternative_fonts/fonts_surface.res"				// SURFACE
-//#base "alternative_fonts/fonts_tf2.res"					// TF2
+//#base "alternative_fonts/fonts_cerbetica.res"             // CERBETICA
+//#base "alternative_fonts/fonts_lato.res"                  // LATO
+//#base "alternative_fonts/fonts_roboto.res"                // ROBOTO
+//#base "alternative_fonts/fonts_surface.res"               // SURFACE
+//#base "alternative_fonts/fonts_tf2.res"                   // TF2
