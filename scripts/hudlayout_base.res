@@ -253,18 +253,33 @@
 		}
 
 	}
+
+	Building_Anchor
+	{
+		"ControlName"        "CExLabel"
+		"fieldname"          "Building_Anchor"
+		"xpos"               "-10"
+		"ypos"               "105"
+		"wide"               "100"
+		"tall"               "0"
+		"visible"            "1"
+		"enabled"            "1"
+		"paintBackground"    "0"
+	}
 	
 	BuildingStatus_Spy
 	{
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
+		"xpos"		"0"
+		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"        "Building_Anchor"
 	}
 	
 	BuildingStatus_Engineer
@@ -278,6 +293,8 @@
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"        "Building_Anchor"
 	}
 	
 	HudMannVsMachineStatus
