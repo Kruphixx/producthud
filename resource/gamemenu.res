@@ -6,12 +6,14 @@
 		"command"		"OpenServerBrowser"
 		"subimage"		"glyph_server_browser"
 	}
+
 	"SteamWorkshopButton"
 	{
 		"label"			"#MMenu_SteamWorkshop"
 		"command"		"engine OpenSteamWorkshopDialog"
 		"subimage"		"glyph_steamworkshop"
 	}
+
 	"VRModeButton"
 	{
 		"label"					"#MMenu_VRMode_Activate"
@@ -19,31 +21,35 @@
 		"subimage"				"glyph_vr"
 		"OnlyWhenVREnabled"		"1"
 	}
+
 	"TrainingButton"
 	{
 		"label"			"#PH_Training"
 		"command"		"offlinepractice"
 		"subimage"		"glyph_practice"
 	}
-	// These buttons get positioned by the MainMenuOverride.res
+
 	"CreateServerButton"
 	{
 		"label"			"#GameUI_GameMenu_CreateServer"
 		"command"		"OpenCreateMultiplayerGameDialog"
 		"tooltip"		"#PH_CreateServer"
 	}
+
 	"GeneralStoreButton"
 	{
 		"label"			"#PH_Store"
 		"command"		"engine open_store"
 		"subimage"		"glyph_store"
 	}
+
 	"CharacterSetupButton"
 	{
 		"label"			"#PH_Loadout"
 		"command"		"engine open_charinfo"
 		"subimage"		"glyph_items"
 	}
+
 	"ConsoleButton"
 	{
 		"label"			"("
@@ -51,8 +57,10 @@
 		"subimage"		""
 		"tooltip"		"#PH_Console"
 	}
+
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+
 	"CallVoteButton"
 	{
 		"label"				"#PH_CallVote"
@@ -60,6 +68,7 @@
 		"OnlyInGame"		"1"
 		"subimage"			"icon_checkbox"
 	}
+
 	"MutePlayersButton"
 	{
 		"label"				"#PH_Mute"
@@ -67,6 +76,15 @@
 		"OnlyInGame"		"1"
 		"subimage"			"glyph_muted"
 	}
+
+    "ReportPlayerButton"
+    {
+        "label"             "#PH_ReportPlayer"
+        "command"           "OpenReportPlayerDialog"
+        "OnlyInGame"        "1"
+        "subimage"          "glyph_alert"
+    }
+
 	"RequestCoachButton"
 	{
 		"label"				""

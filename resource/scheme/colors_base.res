@@ -20,10 +20,6 @@ Scheme
 		"HealthLowTF"                       "243 60 59 255"         // In Game Health Low Color
 		"HealthBlurTF"                      "20 20 20 255"          // In Game Health Blurred Color
 
-		"HealthSpecTF"                      "240 240 240 255"       // Spectator Health Color
-		"HealthSpecBuffTF"                  "91 171 248 255"        // Spectator Health Overhealed Color
-		"HealthSpecLowTF"                   "243 60 59 255"         // Spectator Health Low Color
-
 		"HealthIDTF"                        "240 240 240 255"       // TargetID Health Color
 		"HealthIDBuffTF"                    "91 171 248 255"        // TargetID Health Overhealed Color
 		"HealthIDLowTF"                     "243 60 59 255"         // TargetID Health Low Color
@@ -494,8 +490,8 @@ Scheme
 		"HudIcon_Red"		"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
+		"ItemColor"		"240 134 049 200"	// default 255 167 42 255
+		"MenuColor"		"235 235 235 200"
 		"MenuBoxBg"		"0 0 0 100"
 
 		// weapon selection colors

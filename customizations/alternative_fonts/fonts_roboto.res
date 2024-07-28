@@ -48,6 +48,14 @@ Scheme
 			}
 		}
 
+		"Size_16_Blur"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+			}
+		}
+
 		"Size_18"
 		{
 			"1"

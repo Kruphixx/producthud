@@ -303,7 +303,7 @@ Scheme
 			"4"
 			{
 				"name"			"Product Sans"
-				"tall"			"21"	[$WINDOWS]
+				"tall"			"22"	[$WINDOWS]
 				"tall"			"23"	[$LINUX]
 				"yres"			"1024 1199"
 				"dropshadow"	"1"

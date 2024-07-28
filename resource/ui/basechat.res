@@ -10,7 +10,7 @@
 		"ypos"			          "280"
 		"wide"	 		          "205"
 		"tall"	 		          "95"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		        "White"
 		"PaintBackgroundType"	"0"
 	}
 

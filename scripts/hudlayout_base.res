@@ -196,8 +196,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"4"	[$WIN32]
-		"ypos"		"r143"	[$WIN32]
+		"xpos"		"3"
+		"ypos"		"r54"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -526,9 +526,9 @@
 		"tall"	 "480"
 		"zpos" "1"
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"TextFont"              "Product_HudMenu"
+		"ItemFont"              "Product_HudMenu"
+		"ItemFontPulsing"       "Product_HudMenu"
 	}
 
 	HudSpellMenu

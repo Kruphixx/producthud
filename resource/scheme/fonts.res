@@ -70,6 +70,18 @@ Scheme
 			}
 		}
 
+		"Size_16_Blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"16"
+				"additive"  "0"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+
 		"Size_18"
 		{
 			"1"
@@ -166,6 +178,17 @@ Scheme
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
+			}
+		}
+
+		"Product_HudMenu"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"11"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 
