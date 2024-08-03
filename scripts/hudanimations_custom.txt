@@ -136,13 +136,13 @@ event HudMedicChargedStop
 	Animate	ChargeMeter 	FgColor		"UberBarTF"		Linear 0.0 0.0001
 }
 
-
-//==================================================================================
-
-event PvPRankLevelUpXPBar
+// Fix lingering health/ammo animations
+event CompetitiveGame_RestoreChatWindow
 {
-	Animate ContinuousProgressBar 	FgColor 		"White" 		Linear 	0.0 0.1
-	Animate ContinuousProgressBar 	FgColor 		"AccentBG" 		Linear 	0.1 0.3
+	RunEvent HudHealthDyingPulseStop			0.1
+	RunEvent HudHealthBonusPulseStop			0.1
+	RunEvent HudLowAmmoPulseStop				0.1
+	RunEvent HudMedicChargedStop				0.1
 }
 
 //==================================================================================
@@ -155,7 +155,6 @@ event HudReplayTipOut{}
 event RDPositiveScorePulse { }
 event RDNegativeScorePulse { }
 event CompetitiveGame_LowerChatWindow { }
-event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
 event TeamStatus_PlayerDead{}
 event TeamStatus_PlayerAlive{}
