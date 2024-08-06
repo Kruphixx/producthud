@@ -949,36 +949,9 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"xpos"			"9999"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/panel_red"
-		"alpha"			"200"
-
-		"src_corner_height"	"40"				// pixels inside the image
-		"src_corner_width"	"40"
-		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"150"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
+		"enabled"		"0"
 	}
 
 	"CountdownLabel"
@@ -1012,6 +985,11 @@
 			"xpos"			"300"
 			"ypos"			"130"
 		}
+
+		if_mvm
+		{
+			"ypos"          "r65"
+		}
 	}
 	
 	"CountdownLabelShadow"
@@ -1044,6 +1022,11 @@
 		{
 			"xpos"			"300"
 			"ypos"			"130"
+		}
+
+		if_mvm
+		{
+			"ypos"          "r65"
 		}
 	}
 }

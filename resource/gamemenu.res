@@ -54,8 +54,28 @@
 	{
 		"label"			"("
 		"command"		"engine toggleconsole"
-		"subimage"		""
 		"tooltip"		"#PH_Console"
+	}
+
+	"QuestLogButton"
+	{
+		"label"         "B"
+		"command"       "questlog"
+		"tooltip"       "#PH_Contracts"
+	}
+
+	"StreamsButton"
+	{
+		"label"         "0"
+		"command"       "watch_stream"
+		"tooltip"       "#PH_Streams"
+	}
+
+	"FriendsButton"
+	{
+		"label"         "R"
+		"command"       "motd_show"
+		"tooltip"       "#PH_FriendsList"
 	}
 
 	// These buttons are only shown while in-game

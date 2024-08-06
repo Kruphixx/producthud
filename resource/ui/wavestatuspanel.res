@@ -1,24 +1,5 @@
 "Resource/UI/WaveStatusPanel.res"
-{
-	"Background"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"150"
-		"ypos"			"1"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"40"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"					"replay/thumbnails/panels/panel_neutral"
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-	}
-	
+{	
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -40,7 +21,7 @@
 		"pin_to_sibling"		"ProgressBar"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	
+
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -61,7 +42,7 @@
 			"visible"		"1"
 		}
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -83,7 +64,7 @@
 			"visible"		"1"
 		}		
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -107,11 +88,35 @@
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
+		"xpos"			"211"
+		"xpos_minmode"	"211"
+		"ypos"			"8"
+		"ypos_minmode"	"8"
+		"zpos"			"2"
+		"wide"			"178"
+		"wide_minmode"	"178"
+		"tall"			"12"
+		"tall_minmode"	"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/panel_neutral"
+		
+		"src_corner_height"	"60"				// pixels inside the image
+		"src_corner_width"	"60"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+
+	"Background"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"Background"
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"

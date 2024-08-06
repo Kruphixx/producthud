@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"SecondaryText"
-		"fgcolor_override"		"SecondaryText"
+		"fgcolor"		        "White"
+		"fgcolor_override"      "White"
 	}
 
 	"AvatarBGPanel"
@@ -69,13 +69,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"SecondaryText"
-		"fgcolor_override" "SecondaryText"
+		"fgcolor"		        "White"
+		"fgcolor_override"      "White"
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"138"
-		"tall"			"25"
+		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
