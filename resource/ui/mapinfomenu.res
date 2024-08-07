@@ -35,6 +35,7 @@
 		"paintBackgroundType"	"2"
 		"paintBackground"		"1"
 		"bgcolor_override"	"PrimaryBG"
+		"alpha"             "200"
 	}
 
 	"MapInfoType"
@@ -101,6 +102,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"alpha"             "200"
 	}
 	
 	"PH_Back"
@@ -122,6 +124,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
+		"alpha"             "200"
 	}
 	
 	"PH_WatchMovie"
@@ -144,6 +147,7 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"alpha"             "200"
 	}
 
 	"MenuBG"

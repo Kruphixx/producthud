@@ -317,36 +317,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		ItemFontAttribSmallv2
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
-			}
-		}
-		"ItemFontAttribLarger"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2504,16 +2474,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		ItemFontAttribSmallv2
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
-			}
-		}
 		"ItemFontAttribSmall"
 		{
 			"1"
@@ -2523,6 +2483,36 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"additive"  "0"
+				"antialias"	"1"
 			}
 		}
 		"ItemFontAttribLarge"
@@ -2536,17 +2526,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
-		"ItemFontAttribLarger"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
 		
 		"AchievementTracker_Name"
 		{
@@ -5885,266 +5864,13 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		
-		
-		
+	
 		"BlankFont"
 		{
 			"1"
 			{
 				"name"		"Adobe Blank"
 				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"sosa8"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa9"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa10"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa12"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa14"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa16"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa17"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa18"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa20"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa22"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa24"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa26"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa28"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa30"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa32"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa34"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa36"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa38"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa40"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa42"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa44"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa46"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa48"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa50"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		"sosa52"
-		{
-			"1"
-			{
-				"name"		"Sosa Regular"
-				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
 			}
@@ -6236,11 +5962,6 @@ Scheme
 			"font" "resource/fonts/productsans_upper.ttf"	[$WINDOWS]
 			"font" "resource/fonts/productsans_upper_linux.ttf"	[$LINUX]
 			"name" "Product Sans Upper"
-		}
-		"10"
-		{
-			"font" "resource/fonts/Sosa-Regular.ttf"
-			"name" "Sosa Regular"
 		}
 		"11"
 		{

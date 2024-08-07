@@ -38,8 +38,8 @@ Scheme
 		"UberTF"                            "240 240 240 255"
 		"UberAltTF"                         "240 240 240 255"
 		
-		"UberBarTF"                         "56 142 60 255"
-		"UberBarAltTF"                      "76 175 80 255"
+		"UberBarTF"                         "91 171 248 255"
+		"UberBarAltTF"                      "120 190 255 255"
 		"UberBarBGTF"                       "24 24 24 150"
 		
 		//
@@ -308,8 +308,8 @@ Scheme
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
-		Econ.Button.PresetArmedColorFg						"White"
-		Econ.Button.PresetDepressedColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"Black"
+		Econ.Button.PresetDepressedColorFg					"Black"
 		
 		Econ.Button.PresetDefaultColorBg					"AccentBG"
 		Econ.Button.PresetArmedColorBg						"AccentBG"
@@ -367,7 +367,7 @@ Scheme
 		Label.TextDullColor				"TanDark"
 		Label.TextColor					"White"
 		Label.TextBrightColor			"White"
-		Label.SelectedTextColor			"White"
+		Label.SelectedTextColor			"Black"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"

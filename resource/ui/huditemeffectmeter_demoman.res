@@ -20,7 +20,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -29,7 +29,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}				
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -51,7 +51,7 @@
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"255 0 0 0"
 	}
-	
+
 	"ItemEffectMeterCount2"
 	{
 		"ControlName"			"CExLabel"
@@ -73,7 +73,7 @@
 		"fgcolor_override"		"Black"
 		"bgcolor_override"		"255 0 0 0"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"	"CExLabel"
@@ -85,10 +85,9 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"K"
-		"textAlignment"	"center"	
-		"textinsetx"	"0"
-		"font"			"Symbols_16"
+		"labelText"		":"
+		"textAlignment"	"center"
+		"font"			"Symbols_14"
 		"fgcolor"		"White"
 		"bgcolor_override"	"0 0 0 0"
 		"paintbackgroundtype"	"0"
@@ -105,10 +104,9 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"K"
-		"textAlignment"	"center"	
-		"textinsetx"	"0"
-		"font"			"Symbols_16_Blur"
+		"labelText"		":"
+		"textAlignment"	"center"
+		"font"			"Symbols_14_Blur"
 		"fgcolor"		"Black"
 		"bgcolor_override"	"0 0 0 0"
 		"paintbackgroundtype"	"0"

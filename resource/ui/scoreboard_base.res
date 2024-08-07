@@ -375,7 +375,7 @@
 			"textinsetx"	"0"
 			"font"			"BlankFont"
 			"fgcolor"		"255 255 255 0"
-			"bgcolor_override"	"TransparentLightBlack"
+			"bgcolor_override"	"0 0 0 145"
 			"paintbackgroundtype"	"2"
 
 			if_mvm
@@ -419,7 +419,7 @@
 			"textinsetx"	"0"
 			"font"			"BlankFont"
 			"fgcolor"		"255 255 255 0"
-			"bgcolor_override"	"TransparentLightBlack"
+			"bgcolor_override"	"0 0 0 145"
 			"paintbackgroundtype"	"2"
 		}
 
@@ -950,7 +950,7 @@
 			"textinsetx"	"0"
 			"font"			"BlankFont"
 			"fgcolor"		"255 255 255 0"
-			"bgcolor_override"	"TransparentLightBlack"
+			"bgcolor_override"	"0 0 0 145"
 			"paintbackgroundtype"	"2"
 
 			if_mvm
@@ -990,7 +990,7 @@
 			"textinsetx"	"0"
 			"font"			"BlankFont"
 			"fgcolor"		"255 255 255 0"
-			"bgcolor_override"	"TransparentLightBlack"
+			"bgcolor_override"	"0 0 0 145"
 			"paintbackgroundtype"	"2"
 		}
 

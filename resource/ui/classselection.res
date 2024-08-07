@@ -64,7 +64,7 @@
 		"enabled"									"1"
 
 		"render_texture"							"0"
-		"fov"										"38"
+		"fov"										"32"
 		"allow_rot"									"0"
 
 		"paintbackground"							"0"

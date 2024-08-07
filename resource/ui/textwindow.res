@@ -72,6 +72,7 @@
 		"paintBackgroundType"	"2"
 		"paintBackground"		"1"
 		"bgcolor_override"	"PrimaryBG"
+		"alpha"             "200"
 	}
 
 	"HTMLMessage"
@@ -118,6 +119,7 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
+		"alpha"             "200"
 	}
 	
 	"MenuBG"

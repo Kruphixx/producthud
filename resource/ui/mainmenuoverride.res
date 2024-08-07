@@ -1125,6 +1125,7 @@
 			
 			"image_drawcolor"	"240 240 240 255"
 			"image_armedcolor"	"24 24 24 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1192,6 +1193,7 @@
 			
 			"image_drawcolor"	"240 240 240 255"
 			"image_armedcolor"	"24 24 24 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1239,6 +1241,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
+
 	"CreateLabel"
 	{
 		"ControlName"	"CExLabel"

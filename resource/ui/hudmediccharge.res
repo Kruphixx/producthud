@@ -78,7 +78,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"UberBarAltTF"
+		"fgcolor_override"	"UberBarTF"
 		"bgcolor_override"	"TransparentLightBlack"
 	}		
 
@@ -99,7 +99,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"UberBarAltTF"
+		"fgcolor_override"	"UberBarTF"
 		"bgcolor_override"	"TransparentLightBlack"
 	}
 
@@ -120,7 +120,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"UberBarAltTF"
+		"fgcolor_override"	"UberBarTF"
 		"bgcolor_override"	"TransparentLightBlack"
 	}
 
@@ -141,7 +141,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"UberBarAltTF"
+		"fgcolor_override"	"UberBarTF"
 		"bgcolor_override"	"TransparentLightBlack"
 	}
 
@@ -162,7 +162,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"UberBarAltTF"
+		"fgcolor_override"	"UberBarTF"
 		"bgcolor_override"	"TransparentLightBlack"
 	}
 	
