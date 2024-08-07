@@ -29,7 +29,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"BackButton"
-		"xpos"										"3"
+		"xpos"										"10"
 		"ypos"										"rs1-5"
 		"zpos"										"100"
 		"wide"										"90"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MannUpQueueButton"
-		"xpos"										"rs1-20"
+		"xpos"										"rs1-10"
 		"ypos"										"rs1-5"
 		"zpos"										"100"
 		"wide"										"290"
@@ -72,16 +72,16 @@
 
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"SecondaryBG"
+		"defaultBgColor_override"					"StoreGreen"
 	}
 	"BootCampQueueButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"BootCampQueueButton"
-		"xpos"										"cs-0.5-6"
+		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
 		"zpos"										"100"
-		"wide"										"390"
+		"wide"										"400"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
@@ -99,7 +99,7 @@
 
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"SecondaryBG"
+		"defaultBgColor_override"					"StoreGreen"
 	}
 	"NextButton"
 	{
@@ -108,7 +108,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
 		"zpos"										"100"
-		"wide"										"f6"
+		"wide"										"400"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -122,12 +122,14 @@
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 		"paintbackground"							"1"
+
+		"defaultBgColor_override"					"StoreGreen"
 	}
 	"JoinLateCheckButton"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"JoinLateCheckButton"
-		"xpos"										"rs1-20"
+		"xpos"										"rs1-10"
 		"ypos"										"rs1-5"
 		"zpos"										"150"
 		"wide"										"27"
@@ -140,7 +142,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"JoinLateLabel"
-		"xpos"										"rs1-50"
+		"xpos"										"rs1-40"
 		"ypos"										"rs1-5"
 		"zpos"										"150"
 		"wide"										"115"

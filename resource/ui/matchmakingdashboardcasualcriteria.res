@@ -60,11 +60,10 @@
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 		"actionsignallevel"							"1"
-		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"SecondaryBG"
+		"defaultBgColor_override"					"StoreGreen"
 	}
 }

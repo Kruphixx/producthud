@@ -41,12 +41,11 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"%title_token%"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallest"
-		"AllCaps"									"1"
+		"font"										"product12"
 		"textinsetx"								"20"
 		"use_proportional_insets"					"1"
 
-		"mouseinputenabled"							"0"
+		"mouseinputenabled"							"1"
 	}
 	"HealthProgressBar"
 	{

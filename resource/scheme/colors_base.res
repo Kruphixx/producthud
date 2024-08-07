@@ -172,7 +172,7 @@ Scheme
 		"TanDarker"				"24 24 24 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreGreen"			"77 136 49 255"
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"

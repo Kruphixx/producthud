@@ -107,7 +107,6 @@
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
 	}

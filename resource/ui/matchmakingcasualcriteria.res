@@ -13,61 +13,12 @@
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
 
-		"RankBG"
-		{
-			"ControlName"							"Panel"
-			"fieldName"								"RankBG"
-			"xpos"									"cs-0.5"
-			"ypos"									"0"
-			"zpos"									"-1"
-			"wide"									"f0"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"PrimaryBG"
-		}
-		"RankImage"
-		{
-			"ControlName"							"CTFLocalPlayerBadgePanel"
-			"fieldName"								"RankImage"
-			"xpos"									"0"
-			"ypos"									"-6"
-			"zpos"									"110"
-			"wide"									"o1"
-			"tall"									"60"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled"						"0"
-			"matchgroup"							"MatchGroup_Casual_12v12"
-		}
-		"RankPanel"
-		{
-			"ControlName"							"CPvPRankPanel"
-			"fieldName"								"RankPanel"
-			"xpos"									"-70"
-			"ypos"									"-36"
-			"zpos"									"100"
-			"wide"									"330"
-			"tall"									"92"
-			"visible"								"1"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled"						"0"
-
-			"matchgroup"							"MatchGroup_Casual_12v12"
-
-			"show_model"							"0"
-			"show_name"								"0"
-		}
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"RestoreCasualSearchCriteria"
 			"xpos"									"rs1-55"
-			"ypos"									"38"
+			"ypos"									"5"
 			"zpos"									"100"
 			"wide"									"50"
 			"tall"									"16"
@@ -87,7 +38,7 @@
 			"ControlName"							"CExButton"
 			"fieldName"								"SaveCasualSearchCriteria"
 			"xpos"									"rs1-3"
-			"ypos"									"38"
+			"ypos"									"5"
 			"zpos"									"100"
 			"wide"									"50"
 			"tall"									"16"
@@ -107,7 +58,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"SelectedCount"
 			"xpos"									"5"
-			"ypos"									"41"
+			"ypos"									"5"
 			"zpos"									"0"
 			"wide"									"f0"
 			"tall"									"15"
@@ -116,7 +67,6 @@
 			"textAlignment"							"west"
 			"font"									"HudFontSmallest"
 			"fgcolor"								"White"
-			"AllCaps"								"1"
 			"mouseinputenabled"						"1"
 		}
 		"QueueEstimation"
@@ -134,7 +84,6 @@
 			"font"									"HudFontSmallest"
 			"fgcolor"								"White"
 			"visible"								"0"
-			"AllCaps"								"1"
 			"mouseinputenabled"						"0"
 		}
 		"GameModesList"
@@ -142,9 +91,9 @@
 			"ControlName"							"CScrollableList"
 			"fieldName"								"GameModesList"
 			"xpos"									"cs-0.5"
-			"ypos"									"56"
+			"ypos"									"30"
 			"wide"									"f6"
-			"tall"									"f60"
+			"tall"									"f32"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"restrict_width"						"0"
@@ -179,6 +128,30 @@
 					"visible"						"0"
 				}
 			}
+		}
+		"RankBG"
+		{
+			"ControlName"							"Panel"
+			"fieldName"								"RankBG"
+			"xpos"									"9999"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"RankImage"
+		{
+			"ControlName"							"CTFLocalPlayerBadgePanel"
+			"fieldName"								"RankImage"
+			"xpos"									"9999"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"RankPanel"
+		{
+			"ControlName"							"CPvPRankPanel"
+			"fieldName"								"RankPanel"
+			"xpos"									"9999"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

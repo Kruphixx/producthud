@@ -33,7 +33,6 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"smallcheckimage"							"0"
-		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"font"										"HudFontSmall"
 

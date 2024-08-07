@@ -119,7 +119,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#PH_back"
+			"labelText"		"#TF_Back"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

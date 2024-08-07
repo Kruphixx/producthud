@@ -28,7 +28,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"89 81 71 255"
 		}
 
 		"DescLabel"
@@ -47,7 +47,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"89 81 71 255"
 			"auto_wide_tocontents" "0"
 			"wrap"				   "1"
 			"centerwrap"		   "1"
@@ -63,9 +63,7 @@
 			"tall"			"205"
 			"visible"		"1"
 			"enabled"		"1"
-			"paintbackground"		"1"
-			"paintbackgroundType"	"2"
-			"bgcolor_override"		"PrimaryBG"
+			"border"		"MainMenuHighlightBorder"
 		}
 		
 		// Parented to ImageFrame in code.

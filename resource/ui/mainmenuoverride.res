@@ -261,20 +261,37 @@
 		"show_model"	"0"
 		"show_type"		"1"
 	}
+
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"56"
+		"ypos"			"60"
+		"zpos"			"21"
+		"wide"			"150"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+
+		"font"			"product12"
+		"fgcolor_override"	"White"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"north-west"
+		"use_proportional_insets"	"1"
+	}
 					
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
-		"ypos"			"24"
-		"zpos"			"-99"
-		"wide"			"256"
-		"tall"			"64"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
+		"enabled"		"0"
 	}	
 	
 	"TFCharacterImage"

@@ -1,40 +1,5 @@
-///////////////////////////////////////////////////////////
-// Tracker scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-///////////////////////////////////////////////////////////
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
-	Colors
-	{
-		// base colors
-		"White"				"255 255 255 255"
-		"OffWhite"			"221 221 221 255"
-		"DullWhite"			"190 190 190 255"
-		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-
-		"Blank"				"0 0 0 0"
-		
-		"SteamLightGreen"	"157 194 80 255"
-		"AchievementsLightGrey"		"79 79 79 255"
-		"AchievementsDarkGrey"		"55 55 55 255"
-		"AchievementsInactiveFG"	"130 130 130 255"
-	}
-
-	///////////////////// BASE SETTINGS ////////////////////////
-	//
-	// default settings for all panels
-	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -197,9 +162,6 @@ Scheme
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"			[$WIN32]
 		NewGame.DisabledColor		"128 128 128 196"
-
-		"QuickListBGDeselected"		"AchievementsDarkGrey"
-	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////

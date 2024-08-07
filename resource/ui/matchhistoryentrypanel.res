@@ -50,9 +50,8 @@
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
 			"font"									"HudFontSmallestBold"
-			"fgcolor"								"StoreGreen"
+			"fgcolor"								"75 138 45 255"
 			"textAlignment"							"west"
-			"AllCaps"								"1"
 		}
 		"LossLabel"
 		{
@@ -68,9 +67,8 @@
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
 			"font"									"HudFontSmallestBold"
-			"fgcolor"								"Red"
+			"fgcolor"								"192 70 70 255"
 			"textAlignment"							"west"
-			"AllCaps"								"1"
 		}
 		"DateLabel"
 		{

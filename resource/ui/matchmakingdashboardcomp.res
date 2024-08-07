@@ -37,7 +37,6 @@
 		"enabled"									"1"
 		"font"										"HudFontMediumSmallBold"
 		"textAlignment"								"center"
-		"AllCaps"									"1"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -48,6 +47,6 @@
 
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"SecondaryBG"
+		"defaultBgColor_override"					"StoreGreen"
 	}
 }

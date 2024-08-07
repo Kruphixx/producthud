@@ -3,22 +3,24 @@
 
 Scheme
 {
-	Colors
-	{
-		// rayshud	
-		"White"				"240 240 240 255"
-		"OffWhite"			"200 200 200 255"
-		"DullWhite"			"142 142 142 255"
-		"TransparentBlack"		"0 0 0 128"
-		"Black"				"10 10 10 255" 
-		"Blank"				"0 0 0 0"
-		
-		"PrimaryText"		"240 240 240 255"
-		"SecondaryText"		"240 240 240 255"
-		"AccentText"		"24 24 24 255"
-		
-		"NotoWhite"				"240 240 240 255"
-		"NotoDark"				"24 24 24 255"
+    Colors
+    {
+        "White"                     "240 240 240 255"
+        "OffWhite"                  "200 200 200 255"
+        "DullWhite"                 "142 142 142 255"
+        "TransparentBlack"          "0 0 0 128"
+        "Black"                     "10 10 10 255" 
+
+        "Orange"                    "255 155 0 255"
+
+        "PrimaryText"               "240 240 240 255"
+        "SecondaryText"             "240 240 240 255"
+        "AccentText"                "24 24 24 255"
+
+        "SteamLightGreen"           "157 194 80 255"
+        "AchievementsLightGrey"     "79 79 79 180"
+        "AchievementsDarkGrey"      "55 55 55 180"
+        "AchievementsInactiveFG"    "130 130 130 140"
 
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"
@@ -63,8 +65,8 @@ Scheme
 		Button.DepressedBgColor			"AccentBG"
 		Button.FocusBorderColor			"0 0 0 0"
 
-		CheckButton.TextColor			"NotoWhite"
-		CheckButton.SelectedTextColor	"NotoWhite"
+		CheckButton.TextColor			"White"
+		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"SecondaryBG"
 		CheckButton.HighlightFgColor	"AccentBG"
 		CheckButton.ArmedBgColor		"Blank"
@@ -76,7 +78,7 @@ Scheme
 
 		ToggleButton.SelectedTextColor	"TFTextBright"
 
-		ComboBoxButton.ArrowColor		"NotoWhite"
+		ComboBoxButton.ArrowColor		"White"
 		ComboBoxButton.ArmedArrowColor	"AccentBG"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
@@ -87,12 +89,12 @@ Scheme
 
 		Frame.BgColor					"PrimaryBG"
 		Frame.OutOfFocusBgColor			"PrimaryBGOffFocus"
-		FrameGrip.Color1				"NotoWhite"
+		FrameGrip.Color1				"White"
 		FrameGrip.Color2				"PrimaryBG"
-		FrameTitleButton.FgColor		"NotoWhite"
+		FrameTitleButton.FgColor		"White"
 		FrameTitleBar.Font				"UIBold"
-		FrameTitleBar.TextColor			"NotoWhite"
-		FrameTitleBar.DisabledTextColor	"NotoWhite"
+		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.DisabledTextColor	"White"
 
 		Label.TextDullColor				"DullWhite"
 		Label.TextColor					"OffWhite"
@@ -102,7 +104,7 @@ Scheme
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"10 10 10 255"
 
-		ListPanel.TextColor					"NotoWhite"
+		ListPanel.TextColor					"White"
 		ListPanel.BgColor					"SecondaryBG"
 		ListPanel.SelectedBgColor			"AccentBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
@@ -154,21 +156,21 @@ Scheme
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledBgColor	"Blank"
-		GraphPanel.FgColor				"NotoWhite"
+		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"SecondaryBG"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.SelectedTextColor			"AccentText"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
-		Menu.TextColor					"NotoWhite"
+		Menu.TextColor					"White"
 		Menu.ArmedTextColor				"Black"
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 		ProgressBar.FgColor				"SecondaryText"
 		ProgressBar.BgColor				"SecondaryBG"
-		PropertySheet.TextColor			"NotoWhite"
+		PropertySheet.TextColor			"White"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"
-		RichText.TextColor				"NotoWhite"
+		RichText.TextColor				"White"
 		RichText.BgColor				"SecondaryBG"
 		RichText.SelectedTextColor		"PrimaryText"
 		RichText.SelectedBgColor		"PrimaryBG"
@@ -177,7 +179,7 @@ Scheme
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"SecondaryText"
 		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"NotoWhite"
+		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"SecondaryBG"
 		SectionedListPanel.SelectedTextColor			"AccentText"
 		SectionedListPanel.SelectedBgColor				"AccentBG"
@@ -196,12 +198,15 @@ Scheme
 		MainMenu.DepressedTextColor	"150 150 150 128"
 		MainMenu.MenuItemHeight		"25"
 		MainMenu.Backdrop			"0 0 0 0"
-		Console.TextColor			"NotoWhite"
+		Console.TextColor			"255 155 0 255"
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"AccentBG"
 		NewGame.DisabledColor		"128 128 128 196"
+
+        "QuickListBGDeselected"     "AchievementsDarkGrey"
+        "QuickListBGSelected"       "AchievementsLightGrey"
 	}
 	
 	Fonts
