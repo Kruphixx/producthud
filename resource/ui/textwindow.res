@@ -15,23 +15,6 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-	
-	"TFMessageTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TFMessageTitle"
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-
-	"TextMessage"
-	{
-		"ControlName"	"TextEntry"
-		"fieldName"		"TextMessage"
-		"visible"		"0"
-		"enabled"		"0"
-	}
 
 	"TFTextMessage"
 	{
@@ -53,8 +36,10 @@
 		"fgcolor_override"	"PrimaryText"
         "image_box"         "replay/thumbnails/newhudlightgray"
         "image_line"        ""
+        "image_up_arrow"    "replay/thumbnails/arrow_up"
+        "image_down_arrow"  "replay/thumbnails/arrow_down"
 	}
-	
+
 	"BackgroundCus"
 	{
 		"ControlName"	"EditablePanel"
@@ -154,19 +139,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+		"enabled"		"0"
 	}						
 	
 	"MessageTitle"
@@ -175,5 +149,22 @@
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
+
+	"TFMessageTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"TextMessage"
+	{
+		"ControlName"	"TextEntry"
+		"fieldName"		"TextMessage"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
 }

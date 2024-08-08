@@ -16,30 +16,30 @@ Scheme
 
 		// Health Color
 		"HealthTF"                          "240 240 240 255"       // In Game Health Color
-		"HealthBuffTF"                      "91 171 248 255"        // In Game Health Overhealed Color
-		"HealthLowTF"                       "243 60 59 255"         // In Game Health Low Color
+		"HealthBuffTF"                      "68 164 255 255"        // In Game Health Overhealed Color
+		"HealthLowTF"                       "255 44 44 255"         // In Game Health Low Color
 		"HealthBlurTF"                      "20 20 20 255"          // In Game Health Blurred Color
 
 		"HealthIDTF"                        "240 240 240 255"       // TargetID Health Color
-		"HealthIDBuffTF"                    "91 171 248 255"        // TargetID Health Overhealed Color
-		"HealthIDLowTF"                     "243 60 59 255"         // TargetID Health Low Color
+		"HealthIDBuffTF"                    "68 164 255 255"        // TargetID Health Overhealed Color
+		"HealthIDLowTF"                     "255 44 44 255"         // TargetID Health Low Color
 		"HealthIDBlurTF"                    "20 20 20 255"	
 
 		// Ammo Color
 		"AmmoTF"                            "240 240 240 255"
-		"AmmoLowTF"                         "243 60 59 255"
+		"AmmoLowTF"                         "255 44 44 255"
 		"AmmoBlurTF"                        "20 20 20 255"	
 		
-		"AmmoResTF"                         "154 183 197 255"
-		"AmmoResLowTF"                      "243 60 59 255"
+		"AmmoResTF"                         "204 204 204 255"
+		"AmmoResLowTF"                      "255 44 44 255"
 		"AmmoResBlurTF"                     "20 20 20 255"	
 		
 		// Uber Color
 		"UberTF"                            "240 240 240 255"
 		"UberAltTF"                         "240 240 240 255"
 		
-		"UberBarTF"                         "91 171 248 255"
-		"UberBarAltTF"                      "120 190 255 255"
+		"UberBarTF"                         "68 164 255 255"
+		"UberBarAltTF"                      "99 180 255 255"
 		"UberBarBGTF"                       "24 24 24 150"
 		
 		//

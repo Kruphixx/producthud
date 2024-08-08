@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"product16"
+		"font"			"product14"
 	}
 	"BuyBackLabel"
 	{
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"product14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
