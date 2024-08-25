@@ -12,9 +12,6 @@ Scheme
         "AccentBG"                                          "142 168 195 255"      // Selection color
         "TFOrange"                                          "142 168 195 255"      // This should be the same as AccentBG
 
-        "PrimaryText"                                       "240 240 240 255"
-        "SecondaryText"                                     "240 240 240 255"
-
         ///////////////////////////////////////////////////
         //
         ///////////////////////////////////////////////////

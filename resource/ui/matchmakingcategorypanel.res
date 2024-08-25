@@ -6,10 +6,10 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"27"
+		"tall"										"24"
 		"proportionaltoparent"						"1"
 
-		"collapsed_height"							"27"
+		"collapsed_height"							"24"
 		"resize_time"								"0.1"
 	}
 	"TopContainer"
@@ -79,7 +79,7 @@
 		{
 			"ControlName"							"CExCheckButton"
 			"fieldName"								"Checkbutton"
-			"xpos"									"rs1-2"
+			"xpos"									"rs1-4"
 			"ypos"									"3"
 			"zpos"									"3"
 			"wide"									"25"
@@ -103,7 +103,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%title_token%"
-			"font"									"HudFontSmallishBold"
+			"font"									"product16"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"

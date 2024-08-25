@@ -16,13 +16,13 @@
 		"team1_player_base_x"				"0"
 		"team1_player_base_y"				"217"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-20"
+		"team1_player_delta_y"				"-22"
 		
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_x"				"0"
 		"team2_player_base_y"				"247"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"20"
+		"team2_player_delta_y"				"22"
 		
 		"playerpanels_kv"
 		{
@@ -192,8 +192,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"product11"
-				"xpos"			"22"
+				"font"			"product12"
+				"xpos"			"21"
 				"ypos"			"3"
 				"zpos"			"4"
 				"wide"			"32"
@@ -219,8 +219,8 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"UberBarAltTF"
-				"fgcolor_override"		"UberBarAltTF"
+				"fgcolor"		"White"
+				"fgcolor_override"		"White"
 			}			
 			"specindex"
 			{

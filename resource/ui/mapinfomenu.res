@@ -35,7 +35,6 @@
 		"paintBackgroundType"	"2"
 		"paintBackground"		"1"
 		"bgcolor_override"	"PrimaryBG"
-		"alpha"             "200"
 	}
 
 	"MapInfoType"
@@ -54,8 +53,8 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"product16"
-		"fgcolor"		"PrimaryText"
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor"		"White"
+		"fgcolor_override"	"White"
 		"textinsetx"	"16"
 	}	
 	
@@ -75,8 +74,8 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"north-west"
-		"fgcolor"		"PrimaryText"
-		"fgcolor_override"		"PrimaryText"
+		"fgcolor"		"White"
+		"fgcolor_override"		"White"
         "image_box"         	"replay/thumbnails/newhudlightgray"
         "image_line"        	""
 		"mouseinputenabled"		"0"
@@ -102,7 +101,6 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		"alpha"             "200"
 	}
 	
 	"PH_Back"
@@ -124,7 +122,6 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		"alpha"             "200"
 	}
 	
 	"PH_WatchMovie"
@@ -147,7 +144,6 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		"alpha"             "200"
 	}
 
 	"MenuBG"

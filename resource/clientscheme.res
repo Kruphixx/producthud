@@ -2,25 +2,28 @@
 // COLORS
 ///////////////////////////////////////////////////
 
-#base "../customizations/color_theme.res"
+#base "../../../cfg/producthud/product_themes.txt"
 #base "scheme/colors_base.res"
 
 ///////////////////////////////////////////////////
 // FONTS
 ///////////////////////////////////////////////////
 
-#base "../customizations/alternative_fonts.res"
+#base "../../../cfg/producthud/product_fonts.txt"
 #base "scheme/fonts.res"
+#base "scheme/fonts_showcase.res"
 
 ///////////////////////////////////////////////////
 // BORDERS
 ///////////////////////////////////////////////////
 
+#base "../../../cfg/producthud/product_themes.txt"
 #base "scheme/borders_base.res"
 
 ///////////////////////////////////////////////////
 // MISCELLANEOUS
 ///////////////////////////////////////////////////
 
+#base "../../../cfg/producthud/product_crosshair_outline.txt"
 #base "scheme/symbols.res"
 #base "scheme/crosshairs.res"

@@ -42,7 +42,7 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"PrimaryText"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			

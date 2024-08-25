@@ -32,7 +32,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor_override"	"White"
 		"proportionaltoparent" "1"
 		"textinsetx"	"16"
 	}
@@ -48,7 +48,7 @@
 		"visible"			"0"
 		"proportionaltoparent" "1"
 
-		"bgcolor_override"	"primaryText"
+		"bgcolor_override"	"White"
 	}
 
 	"ScoresContainer"

@@ -77,7 +77,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
-		"ypos"			"-15"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"

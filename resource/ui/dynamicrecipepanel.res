@@ -175,8 +175,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
-			"fgcolor_override"		"PrimaryText"
+			"fgcolor"		"White"
+			"fgcolor_override"		"White"
 			"textinsetx"	"18"
 		}
 		"OutputLabel"
@@ -195,8 +195,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
-			"fgcolor_override"		"PrimaryText"
+			"fgcolor"		"White"
+			"fgcolor_override"		"White"
 			"textinsetx"	"16"
 		}
 		"OutputLabel2"
@@ -215,8 +215,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
-			"fgcolor_override"		"PrimaryText"
+			"fgcolor"		"White"
+			"fgcolor_override"		"White"
 			"textinsetx"	"18"
 		}
 		"RecipeTitle"
@@ -235,7 +235,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
+			"fgcolor"		"White"
 			"wrap"			"1"
 			"textinsetx"	"0"
 			"bgcolor_override"	"0 0 0 0"
@@ -445,8 +445,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
-			"fgcolor_override"		"PrimaryText"
+			"fgcolor"		"White"
+			"fgcolor_override"		"White"
 			"textinsetx"	"18"
 			"wrap"			"1"
 		}
@@ -518,7 +518,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "PrimaryText"
+			"fgcolor_override" "White"
 		}
 		"NextPageButton"
 		{

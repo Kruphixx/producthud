@@ -107,11 +107,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"16"
-			"defaultFgColor_override" "PrimaryText"
+			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "PrimaryBG"
 			"armedFgColor_override" "Black"
 			"armedBgColor_override" "AccentBG"
-			"depressedFgColor_override" "PrimaryText"
+			"depressedFgColor_override" "White"
 			"depressedBgColor_override" "PrimaryBG"
 		}
 		
@@ -227,7 +227,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
+			"fgcolor"		"White"
 			"wrap"			"1"
 			"textinsetx"	"16"
 		}
@@ -269,7 +269,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
+			"fgcolor"		"White"
 			"textinsetx"	"16"
 		}
 		"OutputLabel"
@@ -288,7 +288,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"PrimaryText"
+			"fgcolor"		"White"
 			"textinsetx"	"16"
 		}
 		
@@ -377,7 +377,7 @@
 		"wide"			"190"
 		"tall"			"299"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"SecondaryText"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}

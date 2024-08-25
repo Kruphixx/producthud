@@ -38,7 +38,7 @@
 		"command"	"prev"
 		"actionsignallevel" "2"
 		
-		"defaultFgColor_override"	"SecondaryText"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"Black"
 
 		"defaultBgColor_override"	"SecondaryBG"
@@ -71,7 +71,7 @@
 		"command"	"next"
 		"actionsignallevel" "2"
 		
-		"defaultFgColor_override"	"SecondaryText"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"Black"
 
 		"defaultBgColor_override"	"SecondaryBG"

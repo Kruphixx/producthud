@@ -7,7 +7,6 @@ Scheme
         ///////////////////////////////////////////////////
 
         "PrimaryBG"                                         "36 35 45 255"         // Window frame
-        "PrimaryBGOffFocus"                                 "36 35 45 200"         // Keep this the same color as PrimaryBG
         "SecondaryBG"                                       "51 50 61 255"         // Default VGUI buttons, Console/server browser etc. backgrounds
         "AccentBG"                                          "142 168 195 255"      // Selection color
 

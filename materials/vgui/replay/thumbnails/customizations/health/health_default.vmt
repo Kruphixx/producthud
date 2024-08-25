@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"          "vgui/replay/thumbnails/customizations/health/health_default"
+    "$translucent"          "1"
+    "$vertexcolor"          "1"
+    "$vertexalpha"          "1"
+}

@@ -32,8 +32,8 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"north-west"
-		"fgcolor"		"PrimaryText"
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor"		"White"
+		"fgcolor_override"	"White"
         "image_box"         "replay/thumbnails/newhudlightgray"
         "image_line"        ""
         "image_up_arrow"    "replay/thumbnails/arrow_up"
@@ -57,7 +57,6 @@
 		"paintBackgroundType"	"2"
 		"paintBackground"		"1"
 		"bgcolor_override"	"PrimaryBG"
-		"alpha"             "200"
 	}
 
 	"HTMLMessage"
@@ -104,7 +103,6 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		"alpha"             "200"
 	}
 	
 	"MenuBG"

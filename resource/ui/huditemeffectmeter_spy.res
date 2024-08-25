@@ -1,133 +1,127 @@
-"Resource/UI/HudItemEffectMeter_Spy.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	}
+    HudItemEffectMeter
+    {
+        "fieldName"                              "HudItemEffectMeter"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "xpos"                                   "0"
+        "ypos"                                   "0"
+        "wide"                                   "f0"
+        "tall"                                   "f0"
+    }
 
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"6"			
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
+    "Anchor"                                     // Moves the whole item counter
+    {
+        "ControlName"                            "CExLabel"
+        "fieldname"                              "Anchor"
+        "xpos"                                   "r120"
+        "ypos"                                   "r18"
+        "wide"                                   "5"
+        "tall"                                   "5"
+        "visible"                                "0"
+        "enabled"                                "1"
+        "labelText"                              ""
+    }
 
-	"ItemEffectMeterCount"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"r114"
-		"ypos"					"r22"
-		"zpos"					"6"
-		"wide"					"34"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Size_18"
-		"fgcolor_override"		"White"
-		"bgcolor_override"		"255 0 0 0"
-	}
+    "ItemEffectMeterCount"
+    {
+        "ControlName"                            "CExLabel"
+        "fieldName"                              "ItemEffectMeterCount"
+        "xpos"                                   "-17"
+        "ypos"                                   "2"
+        "zpos"                                   "6"
+        "wide"                                   "34"
+        "tall"                                   "16"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "labelText"                              "%progresscount%"
+        "textAlignment"                          "west"
+        "font"                                   "Size_16"
+        "fgcolor_override"                       "White"
 
-	"ItemEffectMeterCount2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount2"
-		"xpos"					"r114"
-		"ypos"					"r22"
-		"zpos"					"6"
-		"wide"					"34"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Size_18_Blur"
-		"fgcolor_override"		"Black"
-		"bgcolor_override"		"255 0 0 0"
-	}
+        "pin_to_sibling"                         "Anchor"
+    }
 
-	"Icon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Icon"
-		"xpos"			"r134"
-		"ypos"			"r20"
-		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"19"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"="
-		"textAlignment"	"center"	
-		"font"			"Symbols_14"
-		"fgcolor"		"White"
-		"bgcolor_override"	"0 0 0 0"
-		"paintbackgroundtype"	"0"
-	}
+    "ItemEffectMeterCount2"
+    {
+        "ControlName"                            "CExLabel"
+        "fieldName"                              "ItemEffectMeterCount2"
+        "xpos"                                   "0"
+        "ypos"                                   "0"
+        "zpos"                                   "5"
+        "wide"                                   "34"
+        "tall"                                   "16"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "labelText"                              "%progresscount%"
+        "textAlignment"                          "west"
+        "font"                                   "Size_16_Blur"
+        "fgcolor_override"                       "Black"
 
-	"Icon2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Icon2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"19"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"="
-		"textAlignment"	"center"	
-		"font"			"Symbols_14_Blur"
-		"fgcolor"		"Black"
-		"bgcolor_override"	"0 0 0 0"
-		"paintbackgroundtype"	"0"
-		"pin_to_sibling"  "Icon"
-	}
+        "pin_to_sibling"                         "ItemEffectMeterCount"
+    }
 
-	"ItemEffectMeterBG"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
-		"xpos"					"9999"
-		"visible"				"0"
-		"enabled"				"0"	
-	}
+    "Icon"
+    {
+        "ControlName"                            "CExLabel"
+        "fieldName"                              "Icon"
+        "xpos"                                   "-1"
+        "ypos"                                   "1"
+        "zpos"                                   "1"
+        "wide"                                   "16"
+        "tall"                                   "16"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "font"                                   "Symbols_14"
+        "labelText"                              "="
+        "fgcolor_override"                       "White"
 
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
-		"visible"				"0"
-		"enabled"				"0"
-	}
+        "pin_to_sibling"                         "Anchor"
+    }
+
+    "Icon_Shadow"
+    {
+        "ControlName"                            "CExLabel"
+        "fieldName"                              "Icon_Shadow"
+        "xpos"                                   "0"
+        "ypos"                                   "0"
+        "zpos"                                   "0"
+        "wide"                                   "16"
+        "tall"                                   "16"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "font"                                   "Symbols_14_Blur"
+        "labelText"                              "="
+        "fgcolor_override"                       "Black"
+
+        "pin_to_sibling"                         "Icon"
+    }
+
+    "ItemEffectMeterBG"
+    {
+        "ControlName"                            "CTFImagePanel"
+        "fieldName"                              "ItemEffectMeterBG"
+        "xpos"                                   "9999"
+        "visible"                                "0"
+        "enabled"                                "0"
+    }
+
+    "ItemEffectMeter"
+    {
+        "ControlName"                            "ContinuousProgressBar"
+        "fieldName"                              "ItemEffectMeter"
+        "xpos"                                   "9999"
+        "visible"                                "0"
+        "enabled"                                "0"
+    }
+
+    "ItemEffectMeterLabel"
+    {
+        "ControlName"                            "CExLabel"
+        "fieldName"                              "ItemEffectMeterLabel"
+        "xpos"                                   "9999"
+        "visible"                                "0"
+        "enabled"                                "0"
+    }
 }

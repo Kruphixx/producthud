@@ -1,0 +1,23 @@
+event HudLowAmmoPulse
+{
+    Animate AmmoInClip                           FgColor        "AmmoLowTF"              Accel       0.0 0.0
+    Animate AmmoInReserve                        FgColor        "AmmoResLowTF"           Accel       0.0 0.0
+    Animate AmmoNoClip                           FgColor        "AmmoLowTF"              Accel       0.0 0.0
+
+    RunEvent HudLowAmmoPulseLoop                 0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+    RunEvent HudLowAmmoPulse                     0.0
+}
+
+event HudLowAmmoPulseStop
+{
+    Animate AmmoInClip                           FgColor        "AmmoTF"             Accel       0.0 0.0
+    Animate AmmoInReserve                        FgColor        "AmmoResTF"          Accel       0.0 0.0
+    Animate AmmoNoClip                           FgColor        "AmmoTF"             Accel       0.0 0.0
+
+    StopEvent HudLowAmmoPulse                    0.0
+    StopEvent HudLowAmmoPulseLoop                0.0
+}

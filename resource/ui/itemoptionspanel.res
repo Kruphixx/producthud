@@ -60,7 +60,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"fgcolor_override" "PrimaryText"
+			"fgcolor_override" "White"
 			"bgcolor_override"	"0 0 0 0"
 		}
 

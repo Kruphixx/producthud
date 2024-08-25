@@ -508,7 +508,6 @@
 		"linespacing"	"16"
 		"linegap"		"2"
 		"fgcolor"		"blue"
-		//"show_columns"	"1"
 
 		if_mvm
 		{
@@ -533,7 +532,6 @@
 		"linespacing"	"16"
 		"linegap"		"2"
 		"fgcolor"		"red"
-		//"show_columns"	"1"
 
  		if_mvm
  		{
@@ -560,15 +558,16 @@
 
 		"bgcolor_override"	"0 0 0 0"
 	}
+
 	"SpectatorsInQueue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
-		"xpos"			"c-300"
-		"ypos"			"r90"
+		"textAlignment"		"east"
+		"xpos"			"c-22"
+		"ypos"			"r75"
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"
@@ -590,6 +589,7 @@
 			"visible"		"0"
 		}
 	}
+
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -609,6 +609,7 @@
 			"visible"		"1"
 		}
 	}
+
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -632,6 +633,7 @@
 			"wide"			"175"
 		}
 	}
+
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
@@ -648,13 +650,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"White"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
+
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -678,6 +681,7 @@
 			"visible"		"0"
 		}
 	}
+
 	"PlayerScoreLabel"
 	{
 		"ControlName"		"CExLabel"

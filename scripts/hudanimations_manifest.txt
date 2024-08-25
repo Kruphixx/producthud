@@ -1,7 +1,11 @@
 hudanimations_manifest
 {
-	"file" "scripts/hudanimations.txt"
-	"file" "scripts/hudanimations_custom.txt"
-	"file" "customizations/crosshairs/crosshair_animation.txt"
-	"file" "scripts/hudanimations_tf.txt"
+    "file" "scripts/hudanimations.txt"
+
+    "file" "scripts/animations/hudanimations_health.txt"
+    "file" "scripts/animations/hudanimations_ammo.txt"
+    "file" "scripts/animations/hudanimations_uber.txt"
+    "file" "scripts/animations/hudanimations_misc.txt"
+
+    "file" "scripts/hudanimations_tf.txt"
 }

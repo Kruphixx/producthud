@@ -178,12 +178,12 @@
 		
 		"border_override"	"MainMenuButtonDefault"
 		
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"disabledFgColor_override" "114 114 114 255"
 		"disabledBgColor_override" "PrimaryBG"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "PrimaryText"
+		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 	

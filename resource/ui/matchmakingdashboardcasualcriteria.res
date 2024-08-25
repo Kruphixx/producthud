@@ -52,7 +52,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"HudFontMediumSmall"
+		"font"										"product18"
 		"textAlignment"								"center"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"

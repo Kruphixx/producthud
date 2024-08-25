@@ -1,0 +1,77 @@
+///////////////////////////////////////////////////
+// START HEALTH BUFF ANIMATION
+///////////////////////////////////////////////////
+
+event HudHealthBonusPulse
+{
+    Animate   Health_Default_Shadow              FgColor        "HealthBuffTF"           Accel       0.0 0.0                     // Default Health
+
+    Animate   Health_Minimal                     FgColor        "HealthBuffTF"           Accel       0.0 0.0                     // Minimal Health
+
+    Animate   HealthBG                           BgColor        "HealthIDBuffTF"         Accel       0.0 0.0                     // TargetID Health BG
+
+    Animate   PlayerStatusHealthBonusImage       Alpha          "255"                    Linear      0.0 0.2                     // Overheal Cross
+    Animate   PlayerStatusHealthBonusImage       Alpha          "0"                      Linear      0.2 0.4                     // Overheal Cross
+
+    RunEvent  HudHealthBonusPulseLoop            0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+    RunEvent  HudHealthBonusPulse                0.0
+}
+
+///////////////////////////////////////////////////
+// END HEALTH BUFF ANIMATION
+///////////////////////////////////////////////////
+
+event HudHealthBonusPulseStop
+{
+    Animate   Health_Default_Shadow              FgColor        "HealthBlurTF"           Accel       0.0 0.0
+
+    Animate   Health_Minimal                     FgColor        "HealthTF"               Accel       0.0 0.0
+
+    Animate   HealthBG                           BgColor        "TransparentLightBlack"  Accel       0.0 0.0
+
+    StopEvent HudHealthBonusPulse                0.0
+    StopEvent HudHealthBonusPulseLoop            0.0
+}
+
+///////////////////////////////////////////////////
+// START LOW HEALTH ANIMATION
+///////////////////////////////////////////////////
+
+event HudHealthDyingPulse
+{
+    Animate   Health_Default_Shadow              FgColor        "HealthLowTF"            Accel       0.0 0.0
+
+    Animate   Health_Minimal                     FgColor        "HealthLowTF"            Accel       0.0 0.0
+
+    Animate   HealthBG                           BgColor        "HealthIDLowTF"          Accel       0.0 0.0
+
+    Animate   PlayerStatusHealthBonusImage       Alpha          "255"                    Linear      0.0 0.075
+    Animate   PlayerStatusHealthBonusImage       Alpha          "0"                      Linear      0.125 0.075
+
+    RunEvent  HudHealthDyingPulseLoop            0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+    RunEvent  HudHealthDyingPulse                0.0
+}
+
+///////////////////////////////////////////////////
+// END LOW HEALTH ANIMATION
+///////////////////////////////////////////////////
+
+event HudHealthDyingPulseStop
+{
+    Animate Health_Default_Shadow                FgColor        "HealthBlurTF"           Accel       0.0 0.0
+
+    Animate Health_Minimal                       FgColor        "HealthTF"               Accel       0.0 0.0
+
+    Animate HealthBG                             BgColor        "TransparentLightBlack"  Accel       0.0 0.0
+
+    StopEvent HudHealthDyingPulse                0.0
+    StopEvent HudHealthDyingPulseLoop            0.0
+}

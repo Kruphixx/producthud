@@ -13,7 +13,7 @@
 		"paintBorder"		"0"
 		"paintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkPrimaryBG"
+		"bgcolor_override"	"TransparentBlack"
 				
 		"PassedIcon"
 		{
@@ -82,7 +82,7 @@
 		"paintBorder"		"0"
 		"paintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkPrimaryBG"
+		"bgcolor_override"	"TransparentBlack"
 		
 		"Header"
 		{
@@ -401,7 +401,7 @@
 		"paintBorder"		"0"
 		"paintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkPrimaryBG"
+		"bgcolor_override"	"TransparentBlack"
 				
 		"FailedIcon"
 		{
@@ -470,7 +470,7 @@
 		"paintBorder"		"0"
 		"paintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkPrimaryBG"
+		"bgcolor_override"	"TransparentBlack"
 				
 		"FailedIcon"
 		{
@@ -538,7 +538,7 @@
 		"settitlebarvisible"	"0"
 		"paintbackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"	"PrimaryBG"
+		"bgcolor_override"	"DarkPrimaryBG"
 
 		"header_font"		"ItemFontNameLarge"
 		"header_fgcolor"	"Orange"
@@ -664,7 +664,7 @@
 			"enabled"		"0"
 			"tabPosition"	"4"
 			"labelText"		"#TF_call_vote"
-			"defaultBgColor_override"				"SecondaryBG"
+			"defaultBgColor_override"				"PrimaryBG"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -686,7 +686,7 @@
 			"enabled"		"1"
 			"tabPosition"	"4"
 			"labelText"		"#GameUI_Close"
-			"defaultBgColor_override"				"SecondaryBG"
+			"defaultBgColor_override"				"PrimaryBG"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

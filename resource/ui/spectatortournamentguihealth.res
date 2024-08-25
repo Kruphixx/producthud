@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"paintBackground"	"1"
 		"paintBackgroundType"	"0"
-		"bgcolor_override"	"TransparentLightBlack"
+		"bgcolor_override"	"TransparentBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValueID"
 	}
 	"PlayerStatusHealthValueID"

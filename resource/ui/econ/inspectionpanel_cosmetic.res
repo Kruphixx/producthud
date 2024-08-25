@@ -166,7 +166,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"PrimaryText"
+			"fgcolor_override"	"White"
 		}
 		
 		"UpButton"
@@ -323,7 +323,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"PrimaryText"
+					"fgcolor"		"White"
 				}		
 				
 				"RestrictionsLabel"

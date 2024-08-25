@@ -7,7 +7,7 @@ A flat, minimalistic Team Fortress 2 custom HUD originally created by omnibombul
 # Links
 
 * [HUD Wiki (Installation, Customizations)](https://github.com/Kruphixx/producthud/wiki)
-* [Full screenshot album](https://imgur.com/a/mZHn0Kw)
+* [Screenshot Album](https://github.com/Kruphixx/producthud/blob/screenshots/showcase.md)
 * [Comfig Huds](https://comfig.app/huds/page/producthud/)
 * [TF2Huds](https://tf2huds.dev/hud/ProductHUD)
 * [GameBanana](https://gamebanana.com/mods/512356)

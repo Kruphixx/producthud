@@ -1,2 +1,2 @@
-#base "../../customizations/streamermode/hudmatchsummary.res"
+#base "../../../../cfg/producthud/product_matchsummary_stream.txt"
 #base "hudmatchsummary_base.res"

@@ -984,7 +984,7 @@
 		"labelText"		"#NoSteamNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"250"
+		"ypos"			"280"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
@@ -992,8 +992,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "192 70 70 255"
 	}
+
 	"NoGCLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1002,7 +1003,7 @@
 		"labelText"		"#NoGCNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"250"
+		"ypos"			"280"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
@@ -1010,8 +1011,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "192 70 70 255"
 	}
+
 	"SelectLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1030,6 +1032,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "0 0 0 0"
 	}
+
 	"PackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1038,6 +1041,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"LoadoutChangesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1054,7 +1058,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "SecondaryText"
+		"fgcolor_override" "White"
 	}
 	
 	"class_loadout_panel"
@@ -1068,6 +1072,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
+
 	"backpack_panel"
 	{
 		"ControlName"		"CBackpackPanel"

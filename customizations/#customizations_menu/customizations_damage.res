@@ -1,0 +1,218 @@
+"Resource/MainMenuOverride.res"
+{
+    "SafeMode"
+    {
+        "Customizations_ScrollBar"
+        {
+            "Damage_Section"
+            {
+                "ControlName"                        "EditablePanel"
+                "fieldname"                          "Damage_Section"
+                "xpos"                               "15"
+                "ypos"                               "356"
+                "wide"                               "470"
+                "tall"                               "150"
+                "visible"                            "1"
+                "enabled"                            "1"
+                "proportionaltoparent"               "1"
+
+                "Title"
+                {
+                    "ControlName"                    "CExLabel"
+                    "fieldname"                      "Title"
+                    "xpos"                           "0"
+                    "ypos"                           "0"
+                    "wide"                           "100"
+                    "tall"                           "20"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "labelText"                      "Damage"
+                    "font"                           "product15"
+                    "textAlignment"                  "west"
+                    "fgcolor_override"               "White"
+                }
+
+                "Title_Line"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "Title_Line"
+                    "xpos"                           "0"
+                    "ypos"                           "23"
+                    "wide"                           "f0"
+                    "tall"                           "1"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "paintBackground"                "1"
+                    "bgcolor_override"               "White"
+                }
+
+                "Damage_Small"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "Damage_Small"
+                    "xpos"                           "3"
+                    "ypos"                           "30"
+                    "wide"                           "130"
+                    "tall"                           "30"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Damage_Small_Button"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldname"                  "Damage_Small_Button"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_damage_small"
+                        "labelText"                  "Small"
+                        "font"                       "product14"
+                        "textAlignment"              "west"
+                        "textinsetx"                 "30"
+                        "armedfgcolor_override"      "White"
+                        "armedbgcolor_override"      "SecondaryBG"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                        "paintBackground"            "1"
+                        "paintBackgroundType"        "2"
+                    }
+
+                    "Small_Showcase"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldname"                  "Small_Showcase"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "mouseinputenabled"          "0"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "-150"
+                        "font"                       "product12"
+                        "textAlignment"              "east"
+                        "textinsetx"                 "45"
+
+                    }
+                }
+
+                "Damage_Medium"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "Damage_Medium"
+                    "xpos"                           "3"
+                    "ypos"                           "70"
+                    "wide"                           "130"
+                    "tall"                           "30"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Damage_Medium_Button"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldname"                  "Damage_Medium_Button"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_damage_clear"
+                        "labelText"                  "Medium"
+                        "font"                       "product14"
+                        "textAlignment"              "west"
+                        "textinsetx"                 "30"
+                        "armedfgcolor_override"      "White"
+                        "armedbgcolor_override"      "SecondaryBG"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                        "paintBackground"            "1"
+                        "paintBackgroundType"        "2"
+                    }
+
+                    "Medium_Showcase"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldname"                  "Medium_Showcase"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "mouseinputenabled"          "0"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "-150"
+                        "font"                       "product24"
+                        "textAlignment"              "east"
+                        "textinsetx"                 "30"
+                    }
+                }
+
+                "Damage_Big"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "Damage_Big"
+                    "xpos"                           "3"
+                    "ypos"                           "110"
+                    "wide"                           "130"
+                    "tall"                           "30"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Damage_Big_Button"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldname"                  "Damage_Big_Button"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_damage_big"
+                        "labelText"                  "Big"
+                        "font"                       "product14"
+                        "textAlignment"              "west"
+                        "textinsetx"                 "30"
+                        "armedfgcolor_override"      "White"
+                        "armedbgcolor_override"      "SecondaryBG"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                        "paintBackground"            "1"
+                        "paintBackgroundType"        "2"
+                    }
+
+                    "Big_Showcase"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldname"                  "Big_Showcase"
+                        "xpos"                       "cs-0.5"
+                        "ypos"                       "cs-0.5"
+                        "zpos"                       "1"
+                        "wide"                       "f0"
+                        "tall"                       "f0"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "mouseinputenabled"          "0"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "-150"
+                        "font"                       "product32"
+                        "textAlignment"              "east"
+                        "textinsetx"                 "20"
+                    }
+                }
+            }
+        }
+    }
+}

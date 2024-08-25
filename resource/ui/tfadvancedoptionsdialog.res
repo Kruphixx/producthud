@@ -24,7 +24,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"product24"
 		"labelText"		"#TF_AdvancedOptions"
 		"textAlignment"	"center"
 		"xpos"			"0"

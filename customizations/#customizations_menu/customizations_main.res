@@ -1,0 +1,175 @@
+"Resource/MainMenuOverride.res"
+{
+    "SafeMode"
+    {
+        "ControlName"                            "EditablePanel"
+        "fieldName"                              "SafeMode"
+        "xpos"                                   "cs-0.5"
+        "ypos"                                   "cs-0.5"
+        "zpos"                                   "31"
+        "wide"                                   "500"
+        "tall"                                   "400"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "proportionaltoparent"                   "1"
+        "paintbackground"                        "1"
+        "paintbackgroundType"                    "2"
+        "bgcolor_override"                       "DarkPrimaryBG"
+
+        "CancelButton"
+        {
+            "ControlName"                        "CExButton"
+            "fieldName"                          "CancelButton"
+            "xpos"                               "480"
+            "ypos"                               "6"
+            "zpos"                               "1"
+            "wide"                               "14"
+            "tall"                               "14"
+            "autoResize"                         "0"
+            "pinCorner"                          "3"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "proportionaltoparent"               "1"
+            "paintBackground"                    "0"
+            "labelText"                          "%"
+            "font"                               "Symbols_20"
+            "textAlignment"                      "center"
+            "Command"                            "engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
+            "actionsignallevel"                  "2"
+            "sound_depressed"                    "UI/buttonclick.wav"
+            "sound_released"                     "UI/buttonclickrelease.wav"
+            "armedfgcolor_override"              "AccentBG"
+        }
+
+        "Title"
+        {
+            "ControlName"                        "CExLabel"
+            "fieldname"                          "Title"
+            "xpos"                               "cs-0.5"
+            "ypos"                               "3"
+            "wide"                               "150"
+            "tall"                               "35"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "labelText"                          "#PH_Customizations"
+            "font"                               "product24"
+            "textAlignment"                      "center"
+            "fgcolor_override"                   "White"
+            "proportionaltoparent"               "1"
+        }
+
+        "RestartIcon"
+        {
+            "ControlName"                        "CExLabel"
+            "fieldname"                          "RestartIcon"
+            "xpos"                               "9"
+            "ypos"                               "40"
+            "wide"                               "20"
+            "tall"                               "20"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "labelText"                          "."
+            "font"                               "Symbols_12"
+            "textAlignment"                      "center"
+            "fgcolor_override"                   "192 70 70 255"
+            "proportionaltoparent"               "1"
+            
+        }
+
+        "RestartExplanation"
+        {
+            "ControlName"                        "CExLabel"
+            "fieldname"                          "Title"
+            "xpos"                               "29"
+            "ypos"                               "33"
+            "wide"                               "f0"
+            "tall"                               "35"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "labelText"                          "Settings featuring the reload icon mean a game restart is required for the changes to apply."
+            "font"                               "product12"
+            "textAlignment"                      "west"
+            "fgcolor_override"                   "192 70 70 255"
+            "proportionaltoparent"               "1"
+        }
+
+        "Customizations_ScrollBar"
+        {
+            "ControlName"                        "CScrollableList"
+            "fieldName"                          "Customizations_ScrollBar"
+            "xpos"                               "cs-0.5"
+            "ypos"                               "65"
+            "zpos"                               "0"
+            "wide"                               "f2"
+            "tall"                               "f100"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "paintBackground"                    "0"
+            "bgcolor_override"                   "White"
+            "proportionaltoparent"               "1"
+
+            "ScrollBar"
+            {
+                "xpos"                           "rs1+1"
+                "ypos"                           "0"
+                "wide"                           "5"
+                "tall"                           "f0"
+                "zpos"                           "1000"
+                "proportionaltoparent"           "1"
+                "nobuttons"                      "1"
+
+                "Slider"
+                {
+                    "paintBackgroundType"        "0"
+                    "fgcolor_override"           "White"
+                }
+            }
+        }
+
+        "ApplyChangesButton"
+        {
+            "ControlName"                        "CExButton"
+            "fieldName"                          "ApplyChangesButton"
+            "xpos"                               "5"
+            "ypos"                               "375"
+            "zpos"                               "2"
+            "wide"                               "375"
+            "tall"                               "20"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "proportionaltoparent"               "1"
+            "font"                               "product18"
+            "textAlignment"                      "center"
+            "labelText"                          "Save Changes"
+            "command"                            "engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
+            "actionsignallevel"                  "2"
+            "sound_depressed"                    "UI/buttonclick.wav"
+
+            "paintBackground"                    "1"
+            "defaultBgColor_override"            "StoreGreen"
+        }
+
+        "ResetAll"
+        {
+            "ControlName"                        "CExButton"
+            "fieldName"                          "ResetAll"
+            "xpos"                               "384"
+            "ypos"                               "375"
+            "zpos"                               "2"
+            "wide"                               "110"
+            "tall"                               "20"
+            "visible"                            "1"
+            "enabled"                            "1"
+            "proportionaltoparent"               "1"
+            "font"                               "product18"
+            "textAlignment"                      "center"
+            "labelText"                          "Reset All"
+            "command"                            "engine product_customization_reset"
+            "actionsignallevel"                  "2"
+            "sound_depressed"                    "UI/buttonclick.wav"
+
+            "paintBackground"                    "1"
+            "defaultBgColor_override"            "192 70 70 255"
+        }
+    }
+}

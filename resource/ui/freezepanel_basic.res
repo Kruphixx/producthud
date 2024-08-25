@@ -1,2 +1,2 @@
-#base "../../customizations/streamermode/freezepanel_basic.res"
+#base "../../../../cfg/producthud/product_freezecam_stream.txt"
 #base "freezepanel_basic_base.res"
