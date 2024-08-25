@@ -1,7 +1,7 @@
 <div align="center">
 
 ## Banner
-![Banner](../screenshots/00_Banner.jpg)
+![Banner](../screenshots/00_Banner.png)
 
 ## Main Menu
 ![Main Menu](../screenshots/01_Main_Menu.jpg)
