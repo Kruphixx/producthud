@@ -82,7 +82,7 @@
 ![Map Info](../screenshots/24_MapInfo.jpg)
 
 ## Team Selection
-![Team Selection](../screenshots/25_MapInfo.jpg)
+![Team Selection](../screenshots/25_TeamSelection.jpg)
 
 ## Class Selection
 ![Class Selection](../screenshots/26_ClassSelection.jpg)
