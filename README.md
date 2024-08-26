@@ -1,6 +1,7 @@
-![producthud-banner-small](https://github.com/user-attachments/assets/33edb1e8-9ae3-4d0d-bc95-a6d9330c2896)
+![product-banner-new_small](https://github.com/user-attachments/assets/b7f3acb4-9ba6-4118-988e-d6d4014617bf)
 
 # ProductHUD
+
 
 A flat, minimalistic Team Fortress 2 custom HUD originally created by omnibombulator. The HUD hasn't been updated since 2015 and only had menu panels and basic in-game stuff done, so I went ahead and fully finished it.
 
