@@ -190,7 +190,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"PrimaryText"
+		"fgcolor"		"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
 		"textinsetx"	"10"
@@ -213,7 +213,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallestBold"
@@ -235,7 +235,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"PrimaryText"
+		"fgcolor"		"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
 		"textinsetx"	"10"
@@ -265,12 +265,12 @@
 		
 		"border_override"	"MainMenuButtonDefault"
 		
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"disabledFgColor_override" "114 114 114 255"
 		"disabledBgColor_override" "PrimaryBG"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "PrimaryText"
+		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 	
@@ -290,7 +290,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"PrimaryText"
+		"fgcolor"		"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
 		"textinsetx"	"10"
@@ -320,12 +320,12 @@
 		
 		"border_override"	"MainMenuButtonDefault"
 		
-		"fgcolor_override"	"PrimaryText"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"disabledFgColor_override" "114 114 114 255"
 		"disabledBgColor_override" "PrimaryBG"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "PrimaryText"
+		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 	
@@ -436,7 +436,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "PrimaryText"
+		"fgcolor_override" "White"
 		"bgcolor_override"	"0 0 0 0"
 	}
 	

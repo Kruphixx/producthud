@@ -320,7 +320,7 @@
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "PrimaryBG"
-			"defaultFgColor_override" "PrimaryText"
+			"defaultFgColor_override" "White"
 			"armedBgColor_override" "AccentBG"
 			"armedFgColor_override" "Black"
 			"selectedBgColor_override" "AccentBG"
@@ -383,7 +383,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "PrimaryText"
+		"fgcolor_override" "White"
 		"bgcolor_override"	"0 0 0 0"
 	}
 	

@@ -3,7 +3,7 @@ Scheme
     Colors
     {
         ///////////////////////////////////////////////////
-        // MAIN HUD COLORS
+        // MAIN COLORS
         ///////////////////////////////////////////////////
 
         "PrimaryBG"                              "71 89 110 255"
@@ -15,7 +15,16 @@ Scheme
         "Black"                                  "46 43 42 255"
         "TransparentBlack"                       "0 0 0 196"
         "TransparentLightBlack"                  "0 0 0 90"
+        "Blank"                                  "0 0 0 0"
         "White"                                  "240 240 240 255"
+
+        "Orange"                                 "255 160 0 255"
+        "Red"                                    "192 70 70 255"
+        "RedSolid"                               "192 70 70 255"
+        "Blue"                                   "85 135 228 255"
+        "Yellow"                                 "252 255 97 255"
+        "Gray"                                   "178 178 178 255"
+        "Purple"                                 "137 69 99 255"
 
         "Crosshair"                              "0 255 00 255"
         "Hitmarker"                              "255 0 0 255"
@@ -25,11 +34,15 @@ Scheme
         "PlayerCurrency"                         "101 195 58 255"
         "WorldCurrency"                          "216 55 55 255"
 
-        // Team Color
+        ///////////////////////////////////////////////////
+        // TEAM COLORS
+        ///////////////////////////////////////////////////
         "BlueTF"                                 "91 171 248 255"
         "RedTF"                                  "243 60 59 255"
 
-        // Health Color
+        ///////////////////////////////////////////////////
+        // HEALTH COLORS
+        ///////////////////////////////////////////////////
         "HealthTF"                               "240 240 240 255"       // In Game Health Color
         "HealthBuffTF"                           "14 139 255 255"        // In Game Health Overhealed Color
         "HealthLowTF"                            "255 37 37 255"         // In Game Health Low Color
@@ -39,7 +52,9 @@ Scheme
         "HealthIDBuffTF"                         "14 139 255 255"        // TargetID Health Overhealed Color
         "HealthIDLowTF"                          "255 37 37 255"         // TargetID Health Low Color	
 
-        // Ammo Color
+        ///////////////////////////////////////////////////
+        // AMMO COLORS
+        ///////////////////////////////////////////////////
         "AmmoTF"                                 "240 240 240 255"
         "AmmoLowTF"                              "255 37 37 255"
         "AmmoBlurTF"                             "20 20 20 255"	
@@ -48,7 +63,9 @@ Scheme
         "AmmoResLowTF"                           "255 37 37 255"
         "AmmoResBlurTF"                          "20 20 20 255"	
 
-        // Uber Color
+        ///////////////////////////////////////////////////
+        // UBER COLORS
+        ///////////////////////////////////////////////////
         "UberTF"                                 "240 240 240 255"
         "UberAltTF"                              "240 240 240 255"
 
@@ -58,8 +75,6 @@ Scheme
         ///////////////////////////////////////////////////
         // TF2 COLORS
         ///////////////////////////////////////////////////
-
-        "Purple"								"137 69 99 255"
 
         "QuestGold"								"208 147 75 255"
         "HalloweenThemeColor2015_Light"			"238 126 17 255"
@@ -118,7 +133,7 @@ Scheme
         "QualityColorHaunted_GreyedOut"			"14 61 43 255"
         "QualityColorCollectors_GreyedOut"		"60 0 0 255"
         "QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
-        "Orange"			"255 160 0 255"
+
         "OrangeDim"			"178 82 22 120"
         "LightOrange"		"188 112 0 128"
         "GoalOrange"		"255 133 0"
@@ -130,15 +145,11 @@ Scheme
         "QuestStandardHighlight"	"0 255 0 255"
         "QuestBonusHighlight"		"150 160 255 255"
 
-        "Red"				"192 28 0 140"
-        "RedSolid"			"192 28 0 255"
-        "Blue"				"0 28 162 140"
-        "Yellow"			"251 235 202 255"
         "TransparentYellow"	"251 235 202 140"
         "GreenSolid"		 "76 107 34 255"
 
         "FooterBGBlack"		"52 48 55 255"
-        
+
         "HUDBlueTeam"		"104 124 155 127"
         "HUDRedTeam"		"180 92 77 127"
         "HUDSpectator"		"124 124 124 127"
@@ -149,12 +160,9 @@ Scheme
         "HudOffWhite"		"200 187 161 255"
         "HudBlack"			"65 65 65 255"
         "ProgressBarBlue"	"91 122 142 255"
-        
-        "CreditsGreen"		"94 150 49 255"
-        
-        "Gray"				"178 178 178 255"
 
-        "Blank"				"0 0 0 0"
+        "CreditsGreen"		"94 150 49 255"
+
         "ForTesting"		"255 0 0 32"
         "ForTesting_Magenta"	"255 0 255 255"
         "ForTesting_MagentaDim"	"255 0 255 120"
@@ -269,14 +277,14 @@ Scheme
         "QualityColorHaunted_GreyedOut"			"14 61 43 255"
         "QualityColorCollectors_GreyedOut"		"60 0 0 255"
         "QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
-        
+
         "SaleGreen"								"77 136 49 255"
         
-        "LightRed"								"192 70 70 255"
-        "LighterRed"							"192 70 70 255"
+        "LightRed"								"219 97 97 255"
+        "LighterRed"							"226 122 122 255"
         "LighterDarkBrown"						"59 54 48 255"
         "DarkBrown"								"41 37 38 255"
-        
+
         "UpgradeDefaultFg"		"87 82 74 255"
         "UpgradeDefaultBg"		"46 43 42 255"
         "UpgradeArmedFg"		"194 96 47 255"
@@ -289,17 +297,14 @@ Scheme
         "UpgradeDisabledBg"		"46 43 42 255"
     }
 
-    ///////////////////// BASE SETTINGS ////////////////////////
-    // default settings for all panels
-    // controls use these to determine their settings
     BaseSettings
     {
         // vgui_controls color specifications
         ReplayBrowser.BgColor								"DarkBrown"
-        ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+        ReplayBrowser.Details.TitleEdit.Carat.FgColor		"Red"
         ReplayBrowser.Button.ArmedBgColor					"TFOrange"
         ReplayBrowser.Button.DepressedBgColor				"TFOrange"
-        ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+        ReplayBrowser.CollectionTitle.FgColor				"Red"
         ReplayBrowser.Warning.FgColor						"White"
         ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
         ReplayBrowser.Search.BgColor						"TanDark"
@@ -344,10 +349,10 @@ Scheme
         CheckButton.Check				"White"		// color of the check itself
         CheckButton.HighlightFgColor	"White"
         
-        ComboBoxButton.ArrowColor		"PrimaryText"
-        ComboBoxButton.ArmedArrowColor	"PrimaryText"
-        ComboBoxButton.BgColor			"0 0 0 0"
-        ComboBoxButton.DisabledBgColor	"0 0 0 0"
+        ComboBoxButton.ArrowColor		"White"
+        ComboBoxButton.ArmedArrowColor	"White"
+        ComboBoxButton.BgColor			"Blank"
+        ComboBoxButton.DisabledBgColor	"Blank"
 
         Frame.BgColor					"TransparentBlack"
         Frame.OutOfFocusBgColor			"TransparentBlack"
@@ -443,8 +448,8 @@ Scheme
         SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
         SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-        Slider.NobColor				"108 108 108 255"
-        Slider.TextColor			"127 140 127 255"
+        Slider.NobColor				"White"
+        Slider.TextColor			"White"
         Slider.TrackColor			"31 31 31 255"
         Slider.DisabledTextColor1	"117 117 117 255"
         Slider.DisabledTextColor2	"30 30 30 255"
@@ -498,13 +503,13 @@ Scheme
         "HudIcon_Red"		"160 0 0 255"
 
         // CHudMenu
-        "ItemColor"		"240 134 049 200"	// default 255 167 42 255
-        "MenuColor"		"235 235 235 200"
+        "ItemColor"		"Orange"	// default 255 167 42 255
+        "MenuColor"		"White"
         "MenuBoxBg"		"0 0 0 100"
 
         // weapon selection colors
-        "SelectionNumberFg"		"251 235 202 255"
-        "SelectionTextFg"		"251 235 202 255"
+        "SelectionNumberFg"		"White"
+        "SelectionTextFg"		"White"
         "SelectionEmptyBoxBg" 	"0 0 0 80"
         "SelectionBoxBg" 		"0 0 0 80"
         "SelectionSelectedBoxBg" "0 0 0 190"

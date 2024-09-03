@@ -53,7 +53,7 @@
         "enabled"		"1"
         "proportionaltoparent" "1"
         "centerwrap"	"1"
-        "fgcolor_override" "LightRed"
+        "fgcolor_override" "Red"
     }
 
     "CancelButton"

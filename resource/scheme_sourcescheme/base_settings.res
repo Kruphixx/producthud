@@ -61,7 +61,7 @@ Scheme
 
         Menu.TextInset                           "6"
         Menu.FgColor                             "White"
-        Menu.BgColor                             "32 32 32 255"
+        Menu.BgColor                             "25 25 25 255"
         Menu.ArmedFgColor                        "AccentBG"
         Menu.ArmedBgColor                        "AccentBG"
         Menu.TextColor                           "White"

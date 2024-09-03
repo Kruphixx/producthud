@@ -637,7 +637,7 @@
             "textAlignment"	"center"
             "textinsetx"	"50"
             "Command"		"respec"
-            "defaultBgColor_override" "LightRed"
+            "defaultBgColor_override" "Red"
             "defaultFgColor_override" "White"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"

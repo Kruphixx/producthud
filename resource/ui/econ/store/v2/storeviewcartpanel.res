@@ -164,7 +164,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "PrimaryText"
+				"fgcolor_override" "White"
 			}
 		}
 	}
@@ -431,7 +431,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "PrimaryText"
+						"fgcolor_override" "White"
 					}
 					"TotalSubtextLabelB"
 					{
@@ -449,7 +449,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "PrimaryText"
+						"fgcolor_override" "White"
 					}
 					
 					"TotalPriceLabel"
@@ -468,7 +468,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "PrimaryText"
+						"fgcolor_override" "White"
 					}
 					
 				}
