@@ -115,7 +115,7 @@
 		"xpos"			"c-289"
 		"ypos"			"r49"
 		"zpos"			"1000"
-		"wide"			"175"
+		"wide"			"170"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"

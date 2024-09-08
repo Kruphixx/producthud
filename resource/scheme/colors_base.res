@@ -18,7 +18,7 @@ Scheme
         "Blank"                                  "0 0 0 0"
         "White"                                  "240 240 240 255"
 
-        "Orange"                                 "255 160 0 255"
+        "Orange"                                 "255 142 36 255"
         "Red"                                    "192 70 70 255"
         "RedSolid"                               "192 70 70 255"
         "Blue"                                   "85 135 228 255"
@@ -35,10 +35,60 @@ Scheme
         "WorldCurrency"                          "216 55 55 255"
 
         ///////////////////////////////////////////////////
+        // ITEM QUALITY COLORS
+        ///////////////////////////////////////////////////
+        "Normal"                                 "141 141 141 255"
+        "Unique"                                 "228 181 27 255"
+        "Strange"                                "255 122 45 255"
+        "Unusual"                                "174 53 255 255"
+        "Vintage"                                "52 75 150 255"
+        "Genuine"                                "51 150 74 255"
+        "Haunted"                                "80 211 167 255"
+        "Community"                              "120 204 71 255"
+        "Developer"                              "173 26 131 255"
+        "SelfMade"                               "120 204 71 255"
+        "Customized"                             "52 75 150 255"
+        "Collectors"                             "160 24 24 255"
+        "PaintKitWeapon"                         "250 250 250 255"
+
+        "Grade_Default"                          "151 144 135 255"
+        "Grade_Civilian"                         "193 210 230 255"
+        "Grade_Freelance"                        "93 152 216 255"
+        "Grade_Mercenary"                        "62 87 211 255"
+        "Grade_Commando"                         "108 58 202 255"
+        "Grade_Assassin"                         "230 43 255 255"
+        "Grade_Elite"                            "255 71 71 255"
+
+        "Normal_Hover"                           "131 131 131 255"
+        "Unique_Hover"                           "218 171 17 255"
+        "Strange_Hover"                          "245 112 35 255"
+        "Unusual_Hover"                          "164 43 245 255"
+        "Vintage_Hover"                          "42 65 140 255"
+        "Genuine_Hover"                          "41 140 64 255"
+        "Haunted_Hover"                          "70 201 157 255"
+        "Community_Hover"                        "110 194 61 255"
+        "Developer_Hover"                        "163 16 121 255"
+        "SelfMade_Hover"                         "110 194 61 255"
+        "Customized_Hover"                       "42 65 140 255"
+        "Collectors_Hover"                       "150 14 14 255"
+        "PaintKitWeapon_Hover"                   "230 230 230 255"
+
+        "Grade_Default_Hover"                    "141 134 125 255"
+        "Grade_Civilian_Hover"                   "183 200 220 255"
+        "Grade_Freelance_Hover"                  "83 142 206 255"
+        "Grade_Mercenary_Hover"                  "52 77 201 255"
+        "Grade_Commando_Hover"                   "98 48 192 255"
+        "Grade_Assassin_Hover"                   "220 33 245 255"
+        "Grade_Elite_Hover"                      "245 61 61 255"
+
+
+        ///////////////////////////////////////////////////
         // TEAM COLORS
         ///////////////////////////////////////////////////
         "BlueTF"                                 "91 171 248 255"
+        "BlueTF_Selected"                        "43 152 255 255"
         "RedTF"                                  "243 60 59 255"
+        "RedTF_Selected"                         "255 45 45 255"
 
         ///////////////////////////////////////////////////
         // HEALTH COLORS
@@ -97,26 +147,24 @@ Scheme
         "BrightYellow"							"251 235 0 255"
         
         "ItemLimitedQuantity"					"225 209 0 255"
-        
-        "QualityColorCollectors"				"170 0 0 255"
+
+        "QualityColorNormal"					"178 178 178 255"
+        "QualityColorrarity1"					"89 204 114 255"     // Genuine
+        "QualityColorrarity2"					"141 131 75 255"
+        "QualityColorrarity3"					"204 204 250 255"
+        "QualityColorrarity4"					"212 112 255 255"    // Unusual
+        "QualityColorVintage"					"105 136 229 255"
+        "QualityColorUnique"					"255 240 23 255"
+        "QualityColorCommunity"					"152 255 89 255"
+        "QualityColorDeveloper"					"209 64 170 255"
+        "QualityColorSelfMade"					"152 255 89 255"
+        "QualityColorCustomized"				"105 136 229 255"
+        "QualityColorStrange"					"255 163 97 255"
+        "QualityColorCompleted"					"212 112 255 255"
+        "QualityColorHaunted"					"113 255 212 255"
+        "QualityColorCollectors"				"211 40 40 255"
         "QualityColorPaintkitWeapon"			"250 250 250 255"
-        
-        "ItemRarityDefault"						"131 126 119 255"
-        "ItemRarityCommon"						"176 195 217 255"
-        "ItemRarityUncommon"					"94 152 217 255"
-        "ItemRarityRare"						"75 105 255 255"
-        "ItemRarityMythical"					"136 71 255 255"
-        "ItemRarityLegendary"					"211 44 230 255"
-        "ItemRarityAncient"						"235 75 75 255"
-        
-        "ItemRarityDefault_GreyedOut"			"44 42 40 255"
-        "ItemRarityCommon_GreyedOut"			"59 65 72 255"
-        "ItemRarityUncommon_GreyedOut"			"31 50 72 255"
-        "ItemRarityRare_GreyedOut"				"25 35 85 255"
-        "ItemRarityMythical_GreyedOut"			"45 24 85 255"
-        "ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-        "ItemRarityAncient_GreyedOut"			"78 25 25 255"
-        
+
         "QualityColorNormal_GreyedOut"			"44 44 44 255"
         "QualityColorrarity1_GreyedOut"			"20 29 21 255"
         "QualityColorrarity2_GreyedOut"			"35 33 19 255"
@@ -133,6 +181,22 @@ Scheme
         "QualityColorHaunted_GreyedOut"			"14 61 43 255"
         "QualityColorCollectors_GreyedOut"		"60 0 0 255"
         "QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
+        
+        "ItemRarityDefault"						"131 126 119 255"
+        "ItemRarityCommon"						"147 199 255 255"
+        "ItemRarityUncommon"					"147 199 255 255"
+        "ItemRarityRare"						"109 136 255 255"
+        "ItemRarityMythical"					"147 94 255 255"
+        "ItemRarityLegendary"					"238 94 255 255"
+        "ItemRarityAncient"						"255 102 109 255"
+        
+        "ItemRarityDefault_GreyedOut"			"44 42 40 255"
+        "ItemRarityCommon_GreyedOut"			"59 65 72 255"
+        "ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+        "ItemRarityRare_GreyedOut"				"25 35 85 255"
+        "ItemRarityMythical_GreyedOut"			"45 24 85 255"
+        "ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+        "ItemRarityAncient_GreyedOut"			"78 25 25 255"
 
         "OrangeDim"			"178 82 22 120"
         "LightOrange"		"188 112 0 128"
@@ -206,9 +270,9 @@ Scheme
         "DisguiseMenuIconRed"	"192 56 63 255"
         "DisguiseMenuIconBlue"	"92 128 166 255"
 
-         "MatchmakingDialogTitleColor"			"200 184 151 255"
-         "MatchmakingMenuItemBackground"			"46 43 42 255"
-         "MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
+        "MatchmakingDialogTitleColor"			"200 184 151 255"
+        "MatchmakingMenuItemBackground"			"46 43 42 255"
+        "MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
         "MatchmakingMenuItemTitleColor"			"200 184 151 255"
         "MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
         
@@ -227,56 +291,6 @@ Scheme
         "ItemLimitedUse"						"0 160 0 255"
         "ItemFlags"								"117 107 94 255"
         "ItemLimitedQuantity"					"225 209 0 255"
-        
-        "QualityColorNormal"					"178 178 178 255"
-        "QualityColorrarity1"					"77 116 85 255"
-        "QualityColorrarity2"					"141 131 75 255"
-        "QualityColorrarity3"					"204 204 250 255"
-        "QualityColorrarity4"					"134 80 172 255"
-        "QualityColorVintage"					"71 98 145 255"
-        "QualityColorUnique"					"255 215 0 255"
-        "QualityColorCommunity"					"112 176 74 255"
-        "QualityColorDeveloper"					"165 15 121 255"
-        "QualityColorSelfMade"					"112 176 74 255"
-        "QualityColorCustomized"				"71 98 145 255"
-        "QualityColorStrange"					"207 106 50 255"
-        "QualityColorCompleted"					"134 80 172 255"
-        "QualityColorHaunted"					"56 243 171 255"
-        "QualityColorCollectors"				"170 0 0 255"
-        "QualityColorPaintkitWeapon"			"250 250 250 255"
-
-        "ItemRarityDefault"						"121 85 72 255"
-        "ItemRarityCommon"						"178 235 242 255"
-        "ItemRarityUncommon"					"0 151 167 255"
-        "ItemRarityRare"						"56 142 60 255"
-        "ItemRarityMythical"					"83 109 254 255"
-        "ItemRarityLegendary"					"224 64 251 255"
-        "ItemRarityAncient"						"255 64 129 255"
-        
-        "ItemRarityDefault_GreyedOut"			"44 42 40 255"
-        "ItemRarityCommon_GreyedOut"			"59 65 72 255"
-        "ItemRarityUncommon_GreyedOut"			"31 50 72 255"
-        "ItemRarityRare_GreyedOut"				"25 35 85 255"
-        "ItemRarityMythical_GreyedOut"			"45 24 85 255"
-        "ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-        "ItemRarityAncient_GreyedOut"			"78 25 25 255"	
-        
-        "QualityColorNormal_GreyedOut"			"44 44 44 255"
-        "QualityColorrarity1_GreyedOut"			"20 29 21 255"
-        "QualityColorrarity2_GreyedOut"			"35 33 19 255"
-        "QualityColorrarity3_GreyedOut"			"51 51 62 255"
-        "QualityColorrarity4_GreyedOut"			"36 20 43 255"
-        "QualityColorVintage_GreyedOut"			"18 25 36 255"
-        "QualityColorUnique_GreyedOut"			"64 54 0  255"
-        "QualityColorCommunity_GreyedOut"		"28 44 19 255"
-        "QualityColorDeveloper_GreyedOut"		"41 4  30  255"
-        "QualityColorSelfMade_GreyedOut"		"28 44 74 255"
-        "QualityColorCustomized_GreyedOut"		"71 98 19 255"
-        "QualityColorStrange_GreyedOut"			"52 27 13 255"
-        "QualityColorCompleted_GreyedOut"		"34 20 43 255"
-        "QualityColorHaunted_GreyedOut"			"14 61 43 255"
-        "QualityColorCollectors_GreyedOut"		"60 0 0 255"
-        "QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 
         "SaleGreen"								"77 136 49 255"
         
@@ -503,7 +517,7 @@ Scheme
         "HudIcon_Red"		"160 0 0 255"
 
         // CHudMenu
-        "ItemColor"		"Orange"	// default 255 167 42 255
+        "ItemColor"		"Orange"
         "MenuColor"		"White"
         "MenuBoxBg"		"0 0 0 100"
 

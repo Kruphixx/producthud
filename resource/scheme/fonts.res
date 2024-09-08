@@ -2423,6 +2423,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ItemFontNameSmall"
         {
             "1"
@@ -2445,6 +2446,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ItemFontNameLarger"
         {
             "1"
@@ -2456,6 +2458,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ItemFontAttribSmallest"
         {
             "1"
@@ -2467,6 +2470,7 @@ Scheme
                 "antialias" 	"1"
             }
         }
+
         "ItemFontAttribSmall"
         {
             "1"
@@ -2478,6 +2482,7 @@ Scheme
                 "antialias" 	"1"
             }
         }
+
         ItemFontAttribSmallv2
         {
             "1"
@@ -2488,16 +2493,7 @@ Scheme
                 "weight"	"500"
             }
         }
-        "ItemFontNameLarger"
-        {
-            "1"
-            {
-                "name"		"Product Sans"
-                "tall"		"18"
-                "additive"  "0"
-                "antialias"	"1"
-            }
-        }
+
         "ItemFontAttribLarger"
         {
             "1"
@@ -2508,6 +2504,7 @@ Scheme
                 "antialias"	"1"
             }
         }
+
         "ItemFontAttribLarge"
         {
             "1"

@@ -75,16 +75,12 @@
             "ypos"			"0"
             "zpos"			"1"
             "wide"			"13"
-            "tall"			"70"
-            "autoResize"	"0"
+            "tall"			"13"
             "visible"		"0"
             "enabled"		"1"
-            "tabPosition"	"0"
             "labelText"		"+"
             "font"			"product16"
             "textAlignment"	"center"
-            "dulltext"		"0"
-            "brighttext"	"0"
             "default"		"1"
             "textinsety"	"-2"
             "sound_depressed"	"UI/buttonclick.wav"
@@ -108,6 +104,7 @@
         "visible"		"1"
         "enabled"		"1"
         "bgcolor_override"	"PrimaryBG"
+        "paintBackgroundType" "2"
     }
 
     "BackgroundCus2"
@@ -122,25 +119,7 @@
         "visible"		"1"
         "enabled"		"1"
         "bgcolor_override"	"PrimaryBG"
-    }
-
-    "ClassLabel2"
-    {
-        "ControlName"	"CExLabel"
-        "fieldName"		"ClassLabel2"
-        "font"			"product19"
-        "labelText"		"#ClassBeingEquipped"
-        "textAlignment"	"center"
-        "xpos"			"c-85"
-        "ypos"			"15"
-        "zpos"			"-10"
-        "wide"			"170"
-        "tall"			"25"
-        "autoResize"	"0"
-        "pinCorner"		"0"
-        "visible"		"1"
-        "enabled"		"1"
-        "textinsetx"	"16"
+        "paintBackgroundType" "2"
     }
 
     "TauntCaratLabel"
@@ -522,6 +501,56 @@
         "depressedFgColor_override"	"Black"
     }
 
+    "RedButton"
+    {
+        "ControlName"                            "CExButton"
+        "fieldName"                              "RedButton"
+        "xpos"                                   "cs-0.5-13"
+        "ypos"                                   "68"
+        "zpos"                                   "26"
+        "wide"                                   "20"
+        "tall"                                   "20"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "labelText"                              "R"
+        "textAlignment"                          "center"
+        "font"                                   "product20"
+        "command"                                "sv_cheats 1; r_skin 0"
+        "sound_depressed"                        "UI/buttonclick.wav"
+        "sound_released"                         "UI/buttonclickrelease.wav"
+
+        "paintbackground"                        "1"
+
+        "defaultFgColor_override"                "RedTF"
+        "armedFgColor_override"                  "Red"
+        "depressedFgColor_override"              "RedTF"
+    }
+
+    "BlueButton"
+    {
+        "ControlName"                            "CExButton"
+        "fieldName"                              "BlueButton"
+        "xpos"                                   "cs-0.5+10"
+        "ypos"                                   "68"
+        "zpos"                                   "26"
+        "wide"                                   "20"
+        "tall"                                   "20"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "labelText"                              "B"
+        "textAlignment"                          "center"
+        "font"                                   "product20"
+        "command"                                "sv_cheats 1; r_skin 1"
+        "sound_depressed"                        "UI/buttonclick.wav"
+        "sound_released"                         "UI/buttonclickrelease.wav"
+
+        "paintbackground"                        "1"
+
+        "defaultFgColor_override"                "BlueTF"
+        "armedFgColor_override"                  "Blue"
+        "depressedFgColor_override"              "BlueTF"
+    }
+
     "TauntsExplanation"
     {
         "ControlName"	"CExplanationPopup"
@@ -630,60 +659,6 @@
                 "scaleImage"	"1"
             }				
         }		
-    }
-
-    "BlueButton"
-    {
-        "ControlName"								"CExImageButton"
-        "fieldName"									"BlueButton"
-        "xpos"										"c43"
-        "ypos"										"47"
-        "zpos"										"25"
-        "wide"										"16"
-        "tall"										"16"
-        "visible"									"1"
-        "enabled"									"1"
-        "labelText"									"v"
-        "textAlignment"								"center"
-        "font"										"Symbols_20"	[$WINDOWS]
-        "font"										"Symbols_16"	[$LINUX]
-        "scaleImage"								"1"
-        "command"									"sv_cheats 1; r_skin 1"
-        "sound_depressed"							"UI/buttonclick.wav"
-        "sound_released"							"UI/buttonclickrelease.wav"
-
-        "paintbackground"							"0"
-
-        "defaultFgColor_override"					"BlueTF"
-        "armedFgColor_override"						"Blue"
-        "depressedFgColor_override"					"BlueTF"
-    }
-
-    "RedButton"
-    {
-        "ControlName"								"CExImageButton"
-        "fieldName"									"BlueButton"
-        "xpos"										"c-65"
-        "ypos"										"46"
-        "zpos"										"25"
-        "wide"										"16"
-        "tall"										"16"
-        "visible"									"1"
-        "enabled"									"1"
-        "labelText"									"v"
-        "textAlignment"								"center"
-        "font"										"Symbols_20"	[$WINDOWS]
-        "font"										"Symbols_16"	[$LINUX]
-        "scaleImage"								"1"
-        "command"									"sv_cheats 1; r_skin 0"
-        "sound_depressed"							"UI/buttonclick.wav"
-        "sound_released"							"UI/buttonclickrelease.wav"
-
-        "paintbackground"							"0"
-
-        "defaultFgColor_override"					"RedTF"
-        "armedFgColor_override"						"Red"
-        "depressedFgColor_override"					"RedTF"
     }
 
     "TopLine"
