@@ -175,7 +175,7 @@
 ![PASS Time](../screenshots/55_PassTime.jpg)
 
 ## Arena - Team Selection
-![Arena - Team Selection](../screenshots/56_Arena_Team_Select.jpg)
+![Arena - Team Selection](../screenshots/56_Arena_TeamSelect.jpg)
 
 ## Arena - Win Panel
 ![Arena - Win Panel](../screenshots/57_Arena_Win.jpg)
