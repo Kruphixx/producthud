@@ -12,20 +12,6 @@
         "enabled"                                "1"
     }
 
-    "TransparentBG"
-    {
-        "ControlName"                            "Panel"
-        "fieldName"                              "TransparentBG"
-        "xpos"                                   "0"
-        "ypos"                                   "0"
-        "zpos"                                   "0"
-        "wide"                                   "f0"
-        "tall"                                   "f0"
-        "visible"                                "1"
-        "enabled"                                "1"
-        "bgcolor_override"                       "TransparentBlack"
-    }
-
     "FightButton"
     {
         "ControlName"                            "CExButton"

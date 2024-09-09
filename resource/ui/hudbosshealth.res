@@ -43,7 +43,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"../hud/halloween_bar"
+			"image"			"replay/thumbnails/boss_health/boss_bar"
 			"scaleImage"	"1"					
 		}
 	}				

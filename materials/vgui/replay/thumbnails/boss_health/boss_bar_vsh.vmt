@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"          "vgui\replay\thumbnails\boss_health\boss_bar"
+    "$translucent"          "1"
+    "$vertexcolor"          "1"
+    "$color"                "{ 209 162 81 }"
+}
