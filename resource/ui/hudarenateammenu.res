@@ -24,7 +24,7 @@
         "visible"                                "1"
         "enabled"                                "1"
         "proportionaltoparent"                   "1"
-        "font"                                   "product20"
+        "font"                                   "product18"
         "labeltext"                              "#PH_ArenaFight"
         "textAlignment"                          "center"
         "command"                                "jointeam spectate"
@@ -35,6 +35,8 @@
         "defaultBgColor_override"                "RedTF"
         "armedBgColor_override"                  "RedTF_Selected"
         "depressedBgColor_override"              "RedTF"
+
+        "armedFgColor_override"                  "White"
     }
 
     "SpectateButton"
@@ -50,16 +52,19 @@
         "enabled"                                "1"
         "proportionaltoparent"                   "1"
         "labeltext"                              "#PH_Spectate"
-        "font"                                   "product20"
+        "font"                                   "product18"
         "textAlignment"                          "center"
         "command"                                "jointeam spectatearena"
         "sound_depressed"                        "UI/buttonclick.wav"
 
         "paintbackground"                        "1"
 
-        "defaultBgColor_override"                "TransparentBlack"
+        "defaultbgcolor_override"                "TransparentBlack"
+        "armedbgcolor_override"                  "0 0 0 240"
+        "depressedbgcolor_override"              "TransparentBlack"
 
         "defaultFgColor_override"                "Gray"
+        "armedFgColor_override"                  "White"
         "depressedFgColor_override"              "Gray"
     }
 

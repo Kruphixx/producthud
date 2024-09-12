@@ -12,7 +12,7 @@ Scheme
         "AccentBG"                               "128 202 190 255"
         "TFOrange"                               "128 202 190 255"
 
-        "Black"                                  "46 43 42 255"
+        "Black"                                  "35 35 35 255"
         "TransparentBlack"                       "0 0 0 196"
         "TransparentLightBlack"                  "0 0 0 90"
         "Blank"                                  "0 0 0 0"
@@ -38,9 +38,9 @@ Scheme
         // ITEM QUALITY COLORS
         ///////////////////////////////////////////////////
         "Normal"                                 "141 141 141 255"
-        "Unique"                                 "228 181 27 255"
+        "Unique"                                 "221 177 16 255"
         "Strange"                                "255 122 45 255"
-        "Unusual"                                "174 53 255 255"
+        "Unusual"                                "182 72 255 255"
         "Vintage"                                "52 75 150 255"
         "Genuine"                                "51 150 74 255"
         "Haunted"                                "80 211 167 255"
@@ -60,9 +60,9 @@ Scheme
         "Grade_Elite"                            "255 71 71 255"
 
         "Normal_Hover"                           "131 131 131 255"
-        "Unique_Hover"                           "218 171 17 255"
+        "Unique_Hover"                           "211 167 6 255"
         "Strange_Hover"                          "245 112 35 255"
-        "Unusual_Hover"                          "164 43 245 255"
+        "Unusual_Hover"                          "172 62 245 255"
         "Vintage_Hover"                          "42 65 140 255"
         "Genuine_Hover"                          "41 140 64 255"
         "Haunted_Hover"                          "70 201 157 255"
@@ -154,12 +154,12 @@ Scheme
         "QualityColorrarity3"					"204 204 250 255"
         "QualityColorrarity4"					"212 112 255 255"    // Unusual
         "QualityColorVintage"					"105 136 229 255"
-        "QualityColorUnique"					"255 240 23 255"
+        "QualityColorUnique"					"255 244 16 255"
         "QualityColorCommunity"					"152 255 89 255"
         "QualityColorDeveloper"					"209 64 170 255"
         "QualityColorSelfMade"					"152 255 89 255"
         "QualityColorCustomized"				"105 136 229 255"
-        "QualityColorStrange"					"255 163 97 255"
+        "QualityColorStrange"					"255 171 110 255"
         "QualityColorCompleted"					"212 112 255 255"
         "QualityColorHaunted"					"113 255 212 255"
         "QualityColorCollectors"				"211 40 40 255"

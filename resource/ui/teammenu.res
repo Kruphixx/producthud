@@ -182,9 +182,12 @@
         "sound_depressed"                        "UI/buttonclick.wav"
         "paintbackground"                        "1"
 
-        "defaultBgColor_override"                "TransparentBlack"
+        "defaultbgcolor_override"                "TransparentBlack"
+        "armedbgcolor_override"                  "0 0 0 240"
+        "depressedbgcolor_override"              "TransparentBlack"
 
         "defaultFgColor_override"                "Gray"
+        "armedFgColor_override"                  "White"
         "depressedFgColor_override"              "Gray"
     }
 
