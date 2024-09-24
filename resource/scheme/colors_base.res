@@ -94,12 +94,12 @@ Scheme
         // HEALTH COLORS
         ///////////////////////////////////////////////////
         "HealthTF"                               "240 240 240 255"       // In Game Health Color
-        "HealthBuffTF"                           "14 139 255 255"        // In Game Health Overhealed Color
+        "HealthBuffTF"                           "57 159 255 255"        // In Game Health Overhealed Color
         "HealthLowTF"                            "255 37 37 255"         // In Game Health Low Color
         "HealthBlurTF"                           "20 20 20 255"          // In Game Health Blurred Color
 
         "HealthIDTF"                             "240 240 240 255"       // TargetID Health Color
-        "HealthIDBuffTF"                         "14 139 255 255"        // TargetID Health Overhealed Color
+        "HealthIDBuffTF"                         "57 159 255 255"        // TargetID Health Overhealed Color
         "HealthIDLowTF"                          "255 37 37 255"         // TargetID Health Low Color	
 
         ///////////////////////////////////////////////////
@@ -119,8 +119,8 @@ Scheme
         "UberTF"                                 "240 240 240 255"
         "UberAltTF"                              "240 240 240 255"
 
-        "UberBarTF"                              "14 139 255 255"
-        "UberBarAltTF"                           "37 150 255 255"
+        "UberBarTF"                              "57 159 255 255"
+        "UberBarAltTF"                           "91 171 248 255"
 
         ///////////////////////////////////////////////////
         // TF2 COLORS
