@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"          "vgui\replay\thumbnails\menu_icons\servers_icon"
+    "$translucent"          "1"
+    "$vertexcolor"          "1"
+    "$vertexalpha"          "1"
+}

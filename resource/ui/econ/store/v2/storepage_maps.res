@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"product13"
+		"font"			"product12"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"north-west"
 		"xpos"			"c-289"
@@ -90,7 +90,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"SecondaryText"
+		"fgcolor"		"White"
 		"textinsetx"	"16"
 		"wrap"			"1"
 	}
