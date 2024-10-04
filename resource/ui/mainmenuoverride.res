@@ -134,15 +134,15 @@
         "bgcolor_override"                       "SecondaryBG"
     }
 
-    "Background" // Default TF2 menu background
+    "Background" // Default TF2 menu background - Changed all wide and tall values to ones commented out to enable it
     {
         "ControlName"                            "ScalableImagePanel"
         "fieldName"                              "Background"
         "xpos"                                   "cs-0.5"
         "ypos"                                   "0"
         "zpos"                                   "-200"
-        "wide"                                   "o1.6"
-        "tall"                                   "f0"
+        "wide"                                   "0" // Default: "o1.6"
+        "tall"                                   "0" // Default: "f0"
         "visible"                                "0"
         "enabled"                                "1"
         "image"                                  ""
@@ -151,14 +151,14 @@
 
         if_wider
         {
-            "wide"                               "f0"
-            "tall"                               "o0.628"
+            "wide"                               "0" // Default: "f0"
+            "tall"                               "0" // Default: "o0.628"
         }
 
         if_taller
         {
-            "wide"                               "o1.6"
-            "tall"                               "f0"
+            "wide"                               "0" // Default: "o1.6"
+            "tall"                               "0" // Default: "f0"
         }
 
         if_halloween_0
