@@ -188,7 +188,7 @@
 
         if_halloween_5
         {
-            "image"                              "../console/title_team_halloween2017_widescreen"
+            "image"                              "../console/title_scream_fortress_2017_widescreen"
         }
 
         if_fullmoon
