@@ -213,7 +213,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"product13"
 			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
@@ -236,7 +236,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"product13"
 			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
@@ -250,7 +250,7 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
+				"0"		"product13"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
@@ -267,7 +267,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"product13"
 			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
@@ -281,7 +281,7 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
+				"0"		"product13"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}

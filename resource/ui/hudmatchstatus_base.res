@@ -622,15 +622,11 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamImage"
-			"xpos"			"9"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"56"
-			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/team_blue"
-			"scaleImage"		"1"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"BlueTeamLabel"
 		{
@@ -760,15 +756,11 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedTeamImage"
-			"xpos"			"84"
-			"ypos"			"-9"
-			"zpos"			"5"
-			"wide"			"70"
-			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/team_Red"
-			"scaleImage"		"1"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"RedTeamLabel"
 		{

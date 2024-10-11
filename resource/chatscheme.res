@@ -173,6 +173,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional"    "only"
 			"1"
 			{
 				"name"			"Verdana"
@@ -211,13 +212,12 @@ Scheme
 				"antialias"		"1"
 			}
 
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"20"
+				"tall"			"5"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}

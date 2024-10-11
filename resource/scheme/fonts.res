@@ -773,6 +773,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "Default"
         {
             "1"
@@ -809,13 +810,12 @@ Scheme
                 "yres"	"1024 1199"
                 "antialias"	"1"
             }
-            "5"
+            "5" // Misyl: Proportional
             {
                 "name"		"Verdana"
-                "tall"		"24"
+                "tall"		"9"
                 "weight"	"900"
                 "range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"	"1200 6000"
                 "antialias"	"1"
             }
             "6"
@@ -832,9 +832,8 @@ Scheme
                 "range" 		"0x0000 0x00FF"
                 "weight"		"800"
             }
-
-            
         }
+
         "DefaultUnderline"
         {
             "1"
@@ -853,6 +852,7 @@ Scheme
                 "weight"		"800"
             }
         }
+
         "DefaultSmall"
         {
             "1"
@@ -889,13 +889,12 @@ Scheme
                 "yres"	"1024 1199"
                 "antialias"	"1"
             }
-            "5"
+            "5" // Misyl: Proportional
             {
                 "name"		"Verdana"
-                "tall"		"22"
+                "tall"		"9"
                 "weight"	"0"
                 "range"		"0x0000 0x017F"
-                "yres"	"1200 6000"
                 "antialias"	"1"
             }
             "6"
@@ -906,7 +905,6 @@ Scheme
                 "weight"		"0"
             }
         }
-
 
         "DefaultVerySmall"
         {
@@ -944,16 +942,16 @@ Scheme
                 "yres"	"1024 1199"
                 "antialias"	"1"
             }
-            "5"
+            "5" // Misyl: Proportional
             {
                 "name"		"Verdana"
-                "tall"		"16"
+                "tall"		"9"
                 "weight"	"0"
                 "range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"	"1200 6000"
                 "antialias"	"1"
             }
         }
+
         DefaultLarge
         {
             "1"
@@ -990,13 +988,12 @@ Scheme
                 "yres"		"1024 1199"
                 "antialias"	"1"
             }
-            "5"
+            "5" // Misyl: Proportional
             {
                 "name"		"Verdana"
-                "tall"		"30"
+                "tall"		"18"
                 "weight"	"900"
                 "range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"	"1200 6000"
                 "antialias"	"1"
             }
             "6"
@@ -1014,6 +1011,7 @@ Scheme
                 "weight"		"800"
             }
         }
+
         CenterPrintText
         {
             "1"
@@ -1037,6 +1035,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         HudHintText
         {
             "1"
@@ -1067,14 +1066,15 @@ Scheme
                 "weight"	"700"
                 "yres"	"1024 1199"
             }
-            "5"
+            "5" // Misyl: Proportional
             {
                 "name"		"Verdana"
-                "tall"		"24"
+                "tall"		"12"
                 "weight"	"700"
-                "yres"	"1200 10000"
+                "antialias" "1"
             }
         }
+
         "HudFontGiant"
         {
             "1"
@@ -1118,13 +1118,13 @@ Scheme
             "5"
             {
                 "name"		"Product Sans"
-                "tall"		"52"
+                "tall"		"24"
                 "weight"	"500"
                 "additive"	"0"
                 "antialias" "1"
-                "yres"		"1200 10000"
             }
         }
+
         "HudFontGiantBold"
         {
             "1"
@@ -1163,6 +1163,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontMediumBig"
         {
             "1"
@@ -1173,7 +1174,8 @@ Scheme
                 "additive"	"0"
                 "antialias" "1"
             }
-        }	
+        }
+	
         "HudFontMediumBigBold"
         {
             "1"
@@ -1184,7 +1186,8 @@ Scheme
                 "additive"	"0"
                 "antialias" "1"
             }
-        }		
+        }
+	
         "HudFontMedium"
         {
             "1"
@@ -1196,6 +1199,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontMediumSecondary"
         {
             "1"
@@ -1203,10 +1207,20 @@ Scheme
                 "name"		"Product Sans"
                 "tall"		"24"
                 "weight"	"500"
+                "yres"      "1 1199"
+                "additive"	"0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"		"Product Sans"
+                "tall"		"10"
+                "weight"	"500"
                 "additive"	"0"
                 "antialias" "1"
             }
         }
+
         "HudFontMediumBold"
         {
             "1"
@@ -1218,6 +1232,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontMediumSmallBold"
         {
             "1"
@@ -1229,6 +1244,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontMediumSmall"
         {
             "1"
@@ -1240,6 +1256,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontMediumSmallSecondary"
         {
             "1"
@@ -1251,6 +1268,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontSmall"
         {
             "1"
@@ -1260,7 +1278,8 @@ Scheme
                 "additive"	"0"
                 "antialias" 	"1"
             }
-        }	
+        }
+
         "HudFontSmallishBold"
         {
             "1"
@@ -1272,6 +1291,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontSmallBold"
         {
             "1"
@@ -1283,6 +1303,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudFontSmallBoldShadow"
         {
             "1"
@@ -1295,6 +1316,7 @@ Scheme
                 "dropshadow"	"1"
             }
         }
+
         "HudFontSmallest"
         {
             "1"
@@ -1306,6 +1328,7 @@ Scheme
                 "antialias" 	"1"
             }
         }
+
         "HudFontSmallestShadow"
         {
             "1"
@@ -1318,6 +1341,7 @@ Scheme
                 "dropshadow"	"1"
             }
         }
+
         "HudFontSmallestBold"
         {
             "1"
@@ -1329,6 +1353,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "PerformanceModeSmall"
         {
             "1"
@@ -1340,6 +1365,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "StorePromotionsTitle"
         {
             "1"
@@ -1351,6 +1377,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "FontCartPrice"
         {
             "1"
@@ -1362,6 +1389,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "FontStorePrice"
         {
             "1"
@@ -1373,6 +1401,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "FontStoreOriginalPrice"
         {
             "1"
@@ -1384,6 +1413,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "FontStorePriceSmall"
         {
             "1"
@@ -1395,6 +1425,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "FontStorePromotion"
         {
             "1"
@@ -1406,6 +1437,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "TextTooltipFont"
         {
             "1"
@@ -1417,6 +1449,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         GameUIButtonsSteamController
         {
             "1"
@@ -1427,6 +1460,7 @@ Scheme
                 "scaley"	"0.5"
             }
         }
+
         GameUIButtonsSteamControllerSmall
         {
             "1"
@@ -1437,6 +1471,7 @@ Scheme
                 "scaley"	"0.25"
             }
         }
+
         GameUIButtonsSteamControllerSmallest
         {
             "1"
@@ -1447,6 +1482,7 @@ Scheme
                 "scaley"	"0.15"
             }
         }
+
         GameUIButtons
         {
             "1"
@@ -1457,6 +1493,7 @@ Scheme
                 "scaley"	"0.5"
             }
         }
+
         "GameUIButtonText"
         {
             "1"
@@ -1468,6 +1505,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudClassHealth"
         {
             "1"
@@ -1479,6 +1517,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "SpectatorKeyHints"
         {
             "1"
@@ -1490,6 +1529,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ClockSubText"
         {
             "1"
@@ -1501,6 +1541,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ClockSubTextSuddenDeath"
         {
             "1"
@@ -1514,6 +1555,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "ClockSubTextTiny"
         {
             "1"
@@ -1526,6 +1568,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "HudSelectionText"
         {
             "1"
@@ -1576,6 +1619,7 @@ Scheme
                 "range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
             }
         }
+
         DebugOverlay
         {
             "1"	[$WIN32]
@@ -1586,7 +1630,8 @@ Scheme
                 "outline"	"1"
                 "range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
             }
-        }		
+        }
+
         TFTypeDeath
         {
             "1"
@@ -1598,7 +1643,7 @@ Scheme
                 "antialias" 	"1"
             }
         }
-        
+
         Icons
         {
             "1"
@@ -1610,6 +1655,7 @@ Scheme
                 "antialias" 	"1"
             }
         }
+
         "BetaFont"
         {
             "1"
@@ -1642,6 +1688,7 @@ Scheme
                 "antialias" "1"
             }
         }
+
         "CloseCaption_Normal"
         {
             "1"

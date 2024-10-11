@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"NoBorder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"product9"
+		"log_font_medium"			"product9"
+		"log_font_large"			"product9"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"product9"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -62,7 +62,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 			}
 		
 			"UpButton"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 200"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"product9"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
