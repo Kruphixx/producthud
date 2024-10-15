@@ -264,9 +264,13 @@
         "tabPosition"	"0"
         "labelText"		"|"
         "use_proportional_insets" "1"
-        "font"			"Symbols_14"
+        "font"			"Symbols_14" 
         "command"		"open_rank_type_menu"
         "textAlignment"	"center"
+        "textinsetx"    "0" [$WINDOWS]
+        "textinsetx"    "-3" [$LINUX]
+        "textinsety"    "0" [$WINDOWS]
+        "textinsety"    "-1" [$LINUX]
         "default"		"1"
         "actionsignallevel" "1"
         "proportionaltoparent"	"1"
@@ -428,14 +432,14 @@
             "ypos"			"0"
             "wide"			"18"
             "tall"			"18"
-            "autoResize"	"0"
-            "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "use_proportional_insets" "1"
-            "font"			"Symbols_18"
+            "use_proportional_insets" "0"
+            "font"          "Symbols_18" [$WINDOWS]
+            "font"          "Symbols_20" [$LINUX]
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-3" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
@@ -625,10 +629,10 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "font"			"Symbols_20"	[$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
+            "font"			"Symbols_20"
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -682,10 +686,10 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "font"			"Symbols_20"    [$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
+            "font"			"Symbols_20"
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -739,10 +743,10 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "font"			"Symbols_20"    [$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
+            "font"			"Symbols_20"
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -1068,56 +1072,47 @@
     // Servers button
     "ServerBrowserButton"
     {
-        "ControlName"	"EditablePanel"
+        "ControlName"	"CExImageButton"
         "fieldname"		"ServerBrowserButton"
         "xpos"			"50"
         "ypos"			"145"
         "zpos"			"11"
         "wide"			"170"
         "tall"			"25"
+        "autoResize"	"0"
+        "pinCorner"		"3"
         "visible"		"1"
-        "PaintBackgroundType"	"0"
+        "enabled"		"1"
+        "textinsetx"	"25"
+        "use_proportional_insets" "1"
+        "font"			"HudFontSmallBold"
+        "textAlignment"	"center"
+        "default"		"1"
+        "labeltext"     "#PH_ServerBrowser"
+        "command"       "OpenServerBrowser"
 
-        "SubButton"
+        "sound_depressed"	"UI/buttonclick.wav"
+        "sound_released"	"UI/buttonclickrelease.wav"
+
+        "paintbackground"	"1"
+        "paintborder"		"0"
+
+        "image_drawcolor"	"240 240 240 255"
+        "image_armedcolor"	"35 35 35 255"
+
+        "SubImage"
         {
-            "ControlName"	"CExImageButton"
-            "fieldName"		"SubButton"
-            "xpos"			"0"
-            "ypos"			"0"
-            "wide"			"170"
-            "tall"			"25"
-            "autoResize"	"0"
-            "pinCorner"		"3"
+            "ControlName"	"ImagePanel"
+            "fieldName"		"SubImage"
+            "xpos"			"6"
+            "ypos"			"6"
+            "zpos"			"1"
+            "wide"			"14"
+            "tall"			"14"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "textinsetx"	"25"
-            "use_proportional_insets" "1"
-            "font"			"HudFontSmallBold"
-            "textAlignment"	"center"
-            "default"		"1"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
-
-            "paintbackground"	"1"
-            "paintborder"		"0"
-
-            "image_drawcolor"	"240 240 240 255"
-            "image_armedcolor"	"35 35 35 255"
-
-            "SubImage"
-            {
-                "ControlName"	"ImagePanel"
-                "fieldName"		"SubImage"
-                "xpos"			"6"
-                "ypos"			"7"
-                "zpos"			"1"
-                "wide"			"12"
-                "tall"			"12"
-                "visible"		"1"
-                "enabled"		"1"
-                "scaleImage"	"1"
-            }
+            "scaleImage"	"1"
+            "image"         "replay/thumbnails/menu_icons/servers_icon"
         }
     }
 
@@ -1199,112 +1194,94 @@
     // Items button
     "CharacterSetupButton"
     {
-        "ControlName"	"EditablePanel"
+        "ControlName"	"CExImageButton"
         "fieldname"		"CharacterSetupButton"
         "xpos"			"50"
         "ypos"			"230"
         "zpos"			"11"
-        "wide"			"175"
+        "wide"			"170"
         "tall"			"25"
+        "autoResize"	"0"
+        "pinCorner"		"3"
         "visible"		"1"
-        "PaintBackgroundType"	"0"
+        "enabled"		"1"
+        "textinsetx"	"25"
+        "use_proportional_insets" "1"
+        "font"			"HudFontSmallBold"
+        "textAlignment"	"center"
+        "default"		"1"
+        "labeltext"     "#PH_Loadout"
+        "command"       "engine open_charinfo"
 
-        "SubButton"
+        "sound_depressed"	"UI/buttonclick.wav"
+        "sound_released"	"UI/buttonclickrelease.wav"
+
+        "paintbackground"	"1"
+        "paintborder"		"0"
+
+        "image_drawcolor"	"240 240 240 255"
+        "image_armedcolor"	"35 35 35 255"
+
+        "SubImage"
         {
-            "ControlName"	"CExImageButton"
-            "fieldName"		"SubButton"
-            "xpos"			"0"
-            "ypos"			"0"
-            "wide"			"170"
-            "tall"			"25"
-            "autoResize"	"0"
-            "pinCorner"		"3"
+            "ControlName"	"ImagePanel"
+            "fieldName"		"SubImage"
+            "xpos"			"6"
+            "ypos"			"6"
+            "zpos"			"1"
+            "wide"			"14"
+            "tall"			"14"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "textinsetx"	"25"
-            "use_proportional_insets" "1"
-            "font"			"HudFontSmallBold"
-            "textAlignment"	"center"
-            "default"		"1"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
-
-            "paintbackground"	"1"
-            "paintborder"		"0"
-
-            "image_drawcolor"	"240 240 240 255"
-            "image_armedcolor"	"35 35 35 255"
-
-            "SubImage"
-            {
-                "ControlName"	"ImagePanel"
-                "fieldName"		"SubImage"
-                "xpos"			"6"
-                "ypos"			"7"
-                "zpos"			"1"
-                "wide"			"12"
-                "tall"			"12"
-                "visible"		"1"
-                "enabled"		"1"
-                "scaleImage"	"1"
-            }
+            "scaleImage"	"1"
+            "image"         "replay/thumbnails/menu_icons/items_icon"
         }
     }
 
     // Store button
     "GeneralStoreButton"
     {
-        "ControlName"	"EditablePanel"
+        "ControlName"	"CExImageButton"
         "fieldname"		"GeneralStoreButton"
         "xpos"			"50"
         "ypos"			"260"
         "zpos"			"11"
-        "wide"			"175"
+        "wide"			"170"
         "tall"			"25"
+        "autoResize"	"0"
+        "pinCorner"		"3"
         "visible"		"1"
-        "PaintBackgroundType"	"0"
+        "enabled"		"1"
+        "textinsetx"	"25"
+        "use_proportional_insets" "1"
+        "font"			"HudFontSmallBold"
+        "textAlignment"	"center"
+        "default"		"1"
+        "labeltext"     "#PH_Store"
+        "command"       "engine open_store"
 
-        "SubButton"
+        "sound_depressed"	"UI/buttonclick.wav"
+        "sound_released"	"UI/buttonclickrelease.wav"
+
+        "paintbackground"	"1"
+        "paintborder"		"0"
+
+        "image_drawcolor"	"240 240 240 255"
+        "image_armedcolor"	"35 35 35 255"
+
+        "SubImage"
         {
-            "ControlName"	"CExImageButton"
-            "fieldName"		"SubButton"
-            "xpos"			"0"
-            "ypos"			"0"
-            "wide"			"170"
-            "tall"			"25"
-            "autoResize"	"0"
-            "pinCorner"		"3"
+            "ControlName"	"ImagePanel"
+            "fieldName"		"SubImage"
+            "xpos"			"6"
+            "ypos"			"6"
+            "zpos"			"1"
+            "wide"			"14"
+            "tall"			"14"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "textinsetx"	"25"
-            "use_proportional_insets" "1"
-            "font"			"HudFontSmallBold"
-            "textAlignment"	"center"
-            "default"		"1"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
-
-            "paintbackground"	"1"
-            "paintborder"		"0"
-
-            "image_drawcolor"	"240 240 240 255"
-            "image_armedcolor"	"35 35 35 255"
-
-            "SubImage"
-            {
-                "ControlName"	"ImagePanel"
-                "fieldName"		"SubImage"
-                "xpos"			"6"
-                "ypos"			"6"
-                "zpos"			"1"
-                "wide"			"14"
-                "tall"			"14"
-                "visible"		"1"
-                "enabled"		"1"
-                "scaleImage"	"1"
-            }	
+            "scaleImage"	"1"
+            "image"         "replay/thumbnails/menu_icons/store_icon"
         }
     }
 
@@ -1444,57 +1421,44 @@
 
     "SteamWorkshopButton"
     {
-        "ControlName"	"EditablePanel"
+        "ControlName"	"CExImageButton"
         "fieldname"		"SteamWorkshopButton"
         "xpos"			"50"
         "ypos"			"r49"
-        "zpos"			"11"
+        "zpos"			"30"
         "wide"			"170"
         "tall"			"25"
+        "autoResize"	"0"
+        "pinCorner"		"3"
         "visible"		"1"
-        "PaintBackgroundType"	"2"
+        "enabled"		"1"
+        "tabPosition"	"0"
+        "labelText"		"#MMenu_SteamWorkshop"
+        "font"			"HudFontSmallBold"
+        "textAlignment"	"center"
+        "default"		"1"
+        "Command"		"OpenSteamWorkshopDialog"
 
-        "SubButton"
+        "sound_depressed"	"UI/buttonclick.wav"
+        "sound_released"	"UI/buttonclickrelease.wav"
+
+        "image_drawcolor"	"240 240 240 255"
+        "image_armedcolor"	"35 35 35 255"
+
+        "SubImage"
         {
-            "ControlName"	"CExImageButton"
-            "fieldName"		"SubButton"
-            "xpos"			"0"
-            "ypos"			"0"
-            "wide"			"170"
-            "tall"			"25"
-            "autoResize"	"0"
-            "pinCorner"		"3"
+            "ControlName"	"ImagePanel"
+            "fieldName"		"SubImage"
+            "xpos"			"5"
+            "ypos"			"5"
+            "zpos"			"1"
+            "wide"			"15"
+            "tall"			"15"
             "visible"		"1"
             "enabled"		"1"
-            "tabPosition"	"0"
-            "textinsetx"	"25"
-            "use_proportional_insets" "1"
-            "font"			"HudFontSmallBold"
-            "textAlignment"	"center"
-            "default"		"1"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
-
-            "paintbackground"	"1"
-            "paintborder"		"0"
-
-            "image_drawcolor"	"240 240 240 255"
-            "image_armedcolor"	"35 35 35 255"
-
-            "SubImage"
-            {
-                "ControlName"	"ImagePanel"
-                "fieldName"		"SubImage"
-                "xpos"			"6"
-                "ypos"			"6"
-                "zpos"			"1"
-                "wide"			"14"
-                "tall"			"14"
-                "visible"		"1"
-                "enabled"		"1"
-                "scaleImage"	"1"
-            }
-        }
+            "image"			"replay/thumbnails/menu_icons/workshop_icon"
+            "scaleImage"	"1"
+        }				
     }
 
     "CallVoteButton"
@@ -1651,9 +1615,10 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_18"	[$WINDOWS]
-            "font"			"Symbols_14"    [$LINUX]
+            "font"			"Symbols_18"
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
@@ -1700,9 +1665,10 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_18"	[$WINDOWS]
-            "font"			"Symbols_14"    [$LINUX]
+            "font"			"Symbols_18"
             "textAlignment"	"center"
+            "textinsety"    "0" [$WINDOWS]
+            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"

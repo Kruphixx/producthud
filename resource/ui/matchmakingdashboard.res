@@ -80,9 +80,10 @@
             "enabled"		"1"
             "tabPosition"	"0"
             "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_20"	[$LINUX]
+            "font"			"Symbols_24"	[$LINUX]
             "textAlignment"	"center"
-            "textinsety"	"4"
+            "textinsety"    "4" [$WINDOWS]
+            "textinsety"    "2" [$LINUX]
             "Command"		"toggle_chat"
             "proportionaltoparent"	"1"
             "labeltext"		","
@@ -525,9 +526,11 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"
+            "font"			"Symbols_22"	[$WINDOWS]
+            "font"			"Symbols_24"	[$LINUX]
             "textAlignment"	"center"
-            "textinsety"	"6"
+            "textinsety"    "6" [$WINDOWS]
+            "textinsety"    "1" [$LINUX]
             "Command"		"quit"
             "proportionaltoparent"	"1"
             "labeltext"		"b"
@@ -566,9 +569,11 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"
+            "font"			"Symbols_22"	[$WINDOWS]
+            "font"			"Symbols_24"	[$LINUX]
             "textAlignment"	"center"
-            "textinsety"	"3"
+            "textinsety"    "3" [$WINDOWS]
+            "textinsety"    "1" [$LINUX]
             "Command"		"quit"
             "proportionaltoparent"	"1"
             "labeltext"		"-"
@@ -608,9 +613,11 @@
             "tall"			"f6"
             "visible"		"0"
             "enabled"		"1"
-            "font"			"Symbols_22"
+            "font"			"Symbols_22"	[$WINDOWS]
+            "font"			"Symbols_24"	[$LINUX]
             "textAlignment"	"center"
-            "textinsety"	"3"
+            "textinsety"    "3" [$WINDOWS]
+            "textinsety"    "1" [$LINUX]
             "Command"		"resume_game"
             "proportionaltoparent"	"1"
             "labeltext"		"/"
@@ -650,9 +657,11 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"
+            "font"			"Symbols_22"	[$WINDOWS]
+            "font"			"Symbols_24"	[$LINUX]
             "textAlignment"	"center"
-            "textinsety"	"3"
+            "textinsety"    "3" [$WINDOWS]
+            "textinsety"    "1" [$LINUX]
             "Command"		"find_game"
             "proportionaltoparent"	"1"
             "labeltext"		"!"
