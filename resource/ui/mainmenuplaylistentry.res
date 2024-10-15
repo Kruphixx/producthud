@@ -30,7 +30,7 @@
 		"use_proportional_insets"					"1"
 		"font"										"HudFontSmallestBold"
 		"textAlignment"								"south"
-		"textinsety"								"-4"
+		"textinsety"								"-1"
 		"command"									"%button_command%"
 		"proportionaltoparent"						"1"
 		"actionsignallevel"							"2"
