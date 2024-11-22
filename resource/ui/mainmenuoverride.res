@@ -119,13 +119,27 @@
         }
     }
 
-    "MenuBackground" // HUD menu background
+    "TFCharacterImage"                           // Character image - Set both "wide" and "tall" values to 600 to enable
+    {
+        // "ControlName"                         "ImagePanel"
+        "fieldName"                              "TFCharacterImage"
+        "xpos"                                   "c-250"
+        "ypos"                                   "-80"
+        "zpos"                                   "-99"
+        "wide"                                   "0"
+        "tall"                                   "0"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "scaleImage"                             "1"
+    }
+
+    "MenuBackground"                             // HUD menu background
     {
         "ControlName"                            "EditablePanel"
         "fieldName"                              "MenuBackground"
         "xpos"                                   "0"
         "ypos"                                   "0"
-        "zpos"                                   "0"
+        "zpos"                                   "-100"
         "wide"                                   "f0"
         "tall"                                   "480"
         "visible"                                "1"
@@ -134,7 +148,7 @@
         "bgcolor_override"                       "SecondaryBG"
     }
 
-    "Background" // Default TF2 menu background - Changed all wide and tall values to ones commented out to enable it
+    "Background"                                 // Default TF2 menu background - Changed all wide and tall values to the ones commented out to enable it
     {
         "ControlName"                            "ScalableImagePanel"
         "fieldName"                              "Background"
@@ -252,39 +266,39 @@
     {
         "ControlName"	"CExImageButton"
         "fieldName"		"CycleRankTypeButton"
-        "xpos"			"200"
-        "ypos"			"60"
-        "zpos"			"2"
-        "wide"			"12"
-        "tall"			"12"
+        "xpos"	        "50"
+        "ypos"	        "55"
+        "zpos"	        "1"
+        "wide"	        "170"
+        "tall"	        "60"
         "autoResize"	"0"
         "pinCorner"		"3"
         "visible"		"1"
         "enabled"		"1"
-        "tabPosition"	"0"
-        "labelText"		"|"
         "use_proportional_insets" "1"
-        "font"			"Symbols_14" 
         "command"		"open_rank_type_menu"
-        "textAlignment"	"center"
-        "textinsetx"    "0" [$WINDOWS]
-        "textinsetx"    "-3" [$LINUX]
-        "textinsety"    "0" [$WINDOWS]
-        "textinsety"    "-1" [$LINUX]
         "default"		"1"
         "actionsignallevel" "1"
         "proportionaltoparent"	"1"
-                
+        "labeltext"     ""
+
         "sound_depressed"	"UI/buttonclick.wav"
         "sound_released"	"UI/buttonclickrelease.wav"
 
-        "defaultBgColor_override"	"SecondaryBG"
+        "paintbackground"	"0"
+        "paintborder"		"0"
 
-        "defaultFgColor_override"   "White"
-        "armedFgColor_override"     "Black"
-
-        "paintbackground"	"1"
-        "paintborder"		"0"	
+        "SubImage"
+        {
+            "ControlName"	"ImagePanel"
+            "fieldName"		"SubImage"
+            "xpos"			"9999"
+            "wide"			"0"
+            "tall"			"0"
+            "visible"		"0"
+            "enabled"		"0"
+            "scaleImage"	"1"
+        }
     }
 
     "RankPanel"
@@ -450,8 +464,22 @@
             "defaultBgColor_override"   "SecondaryBG"
             "depressedBgColor_override" "SecondaryBG"
 
-            "defaultFgColor_override"   "White"
-            "armedFgColor_override"     "Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
+
+            "SubImage"
+            {
+                "ControlName"	"ImagePanel"
+                "fieldName"		"SubImage"
+                "xpos"			"1"
+                "ypos"			"1"
+                "zpos"			"1"
+                "wide"			"16"
+                "tall"			"16"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+            }
         }
     }
 
@@ -629,10 +657,6 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_20"
-            "textAlignment"	"center"
-            "textinsety"    "0" [$WINDOWS]
-            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -648,13 +672,21 @@
             "defaultFgColor_override"	"White"
             "armedFgColor_override"	"Black"
 
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
+
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"3+1"
+                "ypos"			"2+1"
+                "zpos"			"1"
+                "wide"			"21"
+                "tall"			"21"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
             }
         }
     }
@@ -686,10 +718,6 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_20"
-            "textAlignment"	"center"
-            "textinsety"    "0" [$WINDOWS]
-            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -702,16 +730,21 @@
             "defaultBgColor_override" 	"PrimaryBG"
             "armedBgColor_override"     "AccentBG"
             
-            "defaultFgColor_override"	"White"
-            "armedFgColor_override"	"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"3+1+1"
+                "ypos"			"2+1+1"
+                "zpos"			"1"
+                "wide"			"19"
+                "tall"			"19"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
             }
         }
     }
@@ -743,10 +776,6 @@
             "pinCorner"		"3"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_20"
-            "textAlignment"	"center"
-            "textinsety"    "0" [$WINDOWS]
-            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	""
@@ -759,16 +788,21 @@
             "defaultBgColor_override" 	"PrimaryBG"
             "armedBgColor_override"     "AccentBG"
             
-            "defaultFgColor_override"	"White"
-            "armedFgColor_override"	"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"3+1+1"
+                "ypos"			"2+1+1"
+                "zpos"			"1"
+                "wide"			"19"
+                "tall"			"19"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
             }
         }
     }
@@ -1107,8 +1141,8 @@
             "xpos"			"6"
             "ypos"			"6"
             "zpos"			"1"
-            "wide"			"14"
-            "tall"			"14"
+            "wide"			"13"
+            "tall"			"13"
             "visible"		"1"
             "enabled"		"1"
             "scaleImage"	"1"
@@ -1227,10 +1261,10 @@
             "ControlName"	"ImagePanel"
             "fieldName"		"SubImage"
             "xpos"			"6"
-            "ypos"			"6"
+            "ypos"			"5+1+1"
             "zpos"			"1"
-            "wide"			"14"
-            "tall"			"14"
+            "wide"			"13"
+            "tall"			"13"
             "visible"		"1"
             "enabled"		"1"
             "scaleImage"	"1"
@@ -1276,8 +1310,8 @@
             "xpos"			"6"
             "ypos"			"6"
             "zpos"			"1"
-            "wide"			"14"
-            "tall"			"14"
+            "wide"			"15"
+            "tall"			"15"
             "visible"		"1"
             "enabled"		"1"
             "scaleImage"	"1"
@@ -1367,8 +1401,8 @@
             "xpos"			"6"
             "ypos"			"6"
             "zpos"			"1"
-            "wide"			"14"
-            "tall"			"14"
+            "wide"			"15"
+            "tall"			"15"
             "visible"		"1"
             "enabled"		"1"
             "scaleImage"	"1"
@@ -1485,22 +1519,27 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_20"    [$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
-            "textAlignment"	"center"
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
             "paintborder"	"0"
             "paintbackground"	"1"
 
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
+
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"3+1+1+1"
+                "ypos"			"2+1+1"
+                "zpos"			"1"
+                "wide"			"17"
+                "tall"			"17"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"    "1"
             }
         }
     }
@@ -1529,23 +1568,28 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_20"    [$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
-            "textAlignment"	"center"
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
             "paintborder"	"0"
             "paintbackground"	"1"
 
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
+
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
-            }	
+                "xpos"			"3+1+1+1"
+                "ypos"			"2+1+1"
+                "zpos"			"1"
+                "wide"			"17"
+                "tall"			"17"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"    "1"
+            }
         }
     }
 
@@ -1573,22 +1617,27 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_20"    [$WINDOWS]
-            "font"			"Symbols_16"    [$LINUX]
-            "textAlignment"	"center"
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
             "paintborder"	"0"
             "paintbackground"	"1"
 
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
+
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"3+1+1+1"
+                "ypos"			"2+1+1"
+                "zpos"			"1"
+                "wide"			"17"
+                "tall"			"17"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"    "1"
             }
         }
     }
@@ -1615,10 +1664,6 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_18"
-            "textAlignment"	"center"
-            "textinsety"    "0" [$WINDOWS]
-            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
@@ -1629,16 +1674,23 @@
             "defaultBgColor_override" 	"SecondaryBG"
             "depressedBgColor_override" "SecondaryBG"
             
-            "defaultFgColor_override"	"White"
-            "armedFgColor_override"	"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"          "cs-0.5"
+                "ypos"          "cs-0.5"
+                "zpos"          "1"
+                "wide"          "17"
+                "tall"          "17"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"    "1"
+                "image"         "replay/thumbnails/menu_icons/console"
+                "proportionaltoparent"  "1"
             }
         }
     }
@@ -1665,10 +1717,6 @@
             "visible"		"1"
             "enabled"		"1"
             "use_proportional_insets" "1"
-            "font"			"Symbols_18"
-            "textAlignment"	"center"
-            "textinsety"    "0" [$WINDOWS]
-            "textinsety"    "-2" [$LINUX]
             "default"		"1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
@@ -1679,16 +1727,22 @@
             "defaultBgColor_override" 	"SecondaryBG"
             "depressedBgColor_override" "SecondaryBG"
             
-            "defaultFgColor_override"	"White"
-            "armedFgColor_override"	"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"          "0+1+1"
+                "ypos"          "1+1"
+                "zpos"          "1"
+                "wide"          "15"
+                "tall"          "15"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"    "1"
+                "image"         "replay/thumbnails/menu_icons/custom"
             }
         }
     }			
@@ -2561,16 +2615,6 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "TFLogoImage"
-        "xpos"                                   "9999"
-        "wide"                                   "0"
-        "tall"                                   "0"
-        "visible"                                "0"
-    }
-
-    "TFCharacterImage"
-    {
-        "ControlName"                            "ImagePanel"
-        "fieldName"                              "TFCharacterImage"
         "xpos"                                   "9999"
         "wide"                                   "0"
         "tall"                                   "0"

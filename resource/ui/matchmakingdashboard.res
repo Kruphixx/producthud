@@ -79,14 +79,9 @@
             "visible"		"1"
             "enabled"		"1"
             "tabPosition"	"0"
-            "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_24"	[$LINUX]
-            "textAlignment"	"center"
-            "textinsety"    "4" [$WINDOWS]
-            "textinsety"    "2" [$LINUX]
             "Command"		"toggle_chat"
             "proportionaltoparent"	"1"
-            "labeltext"		","
+            "labeltext"		""
             "mouseinputenabled"	"1"
             "keyboardinputenabled"	"0"
             "actionsignallevel"	"2"
@@ -96,10 +91,23 @@
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
 
-            "armedFgColor_override" "Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
-            "defaultBgcolor_override"	"Blank"
-            "armedBgColor_override"		"AccentBG"
+            "SubImage"
+            {
+                "ControlName"	"ImagePanel"
+                "fieldName"		"SubImage"
+                "xpos"			"7+1"
+                "ypos"			"4+1"
+                "zpos"			"1"
+                "wide"			"24"
+                "tall"			"24"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+                "image"         "replay/thumbnails/menu_icons/chatbubble"
+            }
         }
 
         "PartySlot0"
@@ -526,14 +534,9 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_24"	[$LINUX]
-            "textAlignment"	"center"
-            "textinsety"    "6" [$WINDOWS]
-            "textinsety"    "1" [$LINUX]
             "Command"		"quit"
             "proportionaltoparent"	"1"
-            "labeltext"		"b"
+            "labeltext"		""
             "mouseinputenabled"	"1"
             "keyboardinputenabled"	"0"
             "actionsignallevel"	"2"
@@ -542,19 +545,22 @@
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
 
-            "armedBgColor_override"		"AccentBG"
-            "defaultBgColor_override"	"PrimaryBG"
-
-            "defaultFgColor_override"			"White"
-            "armedFgColor_override"				"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"4+1+1"
+                "ypos"			"6+1+1"
+                "zpos"			"1"
+                "wide"			"19"
+                "tall"			"19"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+                "image"         "replay/thumbnails/menu_icons/quit"
             }
         }
 
@@ -569,14 +575,9 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_24"	[$LINUX]
-            "textAlignment"	"center"
-            "textinsety"    "3" [$WINDOWS]
-            "textinsety"    "1" [$LINUX]
             "Command"		"quit"
             "proportionaltoparent"	"1"
-            "labeltext"		"-"
+            "labeltext"		""
             "mouseinputenabled"	"1"
             "keyboardinputenabled"	"0"
             "actionsignallevel"	"2"
@@ -589,16 +590,22 @@
             "armedBgColor_override"		"AccentBG"
             "defaultBgColor_override"	"PrimaryBG"
 
-            "defaultFgColor_override"			"White"
-            "armedFgColor_override"				"Black"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"5"
+                "ypos"			"6+1+1"
+                "zpos"			"1"
+                "wide"			"20"
+                "tall"			"20"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+                "image"         "replay/thumbnails/menu_icons/close"
             }
         }
 
@@ -613,14 +620,9 @@
             "tall"			"f6"
             "visible"		"0"
             "enabled"		"1"
-            "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_24"	[$LINUX]
-            "textAlignment"	"center"
-            "textinsety"    "3" [$WINDOWS]
-            "textinsety"    "1" [$LINUX]
             "Command"		"resume_game"
             "proportionaltoparent"	"1"
-            "labeltext"		"/"
+            "labeltext"		""
             "mouseinputenabled"	"1"
             "keyboardinputenabled"	"0"
             "actionsignallevel"	"2"
@@ -630,19 +632,25 @@
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
 
-            "defaultFgColor_override"			"White"
-            "armedFgColor_override"				"Black"
-
             "armedBgColor_override"		"AccentBG"
             "defaultBgColor_override"	"PrimaryBG"
+
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"5+1"
+                "ypos"			"6+1+1+1"
+                "zpos"			"1"
+                "wide"			"19"
+                "tall"			"19"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+                "image"         "replay/thumbnails/menu_icons/resume"
             }
         }
 
@@ -657,36 +665,34 @@
             "tall"			"f6"
             "visible"		"1"
             "enabled"		"1"
-            "font"			"Symbols_22"	[$WINDOWS]
-            "font"			"Symbols_24"	[$LINUX]
-            "textAlignment"	"center"
-            "textinsety"    "3" [$WINDOWS]
-            "textinsety"    "1" [$LINUX]
             "Command"		"find_game"
             "proportionaltoparent"	"1"
-            "labeltext"		"!"
+            "labeltext"		""
             "mouseinputenabled"	"1"
             "keyboardinputenabled"	"0"
             "actionsignallevel"	"2"
-            "roundedcorners"	"1"
+            "RoundedCorners"	"0"
             "use_proportional_insets"	"1"
 
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
 
-            "defaultFgColor_override"			"White"
-            "armedFgColor_override"				"Black"
-
-            "armedBgColor_override"		"AccentBG"
-            "defaultBgColor_override"	"PrimaryBG"
+            "image_drawcolor"	"240 240 240 255"
+            "image_armedcolor"	"35 35 35 255"
 
             "SubImage"
             {
                 "ControlName"	"ImagePanel"
                 "fieldName"		"SubImage"
-                "xpos"			"9999"
-                "visible"		"0"
-                "enabled"		"0"
+                "xpos"			"5"
+                "ypos"			"6+1+1"
+                "zpos"			"1"
+                "wide"			"20"
+                "tall"			"20"
+                "visible"		"1"
+                "enabled"		"1"
+                "scaleImage"	"1"
+                "image"         "replay/thumbnails/menu_icons/play"
             }
         }
     }
