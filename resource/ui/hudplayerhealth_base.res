@@ -98,7 +98,7 @@
     {
         "ControlName"                            "CExLabel"
         "fieldName"                              "Health_Minimal"
-        "xpos"                                   "60"
+        "xpos"                                   "80"
         "ypos"                                   "0"
         "zpos"                                   "4"
         "wide"                                   "80"
