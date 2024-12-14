@@ -266,8 +266,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r120"
 		"zpos"			"10"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -275,7 +275,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r142"
+			"ypos"		"r70"
 		}
 		
 		"if_specialdelivery"

@@ -95,7 +95,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#PH_Continue"
+		"labelText"		"#PH_Continue_SC"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"

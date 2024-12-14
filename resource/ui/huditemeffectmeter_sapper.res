@@ -1,9 +1,4 @@
-#base "huditemeffectmeter.res"
+#base "../../../../cfg/producthud/product_meters_bottom.txt"
 
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
-{
-	HudItemEffectMeter
-	{
-		"ypos"			"c89"
-	}
-}
+#base "huditemeffectmeter_#bottom.res"
+#base "huditemeffectmeter_base.res"

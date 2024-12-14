@@ -17,14 +17,14 @@
         "medal_column_width"                     "18"
         "spacer"                                 "5"
         "avatar_width"                           "28"
-        "name_width"                             "110"
-        "name_width_short"                       "85"
+        "name_width"                             "118"
         "status_width"                           "45"
         "nemesis_width"                          "15"
         "class_width"                            "15"
         "score_width"                            "25"
         "ping_width"                             "23"
-        "killstreak_width"                       "20"
+        "killstreak_width"                       "18"
+        "killstreak_image_width"                 "15"
     }
 
     // BLUE TEAM //

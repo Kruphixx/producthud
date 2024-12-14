@@ -212,6 +212,150 @@
                         "textinsetx"                 "20"
                     }
                 }
+
+                "DamageNumbers"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "DamageNumbers"
+                    "xpos"                           "145"
+                    "ypos"                           "30"
+                    "wide"                           "130"
+                    "tall"                           "35"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Title"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldName"                  "Title"
+                        "xpos"                       "0"
+                        "ypos"                       "0"
+                        "wide"                       "f0"
+                        "tall"                       "12"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "Damage Numbers"
+                        "font"                       "product12"
+                        "textAlignment"              "west"
+                        "fgcolor_override"           "White"
+                    }
+
+                    "EnableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "EnableButton"
+                        "xpos"                       "0"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine hud_combattext 1"
+                        "labelText"                  "ON"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "77 136 49 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+
+                    "DisableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "DisableButton"
+                        "xpos"                       "28"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine hud_combattext 0"
+                        "labelText"                  "OFF"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "192 70 70 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+                }
+
+                "DamageBatching"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "DamageBatching"
+                    "xpos"                           "145"
+                    "ypos"                           "70"
+                    "wide"                           "130"
+                    "tall"                           "35"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Title"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldName"                  "Title"
+                        "xpos"                       "0"
+                        "ypos"                       "0"
+                        "wide"                       "f0"
+                        "tall"                       "12"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "Damage Numbers Batching"
+                        "font"                       "product12"
+                        "textAlignment"              "west"
+                        "fgcolor_override"           "White"
+                    }
+
+                    "EnableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "EnableButton"
+                        "xpos"                       "0"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine hud_combattext_batching 1"
+                        "labelText"                  "ON"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "77 136 49 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+
+                    "DisableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "DisableButton"
+                        "xpos"                       "28"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine hud_combattext_batching 0"
+                        "labelText"                  "OFF"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "192 70 70 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+                }
             }
         }
     }

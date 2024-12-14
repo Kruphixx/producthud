@@ -447,7 +447,7 @@
 		"fieldName"									"KillStreakLeaderLabel"
 		"font"										"product10"
 		"xpos"										"0"
-		"ypos"										"-10"
+		"ypos"										"-9"
 		"zpos"										"3"
 		"wide"										"175"
 		"tall"										"12"

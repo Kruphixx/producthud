@@ -40,11 +40,12 @@
 		"textAlignment"								"center"
 		"Command"									"back"
 		"proportionaltoparent"						"1"
-		"labeltext"									"#TF_Matchmaking_Back"
+		"labeltext"									"#PH_Back"
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"1"
+		"bgcolor_override"                          "SecondaryBG"
 	}
 	"MannUpQueueButton"
 	{

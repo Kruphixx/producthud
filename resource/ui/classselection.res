@@ -815,7 +815,7 @@
         "tall"										"25"
         "visible"									"1"
         "textAlignment"								"center"
-        "labelText"									"#PH_Cancel"
+        "labelText"									"#PH_Cancel_SC"
         "font"										"product12"
         "Command"									"vguicancel"
         "defaultbgcolor_override"                   "0 0 0 160"

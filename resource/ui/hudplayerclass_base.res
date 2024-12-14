@@ -13,6 +13,20 @@
         "enabled"                                "1"	
     }
 
+    "TestBG"
+    {
+        "ControlName"                            "EditablePanel"
+        "fieldName"                              "TestBG"
+        "xpos"                                   "0"
+        "ypos"                                   "0"
+        "zpos"                                   "0"
+        "wide"                                   "f0"
+        "tall"                                   "480"
+        "visible"                                "0"
+        "enabled"                                "0"
+        "bgcolor_override"                       "65 65 65 255"
+    }
+
     "PlayerStatusClassImage"
     {
         "ControlName"                            "CTFClassImage"

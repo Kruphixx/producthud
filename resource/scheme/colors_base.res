@@ -263,7 +263,7 @@ Scheme
         "ProgressOffWhiteTransparent"	"66 63 56 128"
         
         "LabelDark"			"48 43 42 255"
-        "LabelTransparent"	"109 96 80 180"
+        "LabelTransparent"	"49 48 45 255"
         
         "BuildMenuActive"	"248 231 198 255"
         

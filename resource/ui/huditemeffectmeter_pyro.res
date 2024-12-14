@@ -1,9 +1,4 @@
-#base "HudItemEffectMeter.res"
+#base "../../../../cfg/producthud/product_meters_top.txt"
 
-"Resource/UI/HudItemEffectMeter_Pyro.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"										"c103"
-	}
-}
+#base "huditemeffectmeter_#top.res"
+#base "huditemeffectmeter_base.res"

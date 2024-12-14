@@ -20,7 +20,7 @@
 		"tall"										"17"
 		"proportionaltoparent"						"1"
 
-		"bgcolor_override"							"Black"
+		"bgcolor_override"							"Blank"
 
 		"EntryToggleButton"
 		{

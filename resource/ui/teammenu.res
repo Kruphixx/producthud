@@ -151,7 +151,7 @@
         "enabled"                                "1"
         "proportionaltoparent"                   "1"
         "font"                                   "product14"
-        "labelText"                              "#PH_Cancel"
+        "labelText"                              "#PH_Cancel_SC"
         "textAlignment"                          "center"
         "command"                                "cancelmenu"
         "sound_depressed"                        "UI/buttonclick.wav"

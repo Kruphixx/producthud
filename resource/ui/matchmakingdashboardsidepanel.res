@@ -58,7 +58,7 @@
 		"tall"			"f-20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"PrimaryBG"
 		"paintbackground"		"1"
 	}

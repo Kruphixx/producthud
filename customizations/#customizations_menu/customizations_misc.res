@@ -8,8 +8,8 @@
             {
                 "ControlName"                        "EditablePanel"
                 "fieldname"                          "Misc_Section"
-                "xpos"                               "155"
-                "ypos"                               "356"
+                "xpos"                               "15"
+                "ypos"                               "505"
                 "wide"                               "470"
                 "tall"                               "150"
                 "visible"                            "1"
@@ -31,6 +31,20 @@
                     "textAlignment"                  "west"
                     "fgcolor_override"               "White"
                     "proportionaltoparent"           "1"
+                }
+
+                "Title_Line"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "Title_Line"
+                    "xpos"                           "0"
+                    "ypos"                           "23"
+                    "wide"                           "470"
+                    "tall"                           "1"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "paintBackground"                "1"
+                    "bgcolor_override"               "White"
                 }
 
                 "TransViewmodels"
@@ -321,12 +335,83 @@
                     }
                 }
 
+                "KillstreakNotice"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "KillstreakNotice"
+                    "xpos"                           "145"
+                    "ypos"                           "70"
+                    "wide"                           "130"
+                    "tall"                           "35"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Title"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldName"                  "Title"
+                        "xpos"                       "0"
+                        "ypos"                       "0"
+                        "wide"                       "f0"
+                        "tall"                       "12"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "Killstreak Notices"
+                        "font"                       "product12"
+                        "textAlignment"              "west"
+                        "fgcolor_override"           "White"
+                    }
+
+                    "EnableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "EnableButton"
+                        "xpos"                       "0"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_ksnotice_clear; hud_reloadscheme"
+                        "labelText"                  "ON"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "77 136 49 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+
+                    "DisableButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "DisableButton"
+                        "xpos"                       "28"
+                        "ypos"                       "15"
+                        "wide"                       "25"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_ksnotice_off; hud_reloadscheme"
+                        "labelText"                  "OFF"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "defaultbgcolor_override"    "192 70 70 255"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+                }
 
                 "ChatPosition"
                 {
                     "ControlName"                    "EditablePanel"
                     "fieldname"                      "ChatPosition"
-                    "xpos"                           "145"
+                    "xpos"                           "300"
                     "ypos"                           "70"
                     "wide"                           "140"
                     "tall"                           "35"
@@ -455,6 +540,76 @@
                         "actionsignallevel"          "5"
                         "command"                    "engine product_scoreboard"
                         "labelText"                  "16v16"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+                }
+
+                "HealthAndAmmoPosition"
+                {
+                    "ControlName"                    "EditablePanel"
+                    "fieldname"                      "HealthAndAmmoPosition"
+                    "xpos"                           "300"
+                    "ypos"                           "30"
+                    "wide"                           "140"
+                    "tall"                           "35"
+                    "visible"                        "1"
+                    "enabled"                        "1"
+                    "proportionaltoparent"           "1"
+
+                    "Title"
+                    {
+                        "ControlName"                "CExLabel"
+                        "fieldName"                  "Title"
+                        "xpos"                       "0"
+                        "ypos"                       "0"
+                        "wide"                       "f0"
+                        "tall"                       "12"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "labelText"                  "Health and Ammo Position"
+                        "font"                       "product12"
+                        "textAlignment"              "west"
+                        "fgcolor_override"           "White"
+                    }
+
+                    "CenterButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "CenterButton"
+                        "xpos"                       "0"
+                        "ypos"                       "15"
+                        "wide"                       "65"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_healthammo_default"
+                        "labelText"                  "Center"
+                        "font"                       "product12"
+                        "textAlignment"              "center"
+                        "fgcolor_override"           "White"
+                        "sound_depressed"            "UI/buttonclick.wav"
+                    }
+
+                    "BottomButton"
+                    {
+                        "ControlName"                "CExButton"
+                        "fieldName"                  "BottomButton"
+                        "xpos"                       "70"
+                        "ypos"                       "15"
+                        "wide"                       "65"
+                        "tall"                       "15"
+                        "visible"                    "1"
+                        "enabled"                    "1"
+                        "proportionaltoparent"       "1"
+                        "actionsignallevel"          "5"
+                        "command"                    "engine product_healthammo_bottom"
+                        "labelText"                  "Bottom"
                         "font"                       "product12"
                         "textAlignment"              "center"
                         "fgcolor_override"           "White"

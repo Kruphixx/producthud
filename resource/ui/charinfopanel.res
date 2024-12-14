@@ -96,7 +96,7 @@
         "visible"		"1"
         "enabled"		"1"
         "tabPosition"	"0"
-        "labelText"		"#PH_back"
+        "labelText"		"#PH_Back_SC"
         "font"			"HudFontSmallBold"
         "textAlignment"	"center"
         "dulltext"		"0"
