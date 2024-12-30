@@ -46,7 +46,7 @@ Scheme
         {
             "bordertype"			"scalable_image"
             "backgroundtype"		"2"
-            
+
             "image"					"replay/thumbnails/panels/box_border_default"
             "src_corner_height"		"32"				// pixels inside the image
             "src_corner_width"		"32"
@@ -1088,12 +1088,12 @@ Scheme
         {
             "bordertype"			"scalable_image"
             "backgroundtype"		"2"
-            
-            "image"					"loadout_rect"
-            "src_corner_height"		"24"				// pixels inside the image
-            "src_corner_width"		"24"
-            "draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-            "draw_corner_height" 	"11"	
+
+            "image"					"replay/thumbnails/panels/box_border_default"
+            "src_corner_height"		"32"				// pixels inside the image
+            "src_corner_width"		"32"
+            "draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+            "draw_corner_height" 	"4"	
         }
         
         StoreFreeTrialBorder
