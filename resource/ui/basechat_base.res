@@ -7,7 +7,7 @@
         "xpos"                                   "4"
         "ypos"                                   "280"
         "wide"                                   "225"
-        "tall"                                   "100"
+        "tall"                                   "110"
         "visible"                                "1"
         "enabled"                                "1"
         "fgcolor"                                "White"
