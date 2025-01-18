@@ -1051,38 +1051,8 @@ Scheme
         {
             "1"
             {
-                "name"		"Verdana"
+                "name"		"Product Sans"
                 "tall"		"12"
-                "weight"	"700"
-                "yres"	"480 599"
-            }
-            "2"
-            {
-                "name"		"Verdana"
-                "tall"		"13"
-                "weight"	"700"
-                "yres"	"600 767"
-            }
-            "3"
-            {
-                "name"		"Verdana"
-                "tall"		"14"
-                "weight"	"700"
-                "yres"	"768 1023"
-            }
-            "4"
-            {
-                "name"		"Verdana"
-                "tall"		"20"
-                "weight"	"700"
-                "yres"	"1024 1199"
-            }
-            "5" // Misyl: Proportional
-            {
-                "name"		"Verdana"
-                "tall"		"12"
-                "weight"	"700"
-                "antialias" "1"
             }
         }
 

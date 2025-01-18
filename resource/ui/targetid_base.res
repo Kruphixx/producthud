@@ -83,7 +83,7 @@
     {
         "ControlName"                            "Label"
         "fieldName"                              "TargetNameLabel"
-        "font"                                   "product14"
+        "font"                                   "Size_14"
         "xpos"                                   "0"
         "ypos"                                   "14"
         "zpos"                                   "1"
@@ -101,7 +101,7 @@
     {
         "ControlName"                            "Label"
         "fieldName"                              "TargetNameLabelDropShadow"
-        "font"                                   "product14blur"
+        "font"                                   "Size_14_Blur"
         "xpos"                                   "0"
         "ypos"                                   "0"
         "zpos"                                   "0"
