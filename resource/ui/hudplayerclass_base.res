@@ -80,18 +80,18 @@
         "fieldName"                              "classmodelpanel"
         "xpos"                                   "0"
         "ypos"                                   "r120"
-        "zpos"                                   "2"		
-        "wide"                                   "100"
+        "zpos"                                   "2"
+        "wide"                                   "150"
         "tall"                                   "150"
         "autoResize"                             "0"
         "pinCorner"                              "0"
         "visible"                                "1"
         "enabled"                                "1"
-        
+
         "render_texture"                         "0"
-        "fov"                                    "25"
+        "fov"                                    "35"
         "allow_rot"                              "0"
-                
+
         "model"
         {
             "force_pos"	"1"
@@ -100,7 +100,7 @@
             "angles_y" "230"
             "angles_z" "0"
             "origin_x" "200"
-            "origin_y" "0"
+            "origin_y" "15"
             "origin_z" "-60"
             "frame_origin_x"	"0"
             "frame_origin_y"	"0"
@@ -110,7 +110,7 @@
             "modelname"		""
         }
     }
-    
+
     "CarryingWeapon"
     {
         "ControlName"			"EditablePanel"

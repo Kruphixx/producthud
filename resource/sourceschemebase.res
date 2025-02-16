@@ -203,21 +203,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"DefaultFixedOutline"
-		{
-			"1"
-			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$OSX]
-				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
-			}
-		}
+
 		"Default"
 		{
 			"1"
