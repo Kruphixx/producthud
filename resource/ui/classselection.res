@@ -57,6 +57,22 @@
         "bgcolor_override"                       "0 0 0 130"
     }
 
+    "TeamIndicator"
+    {
+        "ControlName"                            "CTFImagePanel"
+        "fieldName"                              "TeamIndicator"
+        "xpos"                                   "cs-0.5+110"
+        "ypos"                                   "cs-0.5+140"
+        "wide"                                   "170"
+        "tall"                                   "2"
+        "visible"                                "1"
+        "enabled"                                "1"
+        "image"                                  "replay/thumbnails/newhudblue"
+        "scaleimage"                             "1"
+        "teambg_2"                               "replay/thumbnails/newhudred"
+        "teambg_3"                               "replay/thumbnails/newhudblue"
+    }
+
     "TFPlayerModel"
     {
         "ControlName"                            "CTFPlayerModelPanel"
