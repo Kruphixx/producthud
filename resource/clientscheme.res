@@ -25,5 +25,6 @@
 ///////////////////////////////////////////////////
 
 #base "../../../cfg/producthud/product_crosshair_outline.txt"
+#base "../customizations/crosshairs/crosshair_color.res"
 #base "scheme/symbols.res"
 #base "scheme/crosshairs.res"

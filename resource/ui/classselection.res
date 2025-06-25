@@ -190,7 +190,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "ScoutImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -261,7 +261,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "SoldierImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -331,7 +331,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "PyroImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -402,7 +402,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "DemomanImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -473,7 +473,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "HeavyImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -543,7 +543,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "EngineerImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -614,7 +614,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "MedicImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -684,7 +684,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "SniperImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"
@@ -755,7 +755,7 @@
     {
         "ControlName"                            "ImagePanel"
         "fieldName"                              "SpyImage"
-        "xpos"                                   "-8"
+        "xpos"                                   "-6"
         "ypos"                                   "-4"
         "zpos"                                   "7"
         "wide"                                   "16"

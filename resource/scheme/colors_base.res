@@ -26,9 +26,6 @@ Scheme
         "Gray"                                   "178 178 178 255"
         "Purple"                                 "137 69 99 255"
 
-        "Crosshair"                              "0 255 00 255"
-        "Hitmarker"                              "255 0 0 255"
-
         "Damage"                                 "255 255 0 255"
         "Healing"                                "0 255 00 255"
         "PlayerCurrency"                         "101 195 58 255"

@@ -2,33 +2,33 @@
 {
     "BluePlayerList"
     {
-        "tall"                                   "230"
+        "tall"                                   "246"
         "linespacing"                            "13"
     }
 
     "RedPlayerList"
     {
-        "tall"                                   "230"
+        "tall"                                   "246"
         "linespacing"                            "13"
     }
 
     "BackPanel"
     {
-        "tall"                                   "250"
+        "tall"                                   "265"
 
         "BackBG"
         {
-            "tall"                               "250"
+            "tall"                               "265"
         }
     }
 
     "BackPanel2"
     {
-        "tall"                                   "250"
+        "tall"                                   "265"
 
         "BackBG2"
         {
-            "tall"                               "250"
+            "tall"                               "265"
         }
     }
 }
