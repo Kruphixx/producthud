@@ -59,7 +59,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderText"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"#Store_FreeTrial_UpgradeCalloutHeader"
 			"textAlignment"	"west"
 			"xpos"			"10"

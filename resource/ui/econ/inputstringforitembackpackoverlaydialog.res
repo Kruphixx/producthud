@@ -147,7 +147,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LootlistLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Econ_Revolving_Loot_List"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -167,7 +167,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RareLootLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Econ_Revolving_Loot_List_Rare_Item"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -188,7 +188,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#ShuffleContents_Desc"
 		"textAlignment"	"center"
 		"xpos"			"10"

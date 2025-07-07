@@ -123,7 +123,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -149,7 +149,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -175,7 +175,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusCount"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -251,7 +251,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%buybacksyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -264,7 +264,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%buybacksteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -290,7 +290,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%bottlesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -303,7 +303,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%bottlesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -329,7 +329,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountYou"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%inactiveupgradesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -342,7 +342,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountTeam"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%inactiveupgradesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"

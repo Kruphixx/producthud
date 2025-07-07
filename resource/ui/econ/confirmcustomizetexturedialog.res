@@ -436,7 +436,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"SelectFilterGroupBox"
-				"Font"		"HudFontSmallestBold"
+				"Font"		"product14"
 				"xpos"		"0"
 				"ypos"		"25"
 				"zpos"		"-1"
@@ -759,7 +759,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"WarningTextGroupBox"
-				"Font"		"HudFontSmallestBold"
+				"Font"		"product14"
 				"xpos"		"0"
 				"ypos"		"25"
 				"zpos"		"-1"

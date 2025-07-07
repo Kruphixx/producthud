@@ -809,7 +809,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_CollectionCrafting_ApplyStamp"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"textAlignment"	"center"
 		"centerwrap"	"0"
 		"wrap"			"0"

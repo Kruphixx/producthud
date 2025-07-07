@@ -91,7 +91,7 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -142,7 +142,7 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -274,7 +274,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -316,7 +316,7 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "PrimaryBG"
@@ -418,7 +418,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"center"
 		"xpos"			"c-289"

@@ -126,7 +126,7 @@
     {
         "ControlName"		"CExLabel"
         "fieldName"		"TauntCaratLabel"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		">>"
         "textAlignment"	"west"
         "xpos"			"r0"
@@ -157,7 +157,7 @@
         "enabled"		"1"
         
         "render_texture"	"0"
-        "fov"			"80"
+        "fov"			"85"
         "allow_manip"		"1"
                 
         "model"

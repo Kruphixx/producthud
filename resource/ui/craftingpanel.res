@@ -94,7 +94,7 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -321,7 +321,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"#Craft_PremiumRecipe"
 			"textAlignment"	"west"
 			"xpos"			"0"

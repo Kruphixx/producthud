@@ -1303,7 +1303,7 @@ Scheme
             "1"
             {
                 "name"		"Product Sans"
-                "tall"		"14"
+                "tall"		"12"
                 "weight"	"500"
                 "additive"	"0"
                 "antialias" 	"1"
@@ -1315,7 +1315,7 @@ Scheme
             "1"
             {
                 "name"		"Product Sans"
-                "tall"		"11"
+                "tall"		"12"
                 "weight"	"500"
                 "additive"	"0"
                 "antialias" 	"1"
@@ -1328,7 +1328,7 @@ Scheme
             "1"
             {
                 "name"		"Product Sans"
-                "tall"		"14"
+                "tall"		"12"
                 "weight"	"500"
                 "additive"	"0"
                 "antialias" "1"

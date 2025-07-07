@@ -330,7 +330,7 @@
                 "tall"			"f0"
                 "visible"		"1"
                 "enabled"		"1"
-                "font"			"HudFontSmallestBold"
+                "font"			"product14"
                 "fgcolor_override"	"White"
                 "textAlignment"	"west"
                 "labelText"		"%queue_state%"
@@ -341,7 +341,7 @@
                 {
                     "0"
                     {
-                        "font"	"HudFontSmallestBold" // TF2 Build 11
+                        "font"	"product14" // TF2 Build 11
                     }
                     "1"
                     {
@@ -475,7 +475,7 @@
                 "tall"			"f0"
                 "visible"		"1"
                 "enabled"		"1"
-                "font"			"HudFontSmallestBold"
+                "font"			"product14"
                 "fgcolor_override"	"White"
                 "textAlignment"	"west"
                 "labelText"		"#TF_MM_JoinPartyLobby_Prompt"
@@ -504,7 +504,7 @@
                 "visible"		"1"
                 "enabled"		"1"
                 "tabPosition"	"0"
-                "font"			"HudFontSmallestBold"
+                "font"			"product14"
                 "textAlignment"	"center"
                 "dulltext"		"0"
                 "brighttext"	"0"

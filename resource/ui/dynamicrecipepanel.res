@@ -413,7 +413,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"UntradableCheckBox"
 			"labelText"		"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"			"HudFontSmallestBold"
+			"Font"			"product14"
 			"textAlignment"	"west"
 			"xpos"			"7"
 			"ypos"			"240"

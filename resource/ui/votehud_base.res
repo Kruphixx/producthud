@@ -606,7 +606,7 @@
         {
             "ControlName"	"CExLabel"
             "fieldName"		"ComboLabel"
-            "font"			"HudFontSmallestBold"
+            "font"			"product14"
             "labelText"		"%combo_label%"
             "textAlignment"	"east"
             "xpos"			"10"
@@ -624,7 +624,7 @@
         {
             "ControlName"		"ComboBox"
             "fieldName"			"ComboBox"
-            "Font"				"HudFontSmallestBold"
+            "Font"				"product14"
             "xpos"				"17"
             "ypos"				"265"
             "zpos"				"1"

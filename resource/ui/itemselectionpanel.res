@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -169,7 +169,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"OnlyAllowUniqueQuality"
 		"labelText"		"#OnlyAllowUniqueQuality"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"product14"
 		"textAlignment"	"east"
 		"xpos"			"c-285"
 		"ypos"			"37"
@@ -207,7 +207,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-289"
@@ -245,7 +245,7 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallestBold"
+		"font"		"product14"
 	}
 	
 	"TopLine"

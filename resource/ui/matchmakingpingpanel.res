@@ -45,7 +45,7 @@
         "proportionaltoparent"						"1"
         "labeltext"									"#TF_MM_InviteMode"
         "textAlignment"								"west"
-        "font"										"HudFontSmallestBold"
+        "font"										"product14"
         "smallcheckimage"							"1"
         "fgcolor"									"White"
 

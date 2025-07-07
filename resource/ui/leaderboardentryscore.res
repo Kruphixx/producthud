@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%username%"
 			"textAlignment"	"west"
 			"xpos"			"25"
@@ -61,7 +61,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"labelText"		"%score%"
 			"textAlignment"	"west"
 			"xpos"			"200"

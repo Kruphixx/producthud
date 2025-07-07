@@ -48,7 +48,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
 		"xpos"			"10"

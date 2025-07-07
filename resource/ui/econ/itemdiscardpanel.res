@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel2"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-105"

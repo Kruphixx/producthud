@@ -90,7 +90,7 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -140,7 +140,7 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -178,7 +178,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-289"
@@ -216,14 +216,14 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"PrimaryBG"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallestBold"
+		"font"		"product14"
 	}
 	
 	"SubcategoryFiltersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-289"
@@ -245,7 +245,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"product14"
 		"xpos"				"c-226"
 		"ypos"				"73"
 		"zpos"				"2"
@@ -278,7 +278,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-289"
@@ -300,7 +300,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"product14"
 		"xpos"				"c-239"
 		"ypos"				"44"
 		"zpos"				"2"
@@ -491,7 +491,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -713,7 +713,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"center"
 		"xpos"			"c-289"
@@ -797,7 +797,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

@@ -202,7 +202,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product14"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -313,7 +313,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"product12"
 		"wrap"				"0"
 		"xpos"				"c-60"
 		"ypos"				"39"
@@ -349,7 +349,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
 		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"product12"
 		"textAlignment"	"east"
 		"xpos"			"c163"
 		"ypos"			"18"
@@ -368,7 +368,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"product12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-210"
@@ -390,10 +390,10 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c-165"
+		"xpos"		"c-170"
 		"ypos"		"39"
 		"zpos"		"2"
-		"wide"		"90"
+		"wide"		"95"
 		"tall"		"17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -406,14 +406,14 @@
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"SecondaryBG"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallestBold"
+		"font"		"product12"
 	}
 	
 	"SortByComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"product12"
 		"xpos"				"c132"
 		"ypos"				"39"
 		"zpos"				"1"

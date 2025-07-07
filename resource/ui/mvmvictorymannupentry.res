@@ -428,7 +428,7 @@
     {
         "ControlName"	"CExLabel"
         "fieldName"		"MannUpLabel"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		"#TF_MVM_Victory_MannUpLoot"
         "textAlignment" "south-west"
         "xpos"			"-2"
@@ -449,7 +449,7 @@
     {
         "ControlName"	"CExLabel"
         "fieldName"		"SquadSurplusLabel"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		"#TF_MVM_Victory_SquadSurplus"
         "textAlignment" "south-west"
         "xpos"			"10"
@@ -470,7 +470,7 @@
     {
         "ControlName"	"CExLabel"
         "fieldName"		"TourOfDutyLabel"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		"#TF_MvM_TourLootTitle"
         "textAlignment" "south-west"
         "xpos"			"18"
@@ -491,7 +491,7 @@
     {
         "ControlName"	"CExLabel"
         "fieldName"		"VeteranBonusLabel"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		"#TF_MVM_Victory_VeteranBonus"
         "textAlignment" "south-west"
         "xpos"			"0"

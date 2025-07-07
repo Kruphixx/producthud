@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"labelText"									"%button_token%"
 		"use_proportional_insets"					"1"
-		"font"										"HudFontSmallestBold"
+		"font"										"product14"
 		"textAlignment"								"south"
 		"textinsety"								"-1"
 		"command"									"%button_command%"

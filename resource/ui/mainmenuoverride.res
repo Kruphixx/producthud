@@ -1007,7 +1007,7 @@
         "visible"		"1"
         "enabled"		"1"
         "tabPosition"	"0"
-        "font"			"HudFontSmallestBold"
+        "font"			"product14"
         "labelText"		"#MMenu_ShowPromoCodes"
         "textAlignment"	"center"
         "default"		"1"
@@ -1052,7 +1052,7 @@
         {
             "ControlName"	"CExLabel"
             "fieldName"		"UpgradeLabel1"
-            "font"			"HudFontSmallestBold"
+            "font"			"product14"
             "labelText"		"#TF_Trial_MainMenu_Upgrade1"
             "textAlignment"	"north"
             "xpos"			"80"
@@ -1087,7 +1087,7 @@
         {
             "ControlName"	"CExLabel"
             "fieldName"		"UpgradeLabel3"
-            "font"			"HudFontSmallestBold"
+            "font"			"product14"
             "labelText"		"#TF_Trial_MainMenu_Upgrade3"
             "textAlignment"	"north"
             "xpos"			"80"

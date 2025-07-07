@@ -487,7 +487,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"HudFontSmallestBold"
+			"font"			"product14"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"

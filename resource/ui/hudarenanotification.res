@@ -73,7 +73,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor_override"	"White"
 		"xpos"			"75"
-		"ypos"			"70"
+		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"230"
 		"tall"			"30"
