@@ -16,43 +16,6 @@
         "bgcolor_override"	   "TransparentLightBlack"
     }
 
-    "TitleLabel"
-    {
-        "ControlName"	"CExLabel"
-        "fieldName"		"TitleLabel"
-        "font"			"product24"
-        "xpos"			"150"
-        "ypos"			"35"
-        "zpos"			"2"
-        "wide"			"300"
-        "tall"			"38"
-        "visible"		"1"
-        "enabled"		"1"
-        "labelText"		"#Hud_Menu_Taunt_Title"
-        "textAlignment"	"center"
-        "pin_to_sibling"	"MainBackground"
-        "pin_to_sibling_corner"	"PIN_CENTER_TOP"
-        "pin_corner_to_sibling"	"PIN_TOPRIGHT"
-    }
-
-    "TitleLabelShadow"
-    {
-        "ControlName"	"CExLabel"
-        "fieldName"		"TitleLabelShadow"
-        "font"			"product24blur"
-        "xpos"			"0"
-        "ypos"			"0"
-        "zpos"			"2"
-        "wide"			"300"
-        "tall"			"38"
-        "visible"		"1"
-        "enabled"		"1"
-        "fgcolor"		"Black"
-        "labelText"		"#Hud_Menu_Taunt_Title"
-        "textAlignment"	"center"
-        "pin_to_sibling"	"TitleLabel"
-    }
-
     "TauntModelPanel1"
     {
         "ControlName"	"CItemModelPanel"
@@ -475,6 +438,24 @@
         "enabled"		"1"
         "labelText"		"8"
         "textAlignment"	"Center"
+    }
+
+    "TitleLabel"
+    {
+        "ControlName"	"CExLabel"
+        "fieldName"		"TitleLabel"
+        "xpos"			"9999"
+        "visible"		"0"
+        "enabled"		"0"
+    }
+
+    "TitleLabelShadow"
+    {
+        "ControlName"	"CExLabel"
+        "fieldName"		"TitleLabelShadow"
+        "xpos"			"9999"
+        "visible"		"0"
+        "enabled"		"0"
     }
 
     "Divider"

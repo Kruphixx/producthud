@@ -66,6 +66,18 @@
                 "allow_rot"				"0"
                 "inventory_image_type"	"1"
             }
+
+            "MainContentsContainer"
+            {
+                "ControlName"    "MainContentsContainer"
+
+                "namelabel"
+                {
+                    "ControlName"    "CExLabel"
+                    "fieldName"      "namelabel"
+                    "border"         "TFFatLineBorderOpaque"
+                }
+            }
         }
 
         "itemoptionpanels_kv"
