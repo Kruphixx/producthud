@@ -242,8 +242,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-															
+	}
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -257,14 +257,14 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
-	}		
-	
+	}
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"cs-0.5"
-		"ypos"			"r120"
+		"ypos"			"r70"
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
@@ -273,17 +273,12 @@
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 		
-		"if_hybrid"
-		{
-			"ypos"		"r70"
-		}
-		
 		"if_specialdelivery"
 		{
 			"ypos"	"r113"
 		}
-	}		
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"			"CExLabel"
@@ -317,7 +312,7 @@
 			"visible"			"0"
 		}
 	}	
-			
+
 	"PlayingToBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -347,8 +342,8 @@
 		{
 			"visible"			"0"
 		}
-	}	
-		
+	}
+
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -393,7 +388,7 @@
 			"ypos"		"r65"
 		}
 	}
-			
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -437,8 +432,8 @@
 		{
 			"ypos"		"r65"
 		}
-	}	
-			
+	}
+
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -456,7 +451,7 @@
 			"ypos"		"r60"
 		}
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -480,7 +475,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-		
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -489,7 +484,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -497,5 +492,5 @@
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 }
