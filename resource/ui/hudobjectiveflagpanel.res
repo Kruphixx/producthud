@@ -48,6 +48,11 @@
 		{
 			"visible"			"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"			"0"
+		}
 	}
 
 	"BlueScoreBG"
@@ -72,11 +77,18 @@
 		{
 			"visible"								"0"
 		}
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+
 		"if_specialdelivery"
+		{
+			"visible"								"0"
+		}
+
+		"if_no_flags"
 		{
 			"visible"								"0"
 		}
@@ -106,11 +118,18 @@
 		{
 			"visible"								"0"
 		}
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+
 		"if_specialdelivery"
+		{
+			"visible"								"0"
+		}
+
+		"if_no_flags"
 		{
 			"visible"								"0"
 		}
@@ -146,8 +165,13 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -178,8 +202,13 @@
 		{
 			"visible"	"0"
 		}
-	}	
-							
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -210,8 +239,13 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -239,6 +273,11 @@
 		}
 		
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -311,6 +350,11 @@
 		{
 			"visible"			"0"
 		}
+
+		"if_no_flags"
+		{
+			"visible"			"0"
+		}
 	}	
 
 	"PlayingToBG"
@@ -339,6 +383,11 @@
 		}
 		
 		"if_specialdelivery"
+		{
+			"visible"			"0"
+		}
+
+		"if_no_flags"
 		{
 			"visible"			"0"
 		}
